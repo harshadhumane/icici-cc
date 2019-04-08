@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>ICICI</title>
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="amezon-header">
+            <div class="amezonlogo">
+                <img src="images/amezon-logo.png" alt="amazon-logo">
+            </div>
+                
+            <div class="right-side-icons">
+                <div class="icici-logo">
+                     <img src="images/logo.png" alt="icici-logo"> 
+
+                </div>
+            </div>            
+        </div>
+    </header><!-- header -->
+
+    <div class="container carousalcontainer">
+
+        <h1 class="carousel-heading">Amazon Pay ICICI Bank Credit Card</h1>
+
+        <div class="web-mob-carousel">
+            <div class="web-carousel hidden-xs">
+                <carousel-3d :display="5" :space="270" :width="350" :height="170" :controls-visible="true" :controls-prev-html="'&#8249;'" :controls-next-html="'&#8250;'" :controls-width="30" :controls-height="50" :clickable="true" :perspective="30">
+
+                    <slide :index="0">
+                        <img src="images/carousal/team1.png" alt="team-member">
+                    </slide>
+                    <slide :index="1">
+                        <img src="images/carousal/team2.png" alt="team-member">
+                    </slide>
+                    <slide :index="2">
+                        <img src="images/carousal/team3.png" alt="team-member">
+                    </slide>
+                    <slide :index="3">
+                        <img src="images/carousal/team4.png" alt="team-member">
+                    </slide>
+                    <slide :index="4">
+                        <img src="images/carousal/team5.png" alt="team-member">
+                    </slide>
+                </carousel-3d>
+            </div>
+              
+            <div class="mob-carousel hidden-lg hidden-md hidden-sm">
+                <carousel-3d :display="5" :space="310" :width="300" :height="160" :clickable="true" :perspective="0" :disable3d="true">
+
+                    <slide :index="0">
+                        <img src="images/carousal/team1.png" alt="team-member">
+                    </slide>
+                    <slide :index="1">
+                        <img src="images/carousal/team2.png" alt="team-member">
+                    </slide>
+                    <slide :index="2">
+                        <img src="images/carousal/team3.png" alt="team-member">
+                    </slide>
+                    <slide :index="3">
+                        <img src="images/carousal/team4.png" alt="team-member">
+                    </slide>
+                    <slide :index="4">
+                        <img src="images/carousal/team5.png" alt="team-member">
+                    </slide>
+                </carousel-3d>
+            </div>
+        </div> 
+        
+        <div class="carousal-steps">
+            <div class="carousel-mob">
+                <h3 class="heading-steps">Apply in 3 simple steps</h3>
+                <div class="inputwrapper">
+                    <input type="tel" id="mobno-val" class="inputfield steps-input" placeholder="Enter your mobile number" maxlength="10" required="">
+                    <!--<div class="errormsg-div mobile-error">
+                    <small>Please enter valid 10-digit mobile number</small>
+                    </div> -->
+                </div>
+
+                <h4 class="mob-text">*If you are an ICICI Bank customer, please enter the mobile number registered with ICICI Bank</h4>
+
+                <div class="commoninput-btnwrap">
+                    <a href="javascript:void(0)" class="input-btn myButton getotpbtn">Get OTP</a>
+                </div>
+                <div class=" commoncheckbox-list">
+                    <input type="checkbox" class="styled-checkbox" id="carousel-new-check" checked="">
+                    <label class="address-confirm-txt clickabove" for="carousel-new-check">I authorize ICICI Bank and its representative to contact me with reference to my credit card application</label>
+                </div>
+            </div>
+
+
+            <!--    carousal otp section -->
+            <div class="carousel-otp">
+                <h3 class="heading-steps">Enter One Time Password (OTP) received on your mobile number</h3>
+                
+                <div class="edit-no-carousal">
+                    <p>9900093059  <span class="edit-nu"><img src="images/carousal/pencil.png" alt="edit"></span> </p>
+                </div>   
+                <div class="inputwrapper otpinputwrapper error-show">
+                    <input type="tel" id="otp-val" class="inputfield steps-input" placeholder="Enter the 6- digit code" maxlength="6" required="">
+                    <div class="errormsg-div mobile-error">
+                    <small>Please enter correct One Time Password</small>
+                    <small class="attempt-error">Two Attempts left</small>
+                    </div> 
+                </div>
+
+                
+                <div class="commoninput-btnwrap verifycode-div">
+                    <a href="javascript:void(0)" class="input-btn myButton verifycode" disabled>Verify</a>
+                </div>
+
+                <h6 class="resendbtn">Resend One Time Password</h6>
+            </div>
+
+           <!--  unable to fetch -->
+           <div class="application-status">
+               <span class="cibil-logo sorry-logo"></span>
+               <p>Your application is locked. You have exceeded the maximum number of attempts allowed to enter OTP. Please re-apply after 24 hours.</p>
+
+                <div class="commoninput-btnwrap">
+                    <a href="upgradecredit.html" class="input-btn myButton return-btn cibil-neg-btn ">Return to Amazon</a>
+                </div>
+           </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min-2.1.3.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/vue-carousel-3d.min.js"></script>
+    <script>
+        new Vue({
+            el: '.web-mob-carousel',
+            components: {
+                'carousel-3d': Carousel3d.Carousel3d,
+                'slide': Carousel3d.Slide
+            }
+        });
+
+        $(".getotpbtn").click(function(){
+            $(".carousel-mob").hide();
+             $(".carousel-otp").show();
+        });
+
+        $(".edit-nu").click(function(){
+          $(".carousel-otp").hide();
+          $(".carousel-mob").show();
+        });
+
+          $(".otpinputwrapper input").focusin(function(){
+            $(".verifycode").css("opacity", "1");
+            $( ".verifycode" ).prop( "disabled", false );
+          });
+
+
+        $(".verifycode").click(function(){
+          $(".carousel-otp").hide();
+          $(".carousal-steps").css("background","transparent");
+          $(".application-status").show();
+        });
+
+          
+            $(document).ready(function() {
+                $('#mobno-val, #otp-val').keypress(validateNumber);
+            });
+
+            function validateNumber(event) {
+                var key = window.event ? event.keyCode : event.which;
+                if (event.keyCode === 8 || event.keyCode === 46) {
+                    return true;
+                } else if (key < 48 || key > 57) {
+                    return false;
+                } else {
+                    return true;
+                }
+            };
+
+
+
+    </script>
+
+</body>
+
+</html>

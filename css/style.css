@@ -1,0 +1,487 @@
+
+
+.stepstxt{
+  font-size: 22px;
+  color: #333333;
+}
+
+.eligibletxt{
+    font-size: 16px;
+    font-family: 'zurich_bold_bt';
+    color: #e77817;
+    padding-top: 12px;
+}
+
+.landing-container{
+    background-color: #fff;
+    padding: 0;
+}
+
+
+/* breadcrum css start*/
+
+.cicle-burg {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: -10px;
+}
+
+.circ-burg-inner {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cicle-burg .burg-cic {
+    position: relative;
+    width: 38px;
+    height: 28px;
+    border: 1px solid #2ccf74;
+    border-radius: 50%;
+}
+
+.burg-cic:before {
+    content: "Select Card";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    -ms-transform: translateX(-50%)translateY(-50%);
+    -webkit-transform: translateX(-50%)translateY(-50%);
+    -moz-transform: translateX(-50%)translateY(-50%);
+    -o-transform: translateX(-50%)translateY(-50%);
+    color: #333333;
+    top: 45px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.burg-cic:last-child:before {
+    content: "Fill Details";
+}
+
+.burg-cic:after {
+    content: "1";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%)translateY(-50%);
+            transform: translateX(-50%)translateY(-50%);
+    color: #2ccf74;
+    top: 50%;
+}
+
+.burg-cic:last-child:after{
+    content: "2";
+}
+
+.cicle-burg .burg-line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #d6d6d6;
+}
+
+.cicle-burg .burg-cic {
+    position: relative;
+    width: 38px;
+    height: 28px;
+    border: 1px solid #2ccf74;
+    border-radius: 50%;
+}
+
+.cicle-burg .burg-cic:last-child {
+    border: 1px solid #d6d6d6;
+}
+
+.cicle-burg .burg-cic:last-child:after,.cicle-burg .burg-cic:last-child:before{
+    color: #d6d6d6;
+}
+
+.landing-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.commoncheckbox-list [type="checkbox"]:not(:checked), 
+.commoncheckbox-list [type="checkbox"]:checked {
+    display: none;
+}
+
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label, 
+.commoncheckbox-list [type="checkbox"]:checked+label {
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label:before, 
+.commoncheckbox-list [type="checkbox"]:checked+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #b4b4b4;
+    background: #fff;
+    border-radius: 0px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1);
+    margin: 0 2px;
+}
+
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label:after, 
+.commoncheckbox-list [type="checkbox"]:checked+label:after {
+    content: '\f00c';
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    font-size: 10px;
+    color: #e77817;
+    transition: all .2s;
+    font-family: 'FontAwesome';
+}
+
+.commoncheckbox-list{
+    position: relative;
+}
+
+.commoncheckbox-list label.address-confirm-txt.clickabove {
+    padding-left: 25px;
+    width: auto;
+}
+
+.commoncheckbox-list input[type=checkbox] {
+    margin: 1px 0px 0px;
+}
+
+.commoncheckbox-list label.address-confirm-txt.clickabove {
+    padding-left: 25px;
+    width: auto;
+}
+
+.commoncheckbox-list label {
+    font-weight: 100;
+    font-size: 12px;
+    color: #262f3d;
+    cursor: pointer;
+}
+
+.cards-slider-container
+{
+    padding: 15px 70px;
+}
+
+/* breadcrum css ends*/
+
+
+/* offers card css starts*/
+
+.offers-cards a{
+    padding: 0 5px;
+}
+
+.offers-cards a:first-child{
+    padding-left: 0;
+}
+
+.arrows-slick{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.arrows-slick span{
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* .slick-prev.hidden,
+.slick-next.hidden {
+    opacity: 0;
+    pointer-events:none;
+}
+ */
+.slick-arrow.slick-disabled{
+    opacity: 0.5;
+    pointer-events:none; 
+}
+
+.offers-creditcard{
+    padding: 0 10px;
+}
+
+.offerheading{
+    font-family: 'zurich_bold_bt';
+    font-size: 24px;
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.offertxt{
+    font-family: 'zurich_bt'; 
+    font-size: 16px;
+    color: #2a2a2a;
+    padding-top: 15px;
+    text-align: center
+}
+
+.offers-cards{
+    padding-top: 35px;
+}
+
+.stepsget-card .offerheading{
+    padding-bottom: 35px;
+}
+
+.cardcontainer{
+    width: 317px;
+    /* height: 196px; */
+    border-radius: 20px;
+    box-shadow: 0 0 9px 1px rgba(1, 1, 1, 0.06);
+    background-color: #ffffff;   
+    height: 200px;
+    margin: 0 24px 15px;
+
+}
+
+.cardcontainer:first-child{
+    margin-left: 5px;
+}
+
+.steps-start{
+    padding: 0 60px 15px;
+}
+
+.headercardsteps{
+    background-image: url('../images/ellipse-bg.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.cardcontent h3{
+    font-family: 'zurich_bold_bt';
+    font-size: 16px;
+    color: #2a2a2a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.stepnumber{
+    color: #ffddbe;
+    font-family: 'zurich_bold_bt';
+    font-size: 28px;
+    padding-right: 10px;
+}
+
+.cardcontent p{
+    font-family: 'zurich_bt';
+    color: #9e9a9a;
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 35px 30px;
+}
+
+.cardcontainer .headercardsteps img{
+    margin: auto;
+}
+
+.lr-border{
+    position: relative;
+}
+
+.lr-border::after{
+    content: "";
+    width: 35px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: -42px;
+}
+
+.lr-border::before{
+    content: "";
+    width: 35px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    right: -42px;
+}
+
+.headercredit{
+    background-image: url('../images/bgcardheader.png');
+    background-repeat: no-repeat;
+    height: 148px;
+    text-align: center
+}
+
+.cardcaption{
+    font-family: 'zurich_bt';
+    color: #262f3d; 
+    text-align: center;
+    font-size: 16px;
+        padding-top: 12px;
+}
+
+.creditcard{
+    width: 311px;
+    height: 600px;
+    border-radius: 5px;
+    border: solid 1px #e6ebf0;
+}
+
+.selectbtn{
+    width: 170px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #e77817;
+    border: none;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+.creditcardimg{
+    margin-top: -78px;
+}
+
+.creditcards-container{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* .cardssection-slider{
+    margin-top: 120px;
+} */
+
+/* offers card css ends*/
+
+
+/* credit cards section strat */
+
+.checkedicon{
+    background-image: url('../images/checked.png');
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.featurelist{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.featuretxt{
+    font-family: 'zurich_bt';
+    color: #262f3d;
+    font-size: 14px;
+    width: 90%;
+}
+
+.bold-txt{
+    font-family: 'zurich_bold_bt';
+}
+
+.cardfeatures{
+    padding: 16px 20px;
+}
+
+.tooltipicon{
+    height: 15px;
+    width: 15px;
+    background-image: url('../images/informationtooltip.png');
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+
+/* tooltip section start*/
+
+.customtooltip + .tooltip > .tooltip-inner {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 9px 1px rgba(1, 1, 1, 0.3);
+
+}
+
+/* tooltip section ends*/
+
+.slick-slide .headercredit img{
+    display: inline-block;
+}
+
+
+/* credit cards section ends */
+
+
+
+
+/*MEDIA*/
+@media(min-width:1200px) and (max-width:992px) {
+
+
+}
+
+/*===========End of the media 1200 and 992=============*/
+
+
+/*===========Start of the media 768 and 991=============*/
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+}
+
+/*===========End of the media 768 and 991=============*/
+
+
+/*===========Start of the media max-width:768px=============*/
+
+@media only screen and (max-width:768px) {
+
+
+}
+
+/*===========End of the media max-width:768px=============*/
+
+
+/*===========Start of the media max-width:767px=============*/
+
+@media only screen and (max-width:767px) {
+
+}
+
+/*===========End of the media max-width:767px=============*/
+
+
+/*===========Start of the media max-width:480px=============*/
+
+@media only screen and (max-width:480px) {
+
+}
+
+/*===========End of the media max-width:480px=============*/
+
+
+/*===========Start of the media max-width:480px=============*/
+
+@media only screen and (max-width:350px) {
+
+
+}
+
+/*===========End of the media max-width:480px=============*/
+

@@ -1,0 +1,47 @@
+
+
+@font-face {
+    font-family: 'amazon_emberbold';
+    src: url('../fonts/amazonember_bd-webfont.woff2') format('woff2'),
+         url('../font.css/amazonember_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amazon_emberbold_italic';
+    src: url('../fonts/amazonember_bdit-webfont.woff2') format('woff2'),
+         url('../fonts/amazonember_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'amazon_emberregular';
+    src: url('../fonts/amazonember_rg-webfont.woff2') format('woff2'),
+         url('../fonts/amazonember_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amazon_emberitalic';
+    src: url('../fonts/amazonember_rgit-webfont.woff2') format('woff2'),
+         url('../fonts/amazonember_rgit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rupee_foradianregular';
+    src: url('rupee_foradian-webfont.woff2') format('woff2'),
+         url('rupee_foradian-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

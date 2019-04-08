@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>ICICI</title>
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="amezon-header">
+            <div class="amezonlogo">
+                <img src="images/amezon-logo.png" alt="amazon-logo">
+            </div>
+                
+            <div class="right-side-icons">
+                <div class="icici-logo">
+                     <img src="images/logo.png" alt="icici-logo"> 
+                </div>
+            </div>            
+        </div>
+    </header><!-- header -->
+
+        <div class="creditupgrade-container">
+                <div class="info-strip">
+                        <div class="acc-rewards">
+                            <div class="info-li">
+                                <img src="images/ntb/icon-1.png" alt="icon-1" class="mCS_img_loaded">
+                                <p class="txt-re">5X <span>accelerated</span> rewards</p>
+                            </div>
+                            <div class="info-li popUpPinError">
+                                <img src="images/ntb/icon-2.png" alt="icon-1" class="mCS_img_loaded">
+                                <p class="txt-re"><span>No cost EMI</span> upto 6 months</p>
+                            </div>
+                            <div class="info-li">
+                                <img src="images/ntb/icon-3.png" alt="icon-1" class="mCS_img_loaded">
+                                <p class="txt-re"><span>No  hidden</span> charges</p>
+                            </div>
+                            <div class="info-li mob-hide">
+                                <img src="images/ntb/icon-4.png" alt="icon-1" class="mCS_img_loaded">
+                                <p class="txt-re"><span>lifetime free</span> CREDIT CARD</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="amazoncredit-innercard">
+                    <div class="card-input-boxes upgradecard-box">
+                        <h4>Enter your existing ICICI Bank Credit Card Number</h4>
+                        <div class="card-number-box">
+                            <input class="Box productkey1" type="text" name="number1" maxlength="4" placeholder="1234">
+                            <input class="Box productkey1" type="text" name="number2" maxlength="4" placeholder="5678">
+                            <input class="Box productkey1" type="text" name="number3" maxlength="4" placeholder="9012">
+                            <input class="Box productkey1" type="text" name="number4" maxlength="4" placeholder="1245">
+                        </div>
+                        <p class="error-msg-card strtnew-appl">2 attempts left, Please enter correct credit card number</p>
+
+
+                        <ul class="card-upgradelist">
+                            <li>Your existing ICICI Bank Credit Card will continue to remain active</li>
+                            <li>Credit Limit of your existing ICICI Bank Credit Card will be shared with your Amazon Pay ICICI Bank
+                            Credit Card</li>
+                        </ul>
+                        <div class="commoninput-btnwrap proceed-card">
+                            <a href="index.html" class="input-btn card-proceed popUpBoard2proceed">
+                                Proceed
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div><!--End of the amazon thank inner card-->
+        </div>
+
+         <div class="popUpOpenBoard popUpOpenBoardtermscondition1 startrnewpopup doesntmatchtext ">
+                <div class="popWrapper">
+                    <!-- <span class="crossPop"></span> -->
+                    <div class="boardDetailsWrp">
+                        <div class="terms-content">
+                            <div class="terms-data">
+                                <p>The credit card number does not match with
+                                    the Bank records. Please try applying again</p>
+                            </div>
+
+                            <div class="commoneligi-btn termsok text-new-app">
+                                <input type="button" value="Start New Application" class="fill-btn eligiform1-btn hidepop-closure">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <div class="bg-overlay"></div>
+
+    <script type="text/javascript" src="js/jquery.min-2.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script>
+
+                function validateNumber(event) {
+                    var key = window.event ? event.keyCode : event.which;
+                    if (event.keyCode === 8 || event.keyCode === 46) {
+                        return true;
+                    } else if (key < 48 || key > 57) {
+                        return false;
+                    } else {
+                        return true;
+                    }
+                };
+
+                $('.Box').on("keyup", function(e) {
+                    var $input = $(this);
+
+                    if ($input.val().length == 0 && e.which == 8) {
+                        $input.toggleClass("productkey2 productkey1").prev('.Box').focus();
+
+                    } else if ($input.val().length >= parseInt($input.attr("maxlength"), 10)) {
+                        $input.toggleClass("productkey1 productkey2").next('.Box').focus();
+                    }
+                });
+
+                 $(document).ready(function() {
+                    $('.card-number-box .Box').keypress(validateNumber);
+                });
+
+                $('.strtnew-appl').click(function() {
+                    $(this).parents('body').find('.popUpOpenBoardtermscondition1.startrnewpopup ').fadeIn();
+                    $(this).parents('body').find('.bg-overlay').fadeIn();
+                });
+
+                $('.hidepop-closure').click(function() {
+                    $(this).parents('body').find('.popUpOpenBoard').fadeOut();
+                    $(this).parents('body').find('.bg-overlay').fadeOut();
+                });
+
+
+            </script>
+</body>
+
+</html>

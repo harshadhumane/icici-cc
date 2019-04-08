@@ -1,0 +1,7040 @@
+.ntb-section .btn-primary.active,.ntb-section .btn-primary:active,.ntb-section .open>.dropdown-toggle.btn-primary
+{
+   all: initial;
+}
+
+.datepicker-months,
+.datepicker-years {
+    width: 170px;
+}
+
+.input-box .effect-animate.has-content.inp-disabled,
+.input-box .effect-animate.inp-disabled {
+    background: #f7f7f7;
+    color: #a7a7a7;
+    border: 1px solid #dadbde;
+}
+
+.has-content.effect-animate.inp-disabled~label {
+    background: #f7f7f7;
+    color: #a7a7a7;
+}
+
+.datepicker td span.active:hover,
+.datepicker td span.active:focus,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled] {
+    color: #ffffff;
+    background-color: #f89822;
+    background-image: none;
+}
+
+.scenario-1 .commoneligi-btn {
+    padding-bottom: 30px;
+}
+
+.terms-txt-change {
+    font-size: 14px;
+}
+
+.offer-banner {
+    padding-bottom: 30px;
+    width: 95%;
+}
+
+.offer-banner1 {
+    width: 90%;
+    display: none;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.scenario-2 {
+    display: none;
+}
+
+.a.active {
+    overflow: hidden;
+}
+
+input-btn:focus,
+input-btn:hover,
+.a {
+    color: #111111;
+}
+
+table.table-condensed {
+    font-family: 'amazon_emberregular';
+}
+
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled] {
+    /* color: #ffffff;*/
+    /*background-color: #0044cc;*/
+    background-color: #f89822;
+    background-image: none;
+
+}
+
+.bottom-footer-img {
+    background-image: url(../images/botton-bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    bottom: 0;
+    z-index: -2;
+    left: 0;
+    right: 0;
+    height: 390px;
+    margin-top: -200px;
+}
+
+.scenario-3 {
+    display: none;
+}
+
+.add-absolute-footer {
+    position: absolute;
+    margin-top: 0px;
+}
+
+select {
+    -moz-appearance: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.thank-bottom .commoneligi-btn {
+    padding-bottom: 100px;
+}
+
+.desk-label {
+    display: block;
+}
+
+.amazon-tankyou-card {
+    display: none;
+}
+
+.amazon-regret-card {
+    display: none;
+}
+
+.mobile-label {
+    display: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #111;
+}
+
+.conatiner-content {
+    background-image: url(../images/botton-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.amezon-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    border-bottom: 1px solid #fae4d0;
+}
+
+.tf-mob-logo {
+    display: none;
+}
+
+.chat-icon {
+    background-image: url(../images/sprite.png);
+    background-position: -8px -12px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.call-icon {
+    background-image: url(../images/sprite.png);
+    background-position: -49px -12px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.right-side-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icici-logo {
+    padding-left: 25px;
+}
+
+.container-content {
+    padding-top: 20px;
+}
+
+/* progress bar start */
+.bs-wizard {
+    margin-top: 40px;
+}
+
+/*Form Wizard*/
+.bs-wizard {
+    border-bottom: solid 1px #e0e0e0;
+    padding: 0 0 10px 0;
+}
+
+.bs-wizard>.bs-wizard-step {
+    padding: 0;
+    position: relative;
+}
+
+.bs-wizard>.bs-wizard-step+.bs-wizard-step {}
+
+.bs-wizard>.bs-wizard-step .bs-wizard-stepnum {
+    color: #595959;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.bs-wizard>.bs-wizard-step .bs-wizard-info {
+    color: #999;
+    font-size: 14px;
+}
+
+.bs-wizard>.bs-wizard-step>.bs-wizard-dot {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: #008500;
+    top: 45px;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 50%;
+}
+
+/* .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; }  */
+.bs-wizard>.bs-wizard-step>.progress {
+    position: relative;
+    border-radius: 0px;
+    height: 8px;
+    box-shadow: none;
+    margin: 20px 0;
+}
+
+.bs-wizard>.bs-wizard-step>.progress>.progress-bar {
+    width: 0px;
+    box-shadow: none;
+    background: #fbe8aa;
+}
+
+.bs-wizard>.bs-wizard-step.complete>.progress>.progress-bar {
+    width: 100%;
+}
+
+.bs-wizard>.bs-wizard-step.active>.progress>.progress-bar {
+    width: 50%;
+}
+
+.bs-wizard>.bs-wizard-step:first-child.active>.progress>.progress-bar {
+    width: 0%;
+}
+
+.bs-wizard>.bs-wizard-step:last-child.active>.progress>.progress-bar {
+    width: 100%;
+}
+
+.bs-wizard>.bs-wizard-step.disabled>.bs-wizard-dot {
+    background-color: #f5f5f5;
+}
+
+.bs-wizard>.bs-wizard-step.disabled>.bs-wizard-dot:after {
+    opacity: 0;
+}
+
+.bs-wizard>.bs-wizard-step:first-child>.progress {
+    left: 50%;
+    width: 50%;
+}
+
+.bs-wizard>.bs-wizard-step:last-child>.progress {
+    width: 50%;
+}
+
+.bs-wizard>.bs-wizard-step.disabled a.bs-wizard-dot {
+    pointer-events: none;
+}
+
+/*END Form Wizard*/
+
+.card-heading {
+    font-family: 'amazon_emberbold';
+    font-size: 27px;
+    color: #053c6d;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    font-family: 'amazon_emberregular';
+    font-size: 18px;
+    color: #406a8e;
+    text-align: center;
+
+}
+
+.inputwrapper {
+    border: 1px solid rgba(38, 47, 61, 0.30);
+    width: 330px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 52px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+.mobinput-wrap {
+    padding-top: 15px;
+}
+
+.mobinput-wrap .inputwrapper {
+    margin-top: 2px;
+}
+
+.inputfield {
+    box-shadow: none;
+    border: 0px;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    text-align: center;
+}
+
+.inputfield::-webkit-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(38, 47, 61, 0.34);
+}
+
+.inputfield:-ms-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(38, 47, 61, 0.34);
+}
+
+.inputfield::-ms-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(38, 47, 61, 0.34);
+}
+
+.inputfield::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(38, 47, 61, 0.34);
+}
+
+.inputfield:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(38, 47, 61, 0.34);
+}
+
+.inputfield::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgba(38, 47, 61, 0.34);
+}
+
+.input-btn {
+    /*           background: rgba(247,216,132,1);
+            background: -moz-linear-gradient(top, rgba(247,216,132,1) 0%, rgba(242,198,77,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,216,132,1)), color-stop(100%, rgba(242,198,77,1)));
+            background: -webkit-linear-gradient(top, rgba(247,216,132,1) 0%, rgba(242,198,77,1) 100%);
+            background: -o-linear-gradient(top, rgba(247,216,132,1) 0%, rgba(242,198,77,1) 100%);
+            background: -ms-linear-gradient(top, rgba(247,216,132,1) 0%, rgba(242,198,77,1) 100%);
+            background: linear-gradient(to bottom, rgba(247,216,132,1) 0%, rgba(242,198,77,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d884', endColorstr='#f2c64d', GradientType=0 ); */
+
+    border-color: rgb(168, 135, 52);
+    background-color: #f89822;
+    color: #111111;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 135, 52);
+    display: inline-block;
+        background-image: -webkit-linear-gradient(90deg, rgb(240, 193, 76) 0%, rgb(247, 222, 163) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(240, 193, 76) 0%, rgb(247, 222, 163) 100%);
+}
+
+/*17-A-MO*/
+
+.input-btn:hover,
+.input-btn:focus {
+    text-decoration: none;
+    color: #111;
+    outline: none;
+}
+
+.commoninput-btnwrap {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.mob-no-text {
+    font-size: 16px;
+    font-family: 'amazon_emberregular';
+    color: #262f3d;
+    text-align: center;
+}
+
+.sheild-icon {
+    background-image: url(../images/sprite.png);
+    background-position: -92px -17px;
+    height: 20px;
+    width: 18px;
+    display: inline-block;
+}
+
+.privacy-text {
+    display: flex;
+    align-items: center;
+    font-family: 'amazon_emberregular';
+    color: #7f8389;
+    font-size: 13px;
+    justify-content: center;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.bottom-footer-img {
+    display: none;
+}
+
+.otp-enter-section {
+    display: none;
+}
+
+.termscondition-wrap {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.termscondition-wrap span {
+    font-family: 'amazon_emberregular';
+    font-size: 12px;
+    color: #262f3d;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.termscondition-wrap a {
+    font-family: 'amazon_emberbold';
+    font-size: 12px;
+    color: #0066c0;
+}
+
+.termscondition-wrap a:hover,
+.termscondition-wrap a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/*==============Start o f the otp screen===============*/
+.edit-icon {
+    background: url(../images/sprite.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: -122px -18px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.edit-inputfield {
+    width: 100px;
+    margin-left: 15px;
+    border: 0px;
+    font-family: 'amazon_emberregular';
+    color: #575757;
+    font-size: 16px;
+}
+
+.edit-inputfield:hover,
+.edit-inputfield:focus {
+    outline: none;
+}
+
+.edit-input .edit-inputfield:disabled {
+    background: transparent;
+}
+
+.edit-input {
+    width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: 3px 0px;
+    margin-top: 3px;
+}
+
+
+.otpinput-mainwrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.otp-inputwrapper {
+    margin: 0 auto;
+}
+
+.otpinput-mainwrap p {
+    font-family: 'amazon_emberregular';
+    color: #262f3d;
+    font-size: 16px;
+}
+
+.otp-inputwrapper .inputfield {
+    color: #b2b2b2;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 20px;
+    height: 50px;
+}
+
+.otp-inputwrapper .input-btn:hover,
+.otp-inputwrapper .input-btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #413925;
+}
+
+.otpinput-mainwrap h6 {
+    color: #3d3d3b;
+    font-size: 13px;
+    font-family: 'amazon_emberbold';
+    text-align: center;
+    padding: 20px 0;
+    margin: 0px;
+}
+
+.otpresend-link li {
+    padding: 0 15px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.otpresend-link li:last-child {
+    border-right: 0px;
+}
+
+.otpresend-link li a {
+    font-family: 'amazon_emberregular';
+    color: #408cd0;
+    font-size: 12px;
+}
+
+.otpresend-link li a:hover,
+.otpresend-link li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.otpresend-link .msg-icon {
+    background: url(../images/sprite.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: -152px -18px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.otpresend-link .phone-icon {
+    background: url(../images/sprite.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: -184px -18px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.otpresend-link {
+    text-align: center;
+}
+
+
+.resendotp-link {
+    color: #0066c0;
+    font-size: 12px;
+    padding: 20px 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: amazon_emberbold;
+}
+
+.resendotp-link:hover,
+.resendotp-link:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+/*=================Start of the custom check box================*/
+
+/* Base for label styling */
+.commoncheckbox-list [type="checkbox"]:not(:checked),
+.commoncheckbox-list [type="checkbox"]:checked {
+    display: none;
+
+}
+
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label,
+.commoncheckbox-list [type="checkbox"]:checked+label {
+    position: relative;
+    margin-bottom: 7px;
+
+}
+
+.commoncheckbox-list label {
+    padding-left: 25px;
+    line-height: 1.2;
+
+}
+
+/* checkbox aspect */
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label:before,
+.commoncheckbox-list [type="checkbox"]:checked+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #b4b4b4;
+    background: #fff;
+    border-radius: 0px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1);
+    margin: 0 2px;
+}
+
+/* checked mark aspect */
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label:after,
+.commoncheckbox-list [type="checkbox"]:checked+label:after {
+    content: '\f00c';
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    font-size: 10px;
+    color: #e77817;
+    transition: all .2s;
+    font-family:'FontAwesome'
+}
+
+/* checked mark aspect changes */
+.commoncheckbox-list [type="checkbox"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+
+/*=================End of the custom check box================*/
+
+.commoncheckbox-list label {
+    font-weight: 100;
+    font-size: 12px;
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    cursor: pointer;
+}
+
+.commoncheckbox-list {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 28px 0px 5px;
+}
+
+.commoncheckbox-list input[type=checkbox] {
+    margin: 1px 0px 0px
+}
+
+/*================Start of  the 9 august 2018 form wrapper================*/
+.amazonform-innerwrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.commonhead-formpanel {
+    padding-bottom: 20px;
+}
+
+.eligibilty-form1-section {
+    padding-top: 0;
+    /*padding-left: 125px;*/
+    xdisplay: none
+}
+
+/* 13-08-2018 */
+.eligiform1-innerwrapper {
+    width: 820px;
+    margin: auto;
+}
+
+/* 13-08-2018 */
+.eligibilty-form2-section {
+    padding-top: 25px;
+    /*padding-left: 125px;*/
+    display: none
+}
+
+/* 13-08-2018 */
+.eligibilty-thank-section {
+    padding-top: 25px;
+    padding-left: 125px;
+    display: none
+}
+
+.eligiform2-innerwrapper {
+    width: 820px;
+    margin: auto;
+}
+
+/* 13-08-2018 */
+
+
+.gender-div {
+    width: 250px;
+}
+
+.gender-div .gender-selection {
+    border: 1px solid #dadbde;
+    border-radius: 5px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.gender-div .gender-selection li {
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid #dadbde;
+    padding: 6px 0px;
+    cursor: pointer;
+}
+
+.gender-div .gender-selection li:last-child {
+    border-right: 0px;
+}
+
+.gender-div .gender-selection li a {
+    color: #333333;
+    font-size: 15px;
+    font-family: 'amazon_emberregular';
+    text-decoration: none;
+}
+
+.gender-div .gender-selection li a:hover,
+.gender-div .gender-selection li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.gender-selection li.active {
+  background: #767676;
+  border-right: 1px solid #767676;
+}
+
+.gender-selection li.active a {
+    color: #fff;
+}
+
+.gender-div .labetext {
+    font-family: 'amazon_emberbold';
+    font-size: 12px;
+    color: #262f3d;
+}
+
+.gender-selection li.active:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.gender-selection li.active:last-child {
+    border-radius: 0px 5px 5px 0;
+}
+
+/*Occupation Radio*/
+.gender-div .occup-selection {
+    border: 1px solid #b1b4b9;
+    border-radius: 5px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.gender-div .occup-selection li {
+    text-align: center;
+    border-right: 1px solid #b1b4b9;
+    padding: 6px 0px;
+    cursor: pointer;
+}
+
+.gender-div .occup-selection li:last-child {
+    border-right: 0px;
+}
+
+.gender-div .occup-selection li a {
+    color: #333333;
+    font-size: 13px;
+    font-family: 'amazon_emberregular';
+    text-decoration: none;
+}
+
+.gender-div .occup-selection li a:hover,
+.gender-div .gender-selection li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.occup-selection li.active {
+    background: #767676;
+}
+
+.occup-selection li.active a {
+    color: #fff;
+}
+
+.gender-div .labetext {
+    font-family: 'amazon_emberbold';
+    font-size: 12px;
+    color: #053c6d;
+    margin: 0 0 2px;
+}
+
+.occup-selection li.active:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.occup-selection li.active:last-child {
+    border-radius: 0px 5px 5px 0;
+}
+
+/*Occupation Radio END*/
+
+/*
+
+
+            .form-section {
+                margin-top: 16px;
+            }
+*/
+
+
+
+.input-box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1px;
+
+}
+
+.dropdown-box {
+    position: relative;
+    width: 100%;
+}
+
+.smallinput-box input[type="text"] {
+    width: 250px;
+}
+
+.smallinput-box textarea {
+    width: 100%;
+}
+
+.smallinput-box input[type="number"] {
+    width: 250px;
+}
+
+.smallinput-box select {
+    width: 250px;
+}
+
+.input-box input[type="text"],
+.input-box input[type="number"],
+.input-box input[type="email"] {
+    font-size: 15px;
+    color: #000;
+
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color: transparent;
+    z-index: 4;
+    height: 100%;
+    font-family: 'amazon_emberregular';
+    border: 1px solid #E77502;
+    border-radius: 5px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    box-shadow: 0px 0px 4px #E77502;
+    background: transparent;
+
+}
+
+
+.input-box select {
+    font-size: 15px;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color: transparent;
+    z-index: 4;
+    height: 100%;
+    font-family: 'amazon_emberregular';
+    border-radius: 5px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E77502;
+    box-shadow: 0px 0px 4px #E77502;
+    background: transparent;
+}
+.input-box .drp {
+    font-size: 15px;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color: transparent;
+    z-index: 4;
+    height: 100%;
+    font-family: 'amazon_emberregular';
+    border-radius: 5px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E77502;
+    box-shadow: 0px 0px 4px #E77502;
+    background: transparent;
+}
+
+.input-box input[type="text"]:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #053c6d;
+    transition: 0.4s linear;
+}
+
+/*17-A-MO*/
+.input-box input[type="number"]:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #767676;
+    transition: 0.4s linear;
+}
+
+.input-box select:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #767676;
+    transition: 0.4s linear;
+}
+.input-box .drp:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #053c6d;
+    transition: 0.4s linear;
+}
+.input-box input[type="email"]:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #767676;
+    transition: 0.4s linear;
+}
+
+/*17-A-MO*/
+
+.effect-animate {
+    border: 0;
+    padding: 5px 10px 0;
+    position: relative;
+    background: transparent;
+}
+
+.effect-animate~.focus-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: transparent;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.effect-animate:focus~.focus-bg,
+.has-content.effect-animate~.focus-bg {
+    transition: 0.4s;
+    width: 100%;
+    background-color: #fff;
+    outline: none;
+}
+
+.effect-animate.datepicker::-webkit-input-placeholder {
+    color: transparent;
+    font-weight: 600;
+}
+
+.effect-animate.datepicker:-ms-input-placeholder {
+    color: transparent;
+    font-weight: 600;
+}
+
+.effect-animate.datepicker::-ms-input-placeholder {
+    color: transparent;
+    font-weight: 600;
+}
+
+.effect-animate.datepicker::placeholder {
+    color: transparent;
+    font-weight: 600;
+}
+
+.effect-animate.datepicker:focus::-webkit-input-placeholder {
+    color: rgba(51, 51, 52, 0.55);
+}
+
+.effect-animate.datepicker:focus:-ms-input-placeholder {
+    color: rgba(51, 51, 52, 0.55);
+}
+
+.effect-animate.datepicker:focus::-ms-input-placeholder {
+    color: rgba(51, 51, 52, 0.55);
+}
+
+.effect-animate.datepicker:focus::placeholder {
+    color: rgba(51, 51, 52, 0.55);
+}
+
+.effect-animate.datepicker:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: transparent;
+    font-weight: 600;
+}
+
+.effect-animate.datepicker::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: transparent;
+    font-weight: 600;
+}
+
+.effect-animate.datepicker:focus:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(51, 51, 52, 0.55);
+}
+
+.effect-animate.datepicker:focus::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgba(51, 51, 52, 0.55);
+}
+
+.effect-animate~label {
+    position: absolute;
+    font-size: 15px;
+    left: 14px;
+    top: 15px;
+    color: #767676;
+    transition: 0.3s;
+    z-index: 3;
+    font-family: 'amazon_emberregular';
+}
+
+.effect-animate:focus~label,
+.has-content.effect-animate~label {
+    top: -10px;
+    left: 15px;
+    font-size: 12px;
+    color: #053c6d;                                /* 02-01-2019 */
+    transition: 0.3s;
+    background: #ffffff;
+    z-index: 9;
+    padding: 2px 5px;
+}
+
+.input-box .effect-animate.has-content {
+    box-shadow: none;
+    color: #333334;
+    transition: 0.4s linear;
+    border-color: #053c6d; 
+    padding-left: 20px;                         /* 02-01-2019 */                              
+}
+
+
+
+.errorborder-input input[type="text"]:focus {
+    border-color: #e42202;
+}
+
+.errorborder-input input[type="number"]:focus {
+    border-color: #e42202;
+}
+
+.errorborder-input .effect-animate.has-content {
+    border-color: #e42202;
+}
+
+
+
+.commoneligi-formbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+
+.commoneligi-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.commoneligi-btn .fill-btn,.commoneligi-btn .fill-btn:active,.commoneligi-btn .fill-btn:hover,.commoneligi-btn .fill-btn:hover:focus {
+    border-color: rgb(168, 135, 52);
+    color: #111111;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 135, 52);
+    display: inline-block;
+        background-image: -webkit-linear-gradient(90deg, rgb(240, 193, 76) 0%, rgb(247, 222, 163) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(240, 193, 76) 0%, rgb(247, 222, 163) 100%);
+}
+
+/*17-A-MO*/
+.custom-cont .commoneligi-btn .fill-btn {
+    border-color: rgb(168, 135, 52);
+    background-color: #f89822;
+    color: #111111;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 135, 52);
+    display: inline-block;
+    background-image: -ms-linear-gradient(90deg, rgb(240, 193, 76) 0%, rgb(247, 222, 163) 100%)
+}
+
+.errormsg-div,
+.reg-date-div {
+    position: relative;
+}
+
+.errormsg-div small {
+    font-size: 12px;
+    color: #e42202;
+    font-family: 'amazon_emberregular';
+}
+
+.eligiback-link {
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: #0066c0;
+    font-family: 'amazon_emberregular';
+    text-decoration: none;
+}
+
+.eligiback-link .glyphicon-menu-left {
+    padding-right: 2px;
+}
+
+
+.amazon-tankyou-card {
+    padding-top: 20px;
+}
+
+.amazonthank-innercard {
+    text-align: center;
+}
+
+.amazonthank-innercard img {
+    margin: 0 auto;
+}
+
+.amazonthank-innercard p {
+    padding-top: 25px;
+    color: #262f3d;
+    font-size: 18px;
+    font-family: 'amazon_emberregular';
+    margin-bottom: 0px;
+}
+
+.amazonthank-innercard h5 {
+    margin: 0px;
+    font-size: 20px;
+    color: #053c6d;
+    font-family: 'amazon_emberbold';
+    padding-top: 5px;
+}
+
+.highlight-thankbox {
+    width: 555px;
+    background: #f1f2f5;
+    border: 1px solid rgba(5, 60, 109, 0.1);
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.highlight-thankbox p {
+    font-size: 16px;
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    padding: 10px 93px 0;
+}
+
+.amazon-regret-card {
+    padding-top: 20px;
+}
+
+.amazonregret-innercard {
+    text-align: center;
+}
+
+.amazonregret-innercard img {
+    margin: 0 auto;
+}
+
+.amazonregret-innercard h5 {
+    color: #262f3d;
+    font-size: 22px;
+    font-family: 'amazon_emberregular';
+    padding-top: 30px;
+    margin-bottom: 2px;
+}
+
+.amazonregret-innercard p {
+    color: #262f3d;
+    font-size: 16px;
+    font-family: 'amazon_emberregular';
+}
+
+/*================Emd of  the 9 august 2018 form wrapper================
+
+
+
+
+/*==============End o f the otp screen===============*/
+/*MOHSIN CSS START 10/08/2018*/
+.info-logo {
+    background: url(../images/sprite.png) no-repeat;
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+    background-position: -215px -18px;
+    vertical-align: middle;
+}
+
+.custom-tooltip {
+
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 30%;
+    z-index: 10;
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+}
+
+.top-li {
+    width: 50%;
+}
+
+.mid-li {
+    width: 50%;
+}
+
+.last-li {
+    width: 25%;
+}
+
+.form-control .effect-animate .dropdown-option::-ms-expand {
+    display: none;
+}
+
+.term-anchor {
+    color: #0066c0;
+    /*16*/
+    font-family: "amazon_emberbold";
+}
+
+.term-anchor:hover {
+    color: #0066c0;
+    /*19*/
+}
+
+.term-anchor1 {
+    color: #0066c0;
+    /*16*/
+    font-family: "amazon_emberbold";
+}
+
+.term-anchor1:hover {
+    color: #0066c0;
+    /*19*/
+}
+
+.mid-thankbox p {
+    font-family: "amazon_emberregular";
+    font-size: 16px;
+}
+
+.mid-thankbox .top-p {
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+
+}
+
+.mid-thankbox .last-p {
+    padding-top: 0;
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+}
+
+.tf-logo {
+    background: url(../images/sprite.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-position: -477px -14px;
+    vertical-align: middle;
+    top: -16px;
+    position: absolute;
+    left: 47%;
+}
+
+.amazonthank-innercard h3 {
+    font-size: 16px;
+    font-family: "amazon_emberbold";
+    margin-top: 0;
+}
+
+.highlight-thankbox .top-p {
+    font-size: 16px;
+    font-family: "amazon_emberbold";
+
+}
+
+.highlight-thankbox .last-p {
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+
+}
+
+.thank-M {
+    padding: 0 20%;
+    margin: 0 auto;
+}
+
+.thank-M .common-inputbox.smallinput-box {
+    width: 100%;
+}
+
+.thank-M .common-inputbox.smallinput-box .effect-animate {
+    width: 100%;
+}
+
+.pin-box {
+    margin-right: 30px;
+}
+
+.pin-box:last-child {
+    margin-right: 0px;
+
+}
+
+.thank-bottom {
+    padding: 50px 0;
+}
+
+.thank-bottom h3 {
+    font-size: 16px;
+    font-family: 'amazon_emberbold';
+}
+
+.thank-bottom .last-p-txt {
+    font-size: 13px;
+    font-family: 'amazon_emberregular';
+    max-width: 240px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.thank-bottom .last-p,
+.thank-bottom .last-p1 {
+    font-size: 13px;
+    font-family: 'amazon_emberregular';
+    color: rgb(38, 47, 61);
+}
+
+.thank-bottom .last-p1 {
+    padding-top: 0;
+}
+
+/*CIBIL PAGE START*/
+.cibil-logo {
+    background: url("../images/cibil-negative-card.png") no-repeat;
+    width: 122px;
+    height: 83px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.cibil-box {
+    text-align: center;
+
+        margin: 32px auto
+}
+
+.cibil-box h3 {
+    font-size: 22px;
+    font-family: "amazon_emberregular";
+
+    margin: 20px 250px 0;
+
+}
+
+.am-bold {
+    font-weight: 600;
+}
+
+.cibil-box .apply-one-para {
+    font-size: 16px;
+    font-family: "amazon_emberregular";
+    color: rgb(38, 47, 61);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 300px;
+    margin: 20px auto 0px;
+    padding: 10px;
+    background: #f1f2f5;
+    margin-bottom: 20px;
+
+}
+
+.cibil-box a {
+    font-size: 16px;
+    font-family: "amazon_emberregular";
+    color: rgb(242, 242, 242);
+    border-radius: 5px;
+    background-color: #f89822;
+    padding: 11px 20px;
+}
+
+/*CIBIL PAGE END*/
+/*MOHSIN START CONTACT DIV*/
+.mob-label {
+    display: none;
+}
+
+.desk-label {
+    display: block;
+}
+
+/*MOHSIN START CONTACT DIV END*/
+.mid-thankbox .contact-p {
+    font-size: 16px;
+    font-family: "amazon_emberbold"
+}
+
+.highlight-thankbox h3 {
+    font-size: 16px;
+    font-family: "amazon_emberbold";
+}
+
+.highlight-thankbox p {
+    font-size: 16px;
+    font-family: "amazon_emberregular";
+    padding: 15px 0;
+}
+
+/* .highlight-thankbox p:last-child
+{
+  padding: 0px 0 20px;
+} */
+.doc-check-div p {
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+}
+
+.doc-check-div hr {
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.hidd-add-box {
+    padding: 0 16%;
+    display: none;
+}
+
+.hidd-add-box .common-inputbox.smallinput-box,
+.hidd-add-box .effect-animate.has-content {
+    width: 100%;
+    padding: 10px 14px;
+}
+
+.firstrow-eligiform.commoneligi-formbox.top-add .effect-animate {
+    width: 100%;
+}
+
+.common-inputbox.smallinput-box.add {
+    width: 100%;
+}
+
+.eligibilty-form2-section .eligibilty-form2-section {
+    padding-top: 10px;
+}
+
+.commoncheckbox-list .address-confirm-txt [type="checkbox"]:not(:checked)+label:before,
+.commoncheckbox-list .address-confirm-txt [type="checkbox"]:checked+label:before {
+
+    background-color: red;
+}
+
+.doc-check-div .top-p {
+    font-size: 13px;
+}
+
+.doc-check-div .mid-p {
+    padding: 0;
+}
+
+.doc-check-div .lastp-p {
+    padding-top: 0;
+}
+
+.amazon-tankyou-card .commoneligi-btn {
+    padding-top: 0px;
+    padding-bottom: 36px;
+}
+
+/*MOHSIN 14-08-2018 STARR*/
+.privacy-div,
+.mobotp-mainwrapper .address-confirm-txt {
+    text-align: center;
+    font-size: 12px;
+    color: #262f3d;
+    opacity: 0.8;
+    font-family: "amazon_emberregular";
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.shield-logo {
+    background: url(../images/sprite.png) no-repeat;
+    width: 15px;
+    height: 16px;
+    background-position: -444px -15px;
+    vertical-align: middle;
+}
+
+.hide-br br,
+.mob-txt-label {
+    display: none;
+}
+
+.dropdown-option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.down-arrow::after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 13px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    margin-left: 10px;
+    border: solid #666666;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 11;
+}
+
+.rec-otp {
+    color: rgb(61, 61, 59);
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+    margin-right: 5px;
+}
+
+.am-btn,
+.cibil-box a
+
+/*17-A-MO*/
+    {
+    border-color: rgb(168, 135, 52);
+    background-color: #f89822;
+    color: #111111;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 135, 52);
+    display: inline-block;
+    background-image: -ms-linear-gradient(90deg, rgb(240, 193, 76) 0%, rgb(247, 222, 163) 100%);
+
+}
+
+/*.am-btn-sub
+{
+    border-color: rgb(168, 135, 52);
+    background-color: #f89822;
+    color: #111111;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 135, 52);
+    display: inline-block;
+    background-image: -moz-linear-gradient( 90deg, rgb(240,193,76) 0%, rgb(247,222,163) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(240,193,76) 0%, rgb(247,222,163) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(240,193,76) 0%, rgb(247,222,163) 100%);
+    
+}*/
+.view-anch {
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    color: #0066c0;
+    cursor: pointer;
+}
+
+.bg-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    z-index: 21;
+    display: none;
+
+}
+
+.popUpOpenBoard,
+.homePopup {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 445px;
+    display: none;
+    z-index: 25;
+    width: 95%;
+    max-width: 530px;
+    height: 275px;
+    padding: 30px 40px 20px;
+    border-radius: 5px;
+}
+
+.crossPop {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    background: url("../images/cross.png") no-repeat center center;
+}
+
+.custom-cont,
+.custom-cont1 {
+    color: #262f3d;
+    /*16-A*/
+    text-align: center;
+    margin-top: 16px;
+}
+
+.custom-cont h3 {
+    font-family: "amazon_emberbold";
+    font-size: 16px;
+
+}
+
+.custom-cont1 ol {
+    font-family: "amazon_emberregular";
+    padding: 0px 14px;
+}
+
+.custom-cont1 ul {
+    padding: 0 16px;
+    list-style-type: disc;
+}
+
+.sec-pg-top,
+.sec-pg-mid {
+    padding-bottom: 20px;
+}
+
+.sec-pg-last {
+    padding-bottom: 18px;
+}
+
+.emp-tab {
+    padding: 0px 0px 5px;
+}
+
+.emp-btn {
+    padding-top: 0;
+}
+
+.hidd-add-box .commoneligi-formbox {
+    padding-bottom: 10px;
+}
+
+/*MOHSIN CSS END 14/08/2018*/
+.c-p {
+    padding-top: 0;
+}
+
+.pop2-txt {
+    font-family: "amazon_emberregular"
+}
+
+.pop2-txt {
+    font-size: 13px;
+    color: #262f3d;
+    opacity: 0.8;
+}
+
+.popUpOpenBoard.popUpOpenBoard2,
+.popUpOpenBoard2 .homePopup {
+    max-width: 355px;
+    height: 185px;
+}
+
+.custom-cont {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popUpOpenBoard.popUpOpenBoard2 .commoneligi-btn {
+    padding-top: 15px;
+}
+
+/*16-08-2018 MOHSIN*/
+.sec-pg-mid {
+    display: flex;
+    flex-flow: column;
+}
+
+.sec-pg-mid .input-box input[type="text"] {
+    width: 100%;
+}
+
+.sec-pg-mid .curr-add.has-content {
+    padding-top: 10px;
+    overflow-y: scroll;
+    resize: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    background-color: transparent;
+    z-index: 4;
+    height: 100%;
+    font-family: 'amazon_emberregular';
+    border: 1px solid #dadbde;
+    border-radius: 5px;
+    height: 58px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    color: #a7a7a7;
+    border: 1px solid #dadbde;
+}
+
+.curr-p {
+    font-family: "amazon_emberregular";
+    font-size: 12px;
+    color: #262f3d;
+    margin-bottom: 15px;
+}
+
+.curr-p a {
+    font-family: "amazon_emberbold";
+    font-size: 13px;
+    color: #0066c0;
+}
+
+.comp-full {
+    margin-top: 17px;
+}
+
+.sec-pg-mid .gender-div {
+    align-self: baseline;
+    margin-top: 15px;
+}
+
+/*RES Radio*/
+.gender-div .res-selection {
+    border: 1px solid #b1b4b9;
+    border-radius: 5px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.gender-div .res-selection li {
+    text-align: center;
+    border-right: 1px solid #b1b4b9;
+    padding: 6px 0px;
+    cursor: pointer;
+}
+
+.gender-div .res-selection li:last-child {
+    border-right: 0px;
+}
+
+.gender-div .res-selection li a {
+    color: #333333;
+    font-size: 15px;
+    font-family: 'amazon_emberregular';
+    text-decoration: none;
+}
+
+.gender-div .res-selection li a:hover,
+.gender-div .gender-selection li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.res-selection li.active {
+    background: #767676;
+}
+
+.res-selection li.active a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.gender-div .labetext {
+    font-family: 'amazon_emberbold';
+    font-size: 12px;
+    color: #053c6d;
+    margin: 0 0 2px;
+}
+
+.res-selection li.active:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.res-selection li.active:last-child {
+    border-radius: 0px 5px 5px 0;
+}
+
+/*RES Radio END*/
+
+.eligibilty-form1-section .commoncheckbox-list {
+    padding-top: 20px;
+}
+
+.eligibilty-form1-section .commoneligi-btn {
+    padding-top: 0px;
+}
+
+.amazonform-innerwrapper h1 {
+    margin-top: 18px;
+
+}
+
+.sec-pg-top {
+    flex-flow: wrap;
+}
+
+.mo-box {
+    margin-top: 18px;
+}
+
+.errormsg-div,
+.reg-date-div {
+    display: none;
+}
+
+
+
+.hidd-add-box .errormsg-div {
+    text-align: left;
+}
+
+.popUpOpenBoard1 {
+    font-family: "amazon_emberregular";
+    font-size: 13px;
+    width: 352px;
+    height: 156px;
+}
+
+.popUpOpenBoard1 a {
+    color: #0066c0;
+    font-family: "amazon_emberbold";
+}
+
+.op-board-bottom-p {
+    margin-top: 25px;
+}
+
+.reg-date-div {
+    font-family: "amazon_emberregular";
+    font-size: 12px;
+    color: #262f3d;
+}
+
+/*16-08-2018 MOHSIN END*/
+
+/*---------- 16-08-2018 css start-----------*/
+.creditCard-image {
+    padding-top: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.show-hide-cvv {
+    padding-top: 10px;
+}
+
+.show-hide-cvv h3 {
+    font-family: "amazon_emberregular";
+    color: #0066c0;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.show-hide-cvv h3 span {
+    color: #262f3d;
+    font-size: 13px;
+    cursor: auto;
+}
+
+.hide-cvv {
+    display: none;
+}
+
+.details-sent h4 {
+    font-family: "amazon_emberregular";
+    font-size: 16px;
+    color: #262f3d;
+    display: inline-block;
+    background-color: #f1f2f5;
+    border: 1px solid #d7dde2;
+
+}
+
+/*17-A-MO*/
+.anytimelogin-text p {
+    color: #262f3d;
+    font-family: "amazon_emberregular";
+    font-size: 13px;
+    padding-top: 0;
+}
+
+.shoping-btn {
+    padding-top: 15px;
+}
+
+.howtoaddText h5 {
+    font-size: 13px;
+    font-family: "amazon_emberbold";
+    color: #0066c0;
+    padding-top: 16px;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+}
+
+.popUpOpenBoard.popUpOpenBoard3 {
+    padding: 5px 22px 20px;
+    max-width: 830px;
+    height: auto;
+}
+
+.custom-amazonpay h3 {
+    font-size: 21px;
+    color: #3d3d3d;
+    font-size: 21px;
+    font-family: "amazon_emberregular";
+}
+
+.custom-amazonpay h3 span {
+    font-family: "amazon_emberbold";
+    color: #d28725;
+}
+
+.note-text {
+    font-family: "amazon_emberregular";
+    color: #555555;
+    font-size: 13px;
+    background-color: #f6f6f6;
+    border: 1px solid #d7d7d7;
+    padding: 10px 13px;
+}
+
+.note-text span {
+    font-family: "amazon_emberbold";
+}
+
+.footer-popuptext {
+    color: #555555;
+    font-size: 13px;
+    font-family: "amazon_emberregular";
+    padding-top: 10px;
+}
+
+.text-step {
+    font-family: "amazon_emberregular";
+    font-size: 14px;
+    color: #111111;
+    margin: 0;
+    padding-left: 10px;
+    width: calc(100% - 40px);
+}
+
+.step-head {
+    display: flex;
+}
+
+.text-step span {
+    font-family: "amazon_emberbold";
+    font-size: 14px;
+    color: #111111;
+}
+
+.number-step {
+    background-color: #c7c7c7;
+    text-align: center;
+    border-radius: 100% 100%;
+    color: #fff;
+    font-size: 25px;
+    height: 40px;
+    font-family: "amazon_emberbold";
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps {
+    width: 25%;
+}
+
+.add-cardSteps {
+    display: flex;
+}
+
+.step-img {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.amazon-congrats {
+    display: none;
+}
+
+/*---------- 16-08-2018 css end-----------*/
+/*17-A-MO-START*/
+.ember-bold {
+    font-family: "amazon_emberbold";
+}
+
+.ember-reg {
+    font-family: "amazon_emberregular";
+}
+
+.form-control option {
+    width: 10%;
+}
+
+.attemp-2,
+.attemp-1 {
+    color: #c40000;
+    display: none;
+}
+
+.ok-popUpOpenBoard {
+    width: 445px;
+    height: 170px
+}
+
+.add-popUpBoard {
+    margin-right: 10px;
+}
+
+.ok-popUpOpenBoard .commoneligi-btn {
+    padding-top: 17px;
+}
+
+.ok-popUpOpenBoard {
+    font-size: 13px;
+    font-color: #262f3d;
+    opacity: 0.8;
+    padding-top: 20px;
+}
+
+.add-popUpOpenBoard {
+    max-width: 900px;
+    height: auto;
+}
+
+.add-popUpOpenBoard .add.med-add {
+    width: 48%;
+}
+
+.add-popUpOpenBoard .add.med-add input[type="text"] {
+    width: 100%;
+}
+
+.add-popUpOpenBoard h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #053c6d;
+    margin-bottom: 27px;
+    margin-top: 0;
+}
+
+.add-popUpOpenBoard .commoneligi-formbox {
+    padding-bottom: 20px;
+}
+
+.add-popUpOpenBoard .commoneligi-btn {
+    padding-top: 10px;
+}
+
+.ok-popUpOpenBoard .ok-btn {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(173, 177, 184);
+    border-radius: 5px;
+    background-image: -ms-linear-gradient(90deg, rgb(231, 233, 236) 0%, rgb(247, 248, 250) 100%);
+}
+
+.popUpOpenBoard.thank-popUpOpenBoard {
+    width: 445px;
+    height: 190px;
+}
+
+.thank-popUpOpenBoard h3,
+.thank-popUpOpenBoard .op-board-bottom-p {
+    font-size: 13px;
+}
+
+.thank-popUpOpenBoard h3 {
+    font-size: 20px;
+    color: #053c6d;
+}
+
+.thank-popUpOpenBoard .op-board-bottom-p {
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.thank-popUpOpenBoard .commoneligi-btn {
+    padding-top: 15px;
+}
+
+.amazon-loader {
+    text-align: center;
+}
+
+.amazon-loader .progress-bar {
+    background-color: #f89822;
+
+}
+
+.amazon-loader .progress {
+    width: 170px;
+    height: 4px;
+    margin-top: 25px;
+    /* text-align: center; */
+    display: inline-block;
+}
+
+.amazon-loader h3 {
+    font-size: 24px;
+    color: #053c6d;
+}
+
+.amazon-loader .last-p {
+    margin-top: 0;
+}
+
+.amazon-loader .top-p {
+    margin-bottom: 0;
+}
+
+.amazon-loader .creditCard-image {
+    padding-top: 30px;
+}
+
+.amazon-loader {
+    display: none;
+}
+
+/* .back-img {
+    position: absolute;
+    z-index: -1;
+    top: 35px;
+    left: 0px;
+} */
+.details-sent a {
+    color: #0066c0;
+    ;
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.form-box.active .attemp-1 {
+    display: block;
+}
+
+.commoncheckbox-list.address-checkbox {
+    text-align: left;
+    justify-content: left;
+    padding-top: 0;
+}
+
+.commoncheckbox-list.address-checkbox [type="checkbox"]:not(:checked)+label,
+.commoncheckbox-list.address-checkbox [type="checkbox"]:checked+label {
+    top: 2px;
+    left: 0px;
+}
+
+.commoncheckbox-list.address-checkbox p {
+    font-size: 12px;
+    color: #262f3d;
+    font-family: "amazon_emberregular";
+}
+
+.shoping-btn.checked-show-btn {
+    text-align: center;
+    padding-top: 0;
+}
+
+.top-add-company {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-add-company .add-company-inner1 {
+    width: 65%;
+}
+
+.top-add-company .add-company-inner1 input[type="text"],
+.top-add-company .add-company-inner2 input[type="text"] {
+    width: 100%;
+}
+
+.top-add-company .add-company-inner2 {
+    width: 30%;
+}
+
+.comp-full,
+.comp-full input[type="text"] {
+    width: 100%;
+}
+
+.sec-pg-last {
+    padding-top: 15px;
+}
+
+.checked-show-btn {
+    display: none;
+}
+
+.commoneligi-formbox.sec-pg-mid {
+    padding-bottom: 0;
+}
+
+.heading-scenario {
+    color: #262f3d;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-left: 6px;
+}
+
+.note-cenario {
+    font-family: "amazon_emberregular";
+    color: #262f3d;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.commoncheckbox-list.scenario-checkbox {
+    text-align: left;
+    display: inline-block;
+}
+
+.commoncheckbox-list.scenario-checkbox [type="checkbox"]:not(:checked)+label,
+.commoncheckbox-list.scenario-checkbox [type="checkbox"]:checked+label {
+    display: block;
+    margin-bottom: 0;
+}
+
+.check-scenario-2 {
+    display: none;
+}
+
+.none-popUpOpenBoard {
+    width: 400px;
+    height: auto;
+}
+
+.none-popUpOpenBoard p {
+    font-size: 13px;
+}
+
+.none-popUpOpenBoard .commoneligi-btn {
+    padding-top: 0;
+}
+
+.none-popUpOpenBoard .op-board-bottom-p {
+    margin-top: 0;
+}
+
+/*17-A-MO-END*/
+
+
+
+/*18-A-MO-start*/
+.dis-box .desk-label.curr-res-add {
+    color: #767676;
+}
+
+.scenario-2 .details-sent {
+    margin-top: 10px;
+    border-width: 1px;
+    border-color: rgb(231, 118, 0);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(254, 248, 242);
+}
+
+.scenario-2 .details-sent h4 {
+    margin-top: 0;
+    width: 100%;
+    font-size: 16px;
+    color: #c40000;
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    font-family: "amazon_emberregular";
+    margin-bottom: 0;
+}
+
+.scenario-2 .details-sent p {
+    color: #262f3d;
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    padding-left: 10px;
+
+}
+
+.amazonthank-innercard .hide-btn {
+    margin-top: 20px;
+}
+
+.anytimelogin-text {
+    margin-top: 15px;
+}
+
+.doberror-msg {
+    font-size: 13px;
+}
+
+.reg-date-div {
+    font-size: 13px;
+
+}
+
+/* .scenario-2 .commoneligi-btn .fill-btn
+{
+    margin-top:20px;
+} */
+/*18-A-MO-end*/
+
+/*19-A-MO-Start*/
+.scenario-checkbox .checkpad {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 25px;
+    font-family: "amazon_emberregular";
+}
+
+.commoneligi-formbox.sec-pg-top {
+    display: flex;
+    justify-content: initial;
+    align-items: flex-start;
+    padding-bottom: 28px;
+}
+
+.sec-pg-top .common-inputbox.smallinput-box {
+    margin-left: 35px;
+}
+
+.sec-pg-top .common-inputbox.smallinput-box:first-child {
+    margin-left: 0;
+}
+
+.sec-pg-top .gender-div {
+    /*width: 250px;*/
+    margin-top: 14px;
+}
+
+.eligible-popUpOpenBoard {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 445px;
+    display: none;
+    z-index: 25;
+    width: 95%;
+    max-width: 530px;
+    height: 310px;
+    padding: 30px 40px 20px;
+}
+
+.eligible-popUpOpenBoard ol,
+.eligible-popUpOpenBoard ul,
+.eligible-popUpOpenBoard h3 {
+    text-align: left;
+}
+
+.scenario-2 .return-btn {
+    display: none;
+}
+
+/*19-A-MO-Start*/
+
+/*21-AUGUST-START*/
+
+
+.prequalified-section,
+/*.ntb-section,*/
+.preapproved-section ,
+ .upgrade-section   {
+    display: none;
+}
+
+.ntb-section .sec-pg-mid {
+    flex-direction: row;
+
+}
+
+.ntb-section .commoneligi-formbox.sec-pg-top {
+    padding-bottom: 18px;
+}
+
+.ntb-section ul,
+.ntb-section ol,
+.ntb-section .gender-div {
+    margin-bottom: 0;
+}
+
+.ntb-section .sec-pg-mid .gender-div {
+    margin-top: 0;
+}
+
+.ntb-section .eligibilty-form2-section .med-add .input-box input[type="text"] {
+    width: 100%;
+}
+
+.ntb-section .eligiform2-innerwrapper .top1-add .med-add {
+    width: 49%;
+}
+
+.ntb-section .eligibilty-form2-section {
+    padding-top: 18px;
+    padding-bottom: 100px;
+}
+
+.ntb-section .commoncheckbox-list {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.ntb-section .details-sent {
+    margin-top: 10px;
+    border-width: 1px;
+    border-color: rgb(231, 118, 0);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(254, 248, 242);
+}
+
+.ntb-section .details-sent h4 {
+    margin-top: 0;
+    width: 100%;
+    font-size: 16px;
+    color: #c40000;
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    font-family: "amazon_emberregular";
+    margin-bottom: 0;
+}
+
+.ntb-section .details-sent p {
+    color: #262f3d;
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    padding-left: 10px;
+}
+
+.ntb-section .hidden-mand {
+    display: none;
+}
+
+
+/*Pa_START*/
+
+.preapproved-section .sec-pg-top .common-inputbox.smallinput-box {                      /* 17-01-2019 css changed */
+    margin-left: 0;
+    padding-bottom: 20px;
+    margin-right: 4%;
+    width: 30%;
+}
+
+.preapproved-section .mo-box {
+    margin-top: 0px;
+}
+
+.preapproved-section .commoneligi-formbox.sec-pg-top {
+    justify-content: flex-start;                                                    /* 17-01-2019 css changed */                                     
+    padding-bottom: 0px;
+}
+
+
+.preapproved-section .top-add-company .add-company-inner1 {
+    width: 100%;
+}
+
+.mobile-number-section .commoncheckbox-list {
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.preapproved-section .desk-label.curr-res-add {
+    background: #f7f7f7;
+    color: #bdbdbd;
+}
+
+.preapproved-section .reg-date-div {
+    display: block;
+}
+
+.preapproved-section .sec-pg-last .down-arrow::after {
+    content: none;
+}
+
+/* 21-09-2018 Start */
+.preapproved-section .top-add-company .add-company-inner1 input[type="text"].add-inp {
+    width: 95%;
+}
+
+.left-offer {
+    width: 40%;
+}
+
+input[type="text"]:disabled {
+    background: #f7f7f7;
+    color: #a7a7a7;
+}
+
+/* 21-09-2018 End */
+
+/* 22-01-2018 STARt*/
+.preapproved-section .scenario-2,
+.preapproved-section .scenario-3,
+.preapproved-section .scenario-4,
+.preapproved-section .scenario-5 {
+    display: none;
+}
+
+/* 22-01-2018 END*/
+
+
+/*Pa_END*/
+
+
+
+/*UPGRADE_FLOW_START*/
+
+.upgrade-section .top-add-company .add-company-inner1,
+.upgrade-section .input-box input[type="text"] {
+    width: 100%;
+}
+
+.upgrade-section .sec-pg-last .common-inputbox:first-child {
+    width: 33.33%;
+}
+
+.upgrade-section .scen1-bootom-ul ul {
+    padding-left: 15px;
+}
+
+.scen1-bootom-ul {
+    font-family: "amazon_emberregular";
+}
+
+/*CARD_BOX START*/
+.card-input-boxes h4 {
+    position: relative;
+    font-family: "amazon_emberregular";
+    font-size: 16px;
+    color: #262f3d;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-input-boxes h4 {
+    position: relative;
+    font-family: "amazon_emberregular";
+    font-size: 16px;
+    color: #262f3d;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.error-msg-card {
+    color: #c40000;
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    text-align: center;
+    padding-top: 10px;
+}
+
+.proceed-card {
+    padding-top: 15px;
+}
+
+.card-number-box .Box {
+    width: 108px;
+    height: 54px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    color: #262f3d;
+    font-size: 24px;
+    font-family: "amazon_emberregular";
+    border: 1px solid #aeb1b6;
+}
+
+.card-number-box {
+    text-align: center;
+}
+
+.card-input-boxes {
+    display: none;
+}
+
+.popUpOpenBoard2proceed {
+    max-width: 355px;
+    height: 185px;
+}
+
+/*CARD_BOX SEND*/
+
+
+/*UPGRADE_FLOW_END*/
+.emp-btn input[type=button]:disabled {
+    background-image: none;
+    background-color: #f9f3e5;
+    border: 1px solid #e8e0cd;
+    color: #999999;
+}
+
+/*.emp-btn input[type=button]:enabled {
+    opacity: 1;
+}
+*/
+.popUpOpenBoard.popUpOpenBoardtermscondition {
+    max-width: 870px;
+    height: 500px;
+}
+
+.terms-content h3 {
+font-family: "amazon_emberbold";
+    font-size: 16px;
+    color: #262f3d;
+    margin-top: 0;
+    margin-bottom: 8px;
+
+}
+
+.terms-data p {
+    font-family: "amazon_emberregular";
+    font-size: 13px;
+    color: #262f3d;
+    margin-bottom: 20px;
+}
+
+.terms-data {
+    /*        height: 260px;
+    overflow-y: auto;*/
+}
+
+.termsok {
+    padding-top: 20px;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff !important;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #767676 !important;
+}
+
+.terms-enabled {
+    display: none;
+}
+
+.term-anchor.disable {
+    color: #262f3d;
+    font-family: "amazon_emberregular";
+    font-size: 12px;
+}
+
+.commoneligi-btn .fill-btn:disabled {
+    background-image: none;
+    background-color: #f9f3e5;
+    border: 1px solid #e8e0cd;
+    color: #999999;
+}
+
+.income-doc {
+    margin-bottom: 0;
+
+}
+
+.ntb-section .income-doclist {
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    margin-bottom: 10px;
+    padding-left: 42px;
+}
+
+.prequalified-section .income-doclist {
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    margin-bottom: 10px;
+    padding-left: 42px;
+}
+
+.preapproved-section .income-doclist {
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    margin-bottom: 10px;
+    padding-left: 42px;
+}
+
+.upgrade-section .income-doclist {
+    font-size: 12px;
+    font-family: "amazon_emberregular";
+    margin-bottom: 10px;
+    padding-left: 42px;
+}
+
+
+.ntb-section .ntb-return-btn {
+    display: none;
+}
+
+.cibil-positive-img {
+    margin: 0 auto;
+}
+
+/*21-AUGUST-END*/
+
+
+/* 10-sept */
+.upgrade-last-box,
+.preQual-last-box {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.upgrade-last-box h5,
+.preQual-last-box h5 {
+    margin: 0px;
+    font-size: 20px;
+    color: #053c6d;
+    font-family: 'amazon_emberbold';
+    padding-top: 5px;
+}
+
+.upgrade-last-box {
+    display: none;
+}
+
+.preQual-last-box {
+    display: none;
+}
+
+/* LOADer-14-09-2018 */
+.loader-box {
+    text-align: center;
+    margin: 10% 0;
+    display: none;
+}
+
+.datepicker.date-icon {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 30px;
+    left: auto;
+    color: #767676;
+    z-index: 10;
+
+}
+
+.datepicker.date-icon:after,
+.datepicker.date-icon:before {
+    content: none;
+}
+
+.front-box {
+    position: relative
+}
+
+.markup-box {
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+    color: #fff;
+    font-family: 'amazon_emberregular'
+}
+
+.markup-box h4 {
+    font-size: 10px;
+    margin: 0;
+    text-align: left;
+    padding-top: 3px;
+    line-height: 8px;
+}
+
+.markup-box h3 {
+    text-align: left;
+    margin-bottom: 2px;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+}
+
+.thru {
+    margin-left: 30px;
+    font-size: 6px;
+}
+
+.markup-box h6 {
+    margin: 0;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 9px;
+}
+
+.rear-box {
+    position: absolute;
+    z-index: -1;
+    top: 35px;
+    left: 0px;
+}
+
+.markup-rear {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.markup-rear p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.markup-box .from {
+    font-size: 6px;
+    text-transform: uppercase;
+}
+
+.markup-box .thru {
+    font-size: 6px;
+    text-transform: uppercase;
+}
+
+.markup-box .from i {
+    font-size: 10px;
+    font-style: normal;
+    padding-left: 3px
+}
+
+.markup-box .thru i {
+    font-size: 10px;
+    font-style: normal;
+    padding-left: 3px
+}
+
+.mobile-error {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 2px;
+    display: block;
+}
+
+.otp-enter-section .otp-alert.alert-warning {
+    color: #339629;
+    background-color: #fff;
+    border-color: #a2d09e;
+    width: 35%;
+    max-width: 500px;
+    margin: 10px auto 15px;
+    font-family: 'amazon_emberregular';
+    display: none;
+
+}
+
+/* NEW UL */
+.exist-div-ul li {
+    color: #262f3d;
+    font-size: 14px;
+    font-family: 'amazon_emberregular';
+
+
+}
+
+.dropdown-box:disabled {
+    cursor: default;
+
+}
+
+.dropdown-box .form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #fff;
+    cursor: default;
+}
+
+.upgrade-section .sec-pg-last {
+    padding-bottom: 18px;
+    padding-top: 15px;
+}
+
+.eligibilty-form1-section .upgrade-section .commoneligi-btn {
+    padding-bottom: 65px;
+}
+
+.scen1-bootom-ul.exist-div-ul {
+    margin-top: 5px;
+}
+
+.upgrade-section .sec-pg-mid .curr-add.has-content {
+    padding-top: 15px;
+    height: 80px;
+}
+
+.upgrade-section .commonhead-formpanel .card-heading {
+    padding: 0;
+}
+
+.upgrade-section .eligibilty-form1-section .commoncheckbox-list {
+    padding-top: 45px;
+}
+
+/* 12-11-2018 */
+.upgrade-section .sec-pg-newD {
+    justify-content: normal;
+}
+
+.upgrade-section .sec-pg-newD .common-inputbox.smallinput-box {
+    margin-right: 25px;
+}
+
+.upgrade-section .sec-pg-newD .common-inputbox:last-child {
+    width: 30%;
+}
+
+/* 22-11-2018 Start*/
+html,
+body,
+.left-offer,
+.right-content {
+    height: 100%;
+}
+
+.left-offer {
+    background: #fef2e5;
+    padding: 0;
+}
+
+.amazon-container {
+    height: 91.8%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-img-box {
+    height: 100%;
+}
+
+.right-content {
+    width: 100%;
+    background-image: url(../images/offer-banner/baloon-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom 10% right 20%
+}
+
+/* .amazon-container.active .right-content
+{
+    overflow-y: scroll;
+}
+ */
+.mcs-horizontal-example {
+    white-space: nowrap;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background: #fef2e5 !important;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #ffac4d !important;
+    height: 40px;
+}
+
+.gen-d {
+    display: flex;
+    align-items: normal;
+    width: 535px;
+    justify-content: inherit;
+}
+
+.gen-d .gender-div {
+    margin-top: -7px;
+}
+
+/* 22-11-2018 End*/
+
+.prev-cust-para {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    margin-top: 25px;
+    font-family: amazon_emberregular;
+}
+
+
+/* NTB NEW FLOW START**********/
+/* 28-12-2018 START*/
+/* .ntb-section .gender-div .gender-selection li {
+    width: 25%;
+}
+
+.ntb-section .gender-div .gender-selection li:last-child {
+    width: 50%;
+} */
+
+
+
+/* NTB RADIO */
+.custom-radio-ul {
+    display: flex;
+    padding: 0;
+}
+
+.custom-radio-li{
+    display: flex;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #262f3d;
+    font-family: "amazon_emberregular";
+    margin-right: 25px;
+    font-weight: 400;
+}
+.custom-radio-li label 
+{
+    font-weight: 400;
+}
+/* Hide the browser's default radio button */
+.custom-radio-li input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    top: -2px;
+}
+
+/* Create a custom radio button */
+.radio-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-radio-li:hover input~.radio-mark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.custom-radio-li input:checked~.radio-mark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.custom-radio-li input:checked~.radio-mark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.custom-radio-li .radio-mark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {                                /* 11-02-2019 css changed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #949494;
+}
+
+/* On mouse-over, add a grey background color */
+/* .custom-radio-li:hover input~.checkmark {                 11-02-2019 css commented
+    background-color: #ccc;
+} */
+
+/* When the radio button is checked, add a blue background */
+.custom-radio-li input:checked~.checkmark {
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.custom-radio-li input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.custom-radio-li .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #f7941d;
+}
+
+.custom-radio-field {
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.contact-head {
+    color: #333333;
+    font-family: amazon_emberbold;
+    font-size: 16px;
+
+}
+
+.contact-para {
+    color: #333334;
+    font-family: amazon_emberitalic;
+    font-size: 12px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+
+.form-radio-box {
+    margin-bottom: 15px;
+}
+
+.ntb-section .eligibilty-form2-section .commoneligi-formbox {
+    padding-bottom: 15px;
+}
+
+.commoneligi-btn .fill-btn.ntb-proceed-btn,
+.commoneligi-btn .fill-btn.ntb-submit-btn {
+    width: 40%;
+}
+
+.ntb-section .check-visible-box {
+    display: none;
+}
+
+.ntb-section.res-checked .check-visible-box {
+    display: flex;
+}
+
+.ntb-section .commoneligi-formbox.ntb-drp-box {
+    justify-content: flex-start;
+}
+
+.ntb-section .commoneligi-formbox .ntb-drp {
+    margin-right: 30px;
+}
+
+.ntb-section.res-checked .commoneligi-formbox.ntb-drp-box {
+    justify-content: space-between;
+}
+
+.ntb-section.res-checked .commoneligi-formbox .ntb-drp {
+    margin-right: 0px;
+}
+
+.ntb-section .input-box input[type="text"] {
+    width: 250px;
+}
+.ntb-section .sec-pg-top {
+    flex-wrap: initial;
+}
+
+.info-strip{
+    background-color: #fef2e4;
+    padding: 10px 15%;
+}
+
+.acc-rewards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-li{
+    display: flex;
+    align-items: center;
+}
+
+.txt-re{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'amazon_emberregular';
+    text-transform: uppercase;
+}
+
+.txt-re span{
+    font-family: 'amazon_emberbold';
+}
+.cicle-burg
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 64px;
+}
+
+.burg-cic:after {
+    content: "1";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%)translateY(-50%);
+            transform: translateX(-50%)translateY(-50%);
+    color: #2ccf74;
+    font-family: 'amazon_emberregular';
+    top: 50%;
+}
+.burg-cic:last-child:after
+{
+    content: "2";
+
+}
+
+.cicle-burg .second-burg-inner .burg-cic{
+    background-color: #2ccf74;
+}
+
+.cicle-burg .second-burg-inner .burg-cic:last-child {
+    content: "2";
+        background-color: transparent;
+       border: 1px solid #2ccf74;
+       color: #2ccf74;
+}
+
+
+.second-burg-inner .burg-cic:after {
+    content: "\f00c";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%)translateY(-50%);
+            transform: translateX(-50%)translateY(-50%);
+    color: #fff;
+    font-family:'FontAwesome';
+    top: 50%;
+}
+
+
+
+.cicle-burg .burg-cic {
+    position: relative;
+    width: 38px;
+    height: 28px;
+    border: 1px solid #2ccf74;
+    border-radius: 50%;
+}
+.cicle-burg .burg-cic:last-child{
+    border: 1px solid #d6d6d6;  
+    }
+.cicle-burg .burg-cic:last-child:after,.cicle-burg .burg-cic:last-child:before  
+    {
+        color: #d6d6d6;
+    }
+.cicle-burg.active .burg-cic:last-child{
+    border: 1px solid #2ccf74;    }
+.cicle-burg.active .burg-cic:last-child:after,.cicle-burg.active .burg-cic:last-child:before 
+    {
+        color:#2ccf74;
+    }
+.circ-burg-inner
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cicle-burg .burg-line
+{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #d6d6d6; 
+}
+.cicle-burg.active .burg-line
+{
+    background: #2ccf74;
+
+
+}
+.burg-cic:before {
+    content: "Personal Details";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    -ms-transform: translateX(-50%)translateY(-50%);
+    -webkit-transform: translateX(-50%)translateY(-50%);
+    -moz-transform: translateX(-50%)translateY(-50%);
+    -o-transform: translateX(-50%)translateY(-50%);
+    color: #333333;
+    font-family: 'amazon_emberbold';
+    top: 50px;
+   /*  width: max-content; */
+   width: 160px;
+    font-size: 16px;
+}
+.burg-cic:last-child:before {
+    content: "Address Details";
+}
+
+.second-burg-inner .burg-cic:last-child:before{
+    color: #333333;
+}
+
+.second-burg-inner .burg-cic:last-child:after {
+        content: "2";
+        color: #2ccf74;
+}
+
+
+.ntb-mob-btn
+{
+    display: none;
+}
+
+
+.desk-hide
+{
+    display: none;
+}
+.cibil-head-box
+{
+    font-size: 18px;
+    color: #262f3d;
+    font-family: amazon_emberbold;
+    text-align: center;
+}
+
+.cibil-para-box
+{
+    font-size: 13px;
+    color: #262f3d;
+    font-family: amazon_emberregular;
+}
+.cibil-pos-box
+{
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.cibil-text-box
+{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.positive-cont .amazonthank-innercard h5{
+    font-family: 'amazon_emberregular';
+    font-size: 18px;
+    color: #262f3d;
+    padding-top: 0;
+}
+
+.positive-cont .amazonthank-innercard p span{
+     font-family: 'amazon_emberbold';
+
+}
+
+.amazonthank-innercard .rupee-positive p{
+    font-family: 'amazon_emberregular';
+    font-size: 36px;
+    color: #11b258;
+    padding-top: 10px;
+}
+
+.positive-cont .mid-thankbox .top-p{
+    padding-top: 2px;
+}
+
+.positive-page{
+    overflow-y: scroll;
+}
+
+.positive-cont .amazonthank-innercard .congo-p{
+    font-size: 22px;
+}
+
+.highlight-thankbox .first-hightlight{
+     font-family: 'amazon_emberbold';
+     font-size: 14px;
+     color: #262f3d;
+         width: 80%;
+    margin: auto;
+}
+
+.highlight-thankbox .posi-address{
+    font-size: 13px;
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+        width: 80%;
+    margin: auto;
+}
+
+.positive-cont .amazonthank-innercard .last-highlight span{
+    display: block;
+    font-family: 'amazon_emberregular';
+    color: #262f3d;
+    font-size: 13px;
+
+}
+
+.highlight-thankbox hr{
+    border-color: #dadadc;
+    width: 80%;
+    margin: auto;
+}
+.toll-no-div p{
+    font-family: 'amazon_emberregular';
+    font-size: 13px;
+    color: #262f3d;
+}
+
+.toll-no-div h3{
+     font-family: 'amazon_emberbold';
+     font-size: 18px;
+     color: rgba(38, 47, 61, 0.7);
+     padding-top: 5px;
+}
+
+.positive-cont .amazonthank-innercard{
+    padding-top: 20px;
+}
+
+.positive-page .info-strip{
+    margin-top: 0;
+}
+
+
+
+/* 3-01-2019 */
+.drp
+{
+    text-align: left;
+    width: 250px;
+}
+.dropdown-menu.drp-menu
+{
+    width: 100%;
+    top: 50px;
+    border-radius: 0;
+    padding: 0;
+}
+.custom-scroll
+{
+    height: 200px;
+}
+.dropdown-menu.drp-menu li>p,.dropdown-menu.drp-menu li>div
+{
+    padding: 10px 15px 10px;
+    border-bottom: 1px solid #e4e5e6;
+    border-left: 1px solid #e4e5e6;
+    font-size: 14px;
+    color: #333334;
+    font-family: 'amazon_emberregular';
+    margin: 0;
+}
+li.drp-element a,li.drp-element a:hover,li.drp-element a:focus,.sub-drop-box a,.sub-drop-box a:focus,.sub-drop-box a:hover
+{
+    color: #333334; 
+}
+>li.drp-element a
+ {
+    color: #333334;
+
+ }
+ .identity-error-head
+ {
+    font-size: 16px;
+    font-family: 'amazon_emberregular';
+    color: #c40000;
+    margin-top: 0;
+ }
+  .identity-error-para
+ {
+    font-size: 12px;
+    font-family: 'amazon_emberregular';
+    color: #262f3d;
+    
+ }
+ .identity-error
+ {
+  border-width: 1px;
+  border-color: rgb(231, 118, 0);
+  border-style: solid;
+  border-radius: 4px;
+  background-color: rgb(254, 248, 242);
+  width: 250px;
+  padding: 15px;
+  margin-top: 5px;
+  display: none;
+ }
+
+ /* .warningmessage-error{
+        display: block;
+     }    */    
+
+ .return-btn, .return-btn:focus, .return-btn:active
+ {
+  border-width: 1px;
+  border-color: rgb(112, 112, 112);
+  border-style: solid;
+  border-radius: 5px;
+  background-image: -ms-linear-gradient( 90deg, rgb(231,233,236) 0%, rgb(247,248,250) 99%);
+  font-size: 16px;
+  font-family: "amazon_emberregular";
+  color: #111111;
+  padding: 10px 0;
+    width: 100%;
+    outline: none;
+ }
+.ntb-drp.error-show .identity-error
+{
+    display: block;
+      box-shadow: 0px 12px 16.02px 1.98px rgba(51, 51, 51, 0.3);
+}
+.pin-panel-head
+{
+  border-width: 1px;
+  border-color: rgb(186, 186, 186);
+  border-style: solid;
+  background-image: -ms-linear-gradient( -30deg, rgb(246,246,246) 0%, rgb(240,240,240) 31%, rgb(234,234,234) 100%);
+  font-family: amazon_emberbold;
+  font-size: 15px;
+  color: #111111;
+}
+.pin-panel-body
+{
+  height: 257px;  
+}
+.popUpOpenPinError
+{
+    padding: 0px;
+    width: 320px;
+    height: 300px;
+
+}
+
+.pin-top-para
+{
+    color: #262f3d;
+    font-family: amazon_emberregular;
+    font-size: 15px;
+}
+.popUpOpenPinError .return-btn,.popUpOpenPinError .input-btn
+{
+    padding: 6px 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.down-arrow.spin:after
+{
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+    top: 28px;
+}
+.drp
+{
+    position: relative;
+}
+.popUpOpenPinError .commoninput-btnwrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ntb-section .errormsg-div small
+{
+    color:#676c73;
+}
+.ntb-section .common-inputbox.smallinput-box.active .errormsg-div, .ntb-section .common-inputbox.smallinput-box.error .errormsg-div
+{
+    display: block;
+}
+.ntb-section .common-inputbox.smallinput-box.active .errormsg-div small{
+    color:#676c73;
+}
+
+
+.ntb-section .common-inputbox.smallinput-box.error .errormsg-div small{
+    color:#e42202;
+}
+/* 3-01-2019 */
+.error-pin-inner
+{
+    box-shadow: 0px 12px 16.02px 1.98px rgba(51, 51, 51, 0.3);
+}
+
+
+
+/* TempHIDE */
+/* .ntb-section .errormsg-div, .reg-date-div
+{
+    display: block;
+} */
+.smallinput-box.error .input-box input[type="text"], 
+.smallinput-box.error .input-box input[type="number"], 
+.smallinput-box.error .input-box input[type="email"]
+{
+
+    border: 1px solid rgb(196, 0, 0);
+}
+
+.positive-cont
+{
+    background-image: none;
+}
+
+.cibil-img-box
+{
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+}
+.cibil-img-box .card-name
+{
+    position: absolute;
+    left: 25%;
+    font-size: 12px;
+    color: #b2b3b4;
+    font-family: amazon_emberregular;
+    bottom: 26px;
+
+}
+.cibil-head-box a
+{
+margin-top: 0;
+    margin-bottom: 5px;
+    font-family: amazon_emberbold;
+    font-size: 18px;
+    color: #0089ed;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}
+/* 28-12-2018 ENd*/
+
+.ntb-section
+{
+    background-image: url("../images/mob-botton-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+} 
+
+
+.right-content.forms
+{
+    background-image: url(../images/botton-bg.png);
+    background-size: contain;
+    background-position: bottom;
+}
+.ntb-section
+{
+    background-image: none;
+}
+
+.eligibilty-form1-section .head-2.personal-head h3,.eligibilty-form1-section .head-2.personal-head p
+{
+    color:#d6d6d6 ;
+}
+.ntb-section .sec-pg-last {
+    padding-bottom: 25px;
+    justify-content: flex-start;/*20-Mar-2019*/
+    align-items: flex-end;/*20-Mar-2019*/
+}
+.ntb-section .sec-pg-last >div
+{
+    margin-right:35px;
+}
+.custom-tooltip + .tooltip > .tooltip-inner 
+{
+    width: 400px;
+    font-size: 11px;
+    font-family: amazon_emberregular;
+}
+.popUpOpenPinError .cibil-img-box
+{
+    width: auto;
+}
+.toll-no-div a
+{
+    font-family: amazon_emberbold;
+
+}
+.sub-drop-box
+{
+    position: relative;
+}
+
+
+.dropdown-menu.sub-drop
+{
+    display: none;
+}
+.drp-menu 
+{
+    max-height: 230px;
+}
+.sub-drop
+{
+        list-style-type: none;
+}
+.sub-drop
+{
+ padding-left: 10px;
+ list-style-type: none;
+
+}
+.sub-drop li::before {content: "•";
+    color: #ffc17a;
+    margin-left: -5px;
+    margin-right: 10px;}
+.sub-drop li
+{   
+    padding-bottom: 4px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e4e5e6;
+}
+
+/* NTB NEW FLOW END**********/
+
+
+/* 04-01-2019 css carousal start */
+
+        div.carousel-3d-slide {
+            border: none;
+            background: none;
+        }
+
+
+        .web-mob-carousel img {
+            border-radius: 10px;
+            box-shadow: none;
+        }
+
+        .web-mob-carousel .carousel-3d-slide::after {
+            content: '';
+            height: 100%;
+            background: rgba(255, 255, 255, 0.6);
+            position: absolute;
+            top: 0;
+            z-index: 9999;
+            display: block;
+            left: 0;
+            width: 100%;
+        }
+
+        .web-mob-carousel .carousel-3d-slide.current::after {
+            background: rgba(255, 255, 255, 0);
+        }
+
+        .carousel-heading{
+            font-family: 'amazon_emberbold';
+            color: #053c6d;
+            font-size: 30px;
+            padding-top: 5px;
+            text-align: center
+        }
+
+        .heading-steps{
+            font-family: 'amazon_emberbold';
+            color: #053c6d;
+            text-align: center;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .carousal-steps{
+            background-color: #f6f6f6;
+            padding: 30px;
+        }
+
+        .container .steps-input{
+            position: relative;
+            opacity: 1;
+            font-size: 16px;
+            font-family: 'amazon_emberregular';
+            color: #333;
+            text-align: center;
+        }
+
+
+        .container .steps-input::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #bfbfbf;
+             }
+
+        .container .steps-input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #bfbfbf;
+        }
+
+        .container .steps-input:-ms-input-placeholder {
+            /* IE 10+ */
+            color: #bfbfbf;
+        }
+
+        .container .steps-input:-moz-placeholder {
+            /* Firefox 18- */
+            color: #bfbfbf;
+        }
+
+
+        .carousal-steps .mobile-error {
+           font-size: 12px;
+        }
+        .mob-text{
+            font-family: 'amazon_emberregular';
+            color: #262f3d;
+            font-size: 12px;
+            text-align: center;
+        }
+        .carousal-steps .inputwrapper{
+            width: 290px;
+            display: flex;
+            align-items: center;
+                background: #fff;
+        }
+
+        .carousal-steps .commoninput-btnwrap{
+                padding-top: 18px;      
+        }
+
+        .carousal-steps .commoninput-btnwrap.verifycode-div {
+            padding-top: 30px;
+        }
+
+        .clickabove{
+            color: #262f3d;
+            font-size: 12px;
+            text-align: center;
+            font-family: 'amazon_emberregular';
+        }
+        .container .placeh-contrycode{
+            position: relative;
+            opacity: 1;
+            width: 30%;
+            background: #fff;
+            border: none;
+            color: #a8a8a8;
+            font-size: 16px;
+            font-family: 'amazon_emberregular';
+            text-align: right;
+        }
+
+
+        .error-show{
+            border-color: red;
+        }
+
+        .carousel-otp{
+            display: none;
+        }
+
+        .edit-no-carousal p{
+            font-size: 15px;
+            color: #333333;
+            font-family: 'amazon_emberregular';
+            text-align: center;
+            width: 155px;
+            padding: 2px 0;
+            margin: 0 auto;
+            border-radius: 20px;
+            border: 1px solid #c2c2c2;
+            padding: 5px 0;
+        }
+
+        .resendbtn{
+            color: #0066c0;
+            text-align: center;
+            font-size: 16px;
+            padding-top: 12px;
+            font-family: 'amazon_emberregular';
+        }
+
+        .edit-no-carousal{
+            padding-top: 15px
+        }
+
+        .otpinputwrapper .mobile-error{
+            position: relative;
+                margin-top: 5px;
+        }
+
+        .carousal-steps .inputwrapper.otpinputwrapper{
+            display: block;
+            margin-top: 15px;
+            height: 46px;
+        }
+
+        .verifycode{
+            opacity: 0.5;
+            width: 300px;
+        }
+
+        .carousalcontainer .errormsg-div small{
+            display: block;
+        }
+
+        .carousalcontainer .errormsg-div .attempt-error{
+            display: none;
+        }
+
+        .container .otpinputwrapper .steps-input{
+            text-align:  center;
+        }
+
+        .application-status p{
+            font-family: 'amazon_emberregular';
+            color: #111111;
+            font-size: 20px;
+            text-align: center;
+            padding: 0 15%;
+        }
+
+        .application-status{
+            display: none;
+        }
+
+        .failedotpbtn
+        .failedotpbtn:focus,
+        .failedotpbtn:hover
+        {
+            margin-top: 50px;
+            width: auto;
+            padding: 8px 25px;
+
+        }
+        .cibil-neg-btn,
+        .cibil-neg-btn:focus,
+        .cibil-neg-btn:hover
+        {
+            width: 300px;
+            padding: 8px 25px;
+        }
+        .cibil-logo.sorry-logo {
+            background: url(../images/carousal/24-sorry.png) no-repeat;
+            background-size: 100%;
+            height: 135px;
+        }
+
+        .web-mob-carousel{
+            font-family: 'amazon_emberregular';        
+        }
+
+        .edit-nu{
+            position: relative;
+            top: -4px;
+        }
+
+        .container .carousel-otp .steps-input {
+            text-align: center;
+            color: #033334;
+            letter-spacing: 12px;
+        }
+
+        .container .carousel-otp .steps-input::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            letter-spacing: 0;
+             }
+
+        .container .carousel-otp .steps-input::-moz-placeholder {
+            /* Firefox 19+ */
+            letter-spacing: 0;
+        }
+
+        .container .carousel-otp .steps-input:-ms-input-placeholder {
+            /* IE 10+ */
+            letter-spacing: 0;
+        }
+
+        .container .carousel-otp .steps-input:-moz-placeholder {
+            /* Firefox 18- */
+            letter-spacing: 0;
+        }
+
+
+
+        .ntb-section
+        {
+            width: 100%;
+        }
+        a.terms-anch-new:hover, a.terms-anch-new:focus
+        {
+            color: #337ab7;
+        }
+        .sorry-sect .return-btn.cibil-neg-btn
+        {
+            margin-top: 30px;
+        }
+
+
+        .positive-process .amazonthank-innercard p.congo-p
+        {
+            padding-top: 0;
+        }
+        .positive-process.positive-cont .amazonthank-innercard .congo-p
+        {
+            padding-top: 0px;
+        }
+        .application-status .cibil-logo.sorry-logo
+        {
+            display: block;
+            margin: 0 auto;
+            height: 100px;
+            width: 80px;
+            background-size: contain;
+        }
+        a.test:after
+        {       
+            position: absolute;
+            content: "";
+            top: 18px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border: 6px solid transparent;
+            /* margin-left: 10px; */
+            border: solid #666666;
+            border-width: 0 1px 1px 0;
+            padding: 4px;
+            transform: rotate(225deg);
+            -webkit-transform: rotate(225deg); 
+        }
+
+        /* a.test.arrow-down:after{
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg) 
+        }
+         */
+
+        a.test.collapsed:after
+        {
+            position: absolute;
+            content: "";
+            top: 18px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border: 6px solid transparent;
+            /* margin-left: 10px; */
+            border: solid #666666;
+            border-width: 0 1px 1px 0;
+            padding: 4px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg); 
+        }
+        .sub-drop li.drp-element a,
+        .sub-drop li.drp-element a,:hover
+        .sub-drop li.drp-element a:focus
+        {
+            color: #808080;
+        }
+        .dropdown-menu.drp-menu li>div.sub-drop-box
+        {
+            padding-bottom: 0;
+        }
+         .sub-drop li:last-child
+         {
+                border: none;
+         }
+
+        /* 07-01-2018 css starts */
+
+        .getotpbtn{
+            width: 300px;
+        }
+
+        .burg-cic.clickble-circle{
+            cursor: pointer;
+        }
+
+        .form-radio-box.deskchk-box {
+            margin-bottom: 0px;
+        }
+
+        .deskchk-box .custom-radio-li{
+                margin-bottom: 0;
+        }
+
+        .contact-para.chkdesk-text{
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+         /* 04-01-2019 css carousal ends */   
+
+
+        /* 08-01-2018 css start */
+
+        .container-tma h2{
+            font-family: 'amazon_emberbold';
+            color: #053c6d;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .textcrd{
+            font-family: 'amazon_emberbold';
+            font-size: 16px;
+            color: #333334;
+            margin: 0;
+        }
+
+        .appno{
+            font-family: 'amazon_emberregular';
+            font-size: 15px;
+            color: #333334;
+                margin: 0;
+        }
+
+        .cardapplication-number{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #b7c2c4;
+            width: 450px;
+            margin: auto;
+            padding-top: 22px;
+        }
+
+        .cardapp-img{
+            padding-right: 10px;
+        }
+
+        .bottom-text-appl h4{
+            font-family: 'amazon_emberregular';
+            font-size: 13px;
+            color: #262f3d;
+            text-align: center;
+                padding-top: 15px;
+        }
+
+        .bottom-text-appl .tel-no{
+            font-family: 'amazon_emberbold';
+            color: rgba(38, 47, 61, 0.7);
+            font-size: 18px;
+                margin-top: 0;
+        }
+
+        .footer-tma{
+            padding-top: 30px;
+        }
+
+        .light-text-track{
+            font-size: 14px;
+            color: #111111;
+            font-family: 'amazon_emberregular';
+
+        }
+
+        .bold-text-track{
+            font-family: 'amazon_emberbold';
+            color: #111111;
+            font-size: 14px;
+            margin: 0; 
+        }
+
+
+        .alert-box-track{
+            background-color: #f6f6f6;
+            text-align: center;
+            padding: 12px;
+            border: 1px solid #bbd3df;
+            border-radius: 5px;
+            width: 60%;
+            margin: 50px auto 0;
+            
+        }
+
+        .track-section{
+            padding-top: 30px;
+                padding-bottom: 30px;
+
+        }
+
+
+        /* progress bar */
+
+        .flexer,
+        .progress-indicator {
+            display: flex
+        }
+
+        .no-flexer,
+        .progress-indicator.stacked {
+            display: block
+        }
+
+        .no-flexer-element {
+            -moz-flex: 0;
+            flex: 0
+        }
+
+        .flexer-element,
+        .progress-indicator>li {
+            -moz-flex: 1;
+            flex: 1
+        }
+
+        .progress-indicator {
+            margin: 0 0 1em;
+            padding: 0;
+            font-size: 80%;
+        }
+
+        .progress-indicator>li {
+            list-style: none;
+            text-align: center;
+            width: auto;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            text-overflow: ellipsis;
+            color: #bbb;
+            display: block;
+            font-family: 'amazon_emberbold';
+            font-size: 16px;
+        }
+
+        .progress-indicator>li:hover {
+            color: #6f6f6f
+        }
+
+        .progress-indicator>li .date{
+            color: #333333;
+            font-size: 13px;
+            font-family: 'amazon_emberregular';
+            display: block;
+        }
+
+        .progress-indicator>li.completed,
+        .progress-indicator>li.completed .bubble {
+            color: #053c6d
+        }
+
+        .progress-indicator>li .bubble {
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            display: block;
+            margin: 0 auto .5em;
+            border: 1px solid #888;
+        }
+
+        .progress-indicator>li .bubble:after,
+        .progress-indicator>li .bubble:before {
+            display: block;
+            position: absolute;
+            top: 15px;
+            width: 100%;
+            height: 3px;
+            content: '';
+            background-color: transparent;
+            border-bottom: 2px dashed #dadada;
+            z-index: -2;
+        }
+
+
+        /* .progress-indicator>li.completed .bubble:last-child:after{
+            width: 50%; 
+        }
+         */
+
+         .progress-indicator>li.completed:nth-last-child(2) .bubble:after
+        {
+            border-bottom: 2px dashed #dadada;
+            width: 50%;
+        }
+
+         .progress-indicator>li.completed:nth-last-child(2) .bubble:before
+        {
+            border-bottom: 2px dashed #2ccf74;
+            width: 50%;
+        }
+
+
+        .progress-indicator>li.completed .bubble:after,
+        .progress-indicator>li.completed .bubble:before {
+            background-color: transparent;
+                border-color: #65d074;
+        }
+
+
+        /* .progress-indicator>li.completed .bubble:last-child:before{
+            border-color: yellow;
+        } */
+
+
+
+
+
+.progress-indicator>li .bubble:before {
+    left: 0
+}
+
+.progress-indicator>li .bubble:after {
+    right: 0
+}
+
+.progress-indicator>li:first-child .bubble:after,
+.progress-indicator>li:first-child .bubble:before {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.progress-indicator>li:last-child .bubble:after,
+.progress-indicator>li:last-child .bubble:before {
+    width: 50%;
+    margin-right: 50%;
+        z-index: -1;
+}
+
+.progress-indicator>li.active,
+.progress-indicator>li.active .bubble {
+        color: #d03333;
+}
+
+.progress-indicator>li.completed .bubble{
+    background-color: #65d074;
+    border-color: #2ccf74;
+    background-image: url('../images/tma/checkbox.png');
+    background-position: 100% 100%;
+}
+
+.progress-indicator>li.active .bubble{
+    background-color: #d03333;
+    background-image: url('../images/tma/Cross.png');
+    background-position: 100% 100%;
+    border-color: #d03333;
+}
+
+
+
+
+.progress-indicator>li.active:nth-child(2) .bubble:before{
+    border-color: #2ccf74;
+    width: 50%;
+    z-index: -1;
+}
+
+.progress-indicator>li.active:nth-child(2) .bubble:after{
+    width: 50%; 
+}
+
+
+
+.progress-indicator>li.active .bubble:after,
+.progress-indicator>li.active .bubble:before {
+    background-color: transparent;
+    border-color: #d03333
+}
+
+.progress-indicator>li a:hover .bubble,
+.progress-indicator>li a:hover .bubble:after,
+.progress-indicator>li a:hover .bubble:before {
+    background-color: #5671d0;
+    border-color: #1f306e
+}
+
+.progress-indicator>li a:hover .bubble {
+    color: #5671d0
+}
+
+.progress-indicator>li.danger .bubble,
+.progress-indicator>li.danger .bubble:after,
+.progress-indicator>li.danger .bubble:before {
+    background-color: #d3140f;
+    border-color: #440605
+}
+
+.progress-indicator>li.danger .bubble {
+    color: #d3140f
+}
+
+.progress-indicator>li.warning .bubble,
+.progress-indicator>li.warning .bubble:after,
+.progress-indicator>li.warning .bubble:before {
+    background-color: #edb10a;
+    border-color: #5a4304
+}
+
+.progress-indicator>li.warning .bubble {
+    color: #edb10a
+}
+
+.progress-indicator>li.info .bubble,
+.progress-indicator>li.info .bubble:after,
+.progress-indicator>li.info .bubble:before {
+    background-color: #5b32d6;
+    border-color: #25135d
+}
+
+.progress-indicator>li.info .bubble {
+    color: #5b32d6
+}
+
+.progress-indicator.stacked>li {
+    text-indent: -10px;
+    text-align: center;
+    display: block
+}
+
+.progress-indicator.stacked>li .bubble:after,
+.progress-indicator.stacked>li .bubble:before {
+    left: 50%;
+    margin-left: -1.5px;
+    width: 3px;
+    height: 100%
+}
+
+.progress-indicator.stacked .stacked-text {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    margin-left: 60% !important;
+    width: 45% !important;
+    display: inline-block;
+    text-align: left;
+    line-height: 1.2em
+}
+
+.progress-indicator.stacked>li a {
+    border: none
+}
+
+.progress-indicator.stacked.nocenter>li .bubble {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.progress-indicator.stacked.nocenter>li .bubble:after,
+.progress-indicator.stacked.nocenter>li .bubble:before {
+    left: 10px
+}
+
+.progress-indicator.stacked.nocenter .stacked-text {
+    width: auto !important;
+    display: block;
+    margin-left: 40px !important
+}
+.progress-indicator li .txtprocess{
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    font-size: 14px;
+}
+
+/*progress bar ends*/
+
+.store-txt{
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text-anchor-store{
+    color: #3372b6;
+    font-size: 14px;
+    font-family: 'amazon_emberregular';
+}
+
+.padding-txt-store{
+    padding-top: 10px;
+}
+
+.bottontxt-store{
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+        padding: 0 15%;
+}
+
+.setting-txt{
+    font-family: 'amazon_emberbold';
+    color: #262f3d;
+        font-size: 14px;
+}
+
+.mCustomScrollBox.mCSB_horizontal { touch-action: pan-y pinch-zoom; }
+
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+    touch-action: auto;
+}
+.mCustomScrollBox {
+    touch-action: pan-x pinch-zoom;
+}
+.mCustomScrollBox.mCSB_vertical_horizontal {
+    touch-action: pinch-zoom;
+}
+.mCustomScrollBox.mCSB_horizontal {
+    touch-action: pan-y pinch-zoom;
+}
+
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+    touch-action: auto;
+}
+
+.mCustomScrollBox {
+    touch-action: pan-x;
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal {
+    touch-action: auto;
+}
+
+.mCustomScrollBox.mCSB_horizontal {
+    touch-action: pan-y;
+}
+
+/* 08-01-2018 css ends */
+
+
+/* 17-01-2019 css start  */
+
+.preapproved-section{
+    width: 100%;
+}
+
+.enter-details{
+    font-family: "amazon_emberbold";
+    font-size: 15px;
+    color: #262f3d;
+    margin-bottom: 20px;
+}
+
+.preapproved-section .eligibilty-form1-section{
+    padding-top: 40px;
+}
+
+.preapproved-section .sec-pg-top .gender-div{
+    margin-top: 0;
+}
+
+.preapproved-section .sec-pg-top .common-inputbox.smallinput-box:nth-child(3n+0){
+    margin-right: 0;
+}
+
+.preapproved-section .checked-hide-address{
+    padding-top: 32px;
+}
+
+.preapproved-section .commoneligi-formbox{
+    justify-content: flex-start;
+}
+
+.preapproved-section .common-inputbox.smallinput-box{
+    margin-right: 4%;
+}
+
+.preapproved-section .common-inputbox.smallinput-box:nth-child(3n+0){
+    margin-right: 0;
+}
+
+.preapproved-section .commoneligi-btn{
+        margin-top: 30px;
+} 
+
+.preapproved-section .comp-full {
+    margin-top: 30px;
+}
+
+.preapproved-section .sec-pg-last {
+    padding-top: 30px;
+}
+
+.preapproved-section .sec-pa-mid{
+    padding-top: 12px;
+}
+
+.preapproved-section .heading-scenario{
+    font-size: 15px;
+    font-family: 'amazon_emberregular';
+}
+
+.popUpOpenBoard.popUpOpenBoardtermscondition.disclosurepopup{
+    width: 360px;
+    height: auto;
+    padding: 0;
+}
+
+.popUpOpenBoard.popUpOpenBoardtermscondition.disclosurepopup.disclosurePapopup{
+    width: 360px;
+    height: auto;
+    padding: 0;
+}
+
+.disclosurepopup .terms-content h3{
+    background-color: #eaeaea;
+    padding: 20px 20px 10px;
+    border-radius: 5px 5px 0 0px;
+    border-bottom: 1px solid #bababa;
+}
+.disclosurepopup .terms-data p{
+    font-size: 15px;
+    color: #262f3d;
+
+}
+
+.disclosurepopup .terms-data {
+    padding: 0 20px;
+}
+
+.disclosurepopup .termsok {
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.disclosurepopup .commoneligi-btn .fill-btn.ntb-submit-btn{
+    width: 70%;
+}
+
+.congrats-text.credit-limit-text{
+    font-size: 14px;
+    font-family: 'amazon_emberregular';
+    color: #262f3d;
+    padding-top: 5px;
+}
+
+
+.pa-congrats .details-sent h4{
+    font-size: 13px;
+    color: #262f3d;
+    margin-top: 15px;
+    padding: 12px 25px;
+    width: 555px;
+}
+
+.pa-congrats .howtoaddText h5{
+    font-family: 'amazon_emberregular';
+}
+
+.preapproved-section  .term-anchor:hover {
+    color: #111111;
+}
+
+.popUpOpenBoard.popUpOpenBoardtermscondition1.startrnewpopup{
+    width: 360px;
+    height: auto;
+}
+
+.startrnewpopup .termsok {
+    padding-top: 0;
+}
+
+/* 17-01-2019 css ends  */
+
+/* 18-01-2019 css starts */
+
+.upgrade-section{
+    width: 100%;
+}
+
+.upgrade-section .eligibilty-form1-section{
+    padding-top: 40px;
+}
+
+.upgrade-section .commoneligi-formbox.sec-pg-top{
+    padding-bottom: 47px;
+}
+
+.upgrade-section .sec-pg-mid .curr-add.has-content {
+    padding-top: 15px;
+    height: 58px;
+}
+
+.chngemailadd{
+    color: #0089ed;
+    font-family: 'amazon_emberregular';
+    font-size: 14px;
+}
+
+.upgrade-section .sec-pg-last{
+    padding-top: 25px;
+}
+
+.upgrade-section .eligibilty-form1-section .commoneligi-btn {
+    padding-top: 40px;
+}
+
+.upgrade-section .sec-pg-top .common-inputbox.smallinput-box{
+    width: 33.33%;
+}
+
+.upgrade-section .sec-pg-top .common-inputbox.smallinput-box {
+    margin-left: 25px;
+}
+
+.upgrade-section .sec-pg-top .common-inputbox.smallinput-box:nth-child(1){
+    margin-left: 0;
+}
+
+.creditupgrade-container .card-input-boxes.upgradecard-box{
+    display: block;
+}
+
+.creditupgrade-container .card-input-boxes h4{
+    font-family: 'amazon_emberbold';
+    font-size: 16px;
+    color: #262f3d;
+    padding-top: 58px;
+}
+
+.card-upgradelist{
+    width: 670px;
+    margin: auto;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.card-upgradelist li{
+    color: rgba(38, 47, 61, 0.8);
+    font-size: 13px;
+    font-family: 'amazon_emberregular';
+}
+
+.creditupgrade-container .card-number-box{
+    text-align: center;
+    width: 390px;
+    margin: auto;
+    /* border: 1px solid #aeb1b6; */
+    border-radius: 5px;
+}
+
+.creditupgrade-container .card-number-box .Box{
+    width: 90px;
+    border: 1px solid #aeb1b6;
+}
+
+.popUpOpenBoard.popUpOpenBoardtermscondition1.startrnewpopup{
+    padding: 15px 20px 15px;
+}
+
+.text-new-app .commoneligi-btn .fill-btn{
+    width: 100%;
+}
+.commoneligi-btn .fill-btn-neg 
+{
+    color: #111111;
+    text-decoration: none;
+    vertical-align: top;
+    font-family: 'amazon_emberregular';
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(112, 112, 112);
+    display: inline-block;
+  background-image: -webkit-linear-gradient(left, rgb(231,233,236) 0%, rgb(247,248,250) 99%);
+  background-image: -o-linear-gradient(left, rgb(231,233,236) 0%, rgb(247,248,250) 99%);
+  background-image: linear-gradient(to right, rgb(231,233,236) 0%, rgb(247,248,250) 99%);
+
+}  
+.terms-content .commoneligi-btn input.fill-btn,
+.terms-content .commoneligi-btn input.fill-btn:focus,
+.terms-content .commoneligi-btn input.fill-btn:hover,
+.terms-content .commoneligi-btn input.fill-btn:active,
+.terms-content .commoneligi-btn input.fill-btn-neg,
+.terms-content .commoneligi-btn input.fill-btn-neg:focus,
+.terms-content .commoneligi-btn input.fill-btn-neg:hover,
+.terms-content .commoneligi-btn input.fill-btn-neg:active
+{
+    display: block;
+    margin: 0 auto;
+    width: 297px;
+    margin-top: 10px;
+} 
+.terms-content .terms-data ol
+{
+    padding-left:20px;
+    margin-bottom: 18px;
+}
+.terms-content .terms-data ol .pop-li
+{
+    font-family: amazon_emberbold;
+    font-size: 15px
+
+}
+.terms-content .terms-data ol .reg-li-txt
+{
+    font-family: amazon_emberregular;
+}
+.rupee-sign
+{
+    font-family: 'rupee_foradianregular';
+        font-style: initial;
+}
+/* 18-01-2019 css ends */
+
+/*21-01-2019*/
+.white-box
+{
+    padding: 15px 0;
+    background: #fff;
+    margin: 0 20px;
+}
+.thin-head
+{
+    font-family: 'amazon_emberbold';
+    font-size: 13px;
+    color: #262f3d;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.highlight-thankbox p.thin-para
+{
+    font-size: 13px;
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+    padding:0;
+}
+.thin-li
+{
+    margin-bottom:20px;
+}
+.highlight-thankbox p.docs-para
+{
+    font-family: 'amazon_emberbold';
+    font-size: 16px;
+    color: #ea8026;
+    padding: 5px 0 20px;
+}
+
+/* css changed 11-02-2019  */
+
+.commoncheckbox-list p{
+    font-weight: 100;
+    font-size: 12px;
+    color: #262f3d;
+    font-family: 'amazon_emberregular';
+}
+
+.commoncheckbox-list p .terms-anch-new{
+    cursor: pointer;
+}
+
+.commoncheckbox-list label.address-confirm-txt.clickabove{
+    padding-left: 25px;
+    width: auto;
+}
+
+.form-radio-box.radio-boxwithshadow{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E77502;
+    box-shadow: 0px 0px 4px #E77502;
+    background: transparent;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 530px;
+    margin-bottom: 20px;
+}
+
+.custom-radio-li label{
+    cursor: pointer;
+}
+
+.identity-error.warningmessage-error{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.warningmessage-error .identity-error-para{
+    color: red;
+}
+
+.warningmessage-error{
+    display: none;
+}
+
+.cibil-review .thin-li
+{
+    margin-bottom:0px;
+}
+.docs-hand-para
+{
+    margin-top:20px;
+}
+/*.ntb-section ..commoneligi-formbox
+{
+    padding-bottom: 15px;
+}*/
+/*MEDIA*/
+@media(min-width:1200px) and (max-width:992px) {
+
+    .info-strip
+    {
+        padding: 10px 6%;
+    }
+}
+
+/*===========End of the media 1200 and 992=============*/
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+    /* Preapproved */
+    .add.comp-full .smallinput-box input[type="text"] {
+        width: 100%;
+    }
+
+    .commoncheckbox-list {
+        margin: 0px 10px;
+    }
+
+    .commoncheckbox-list label {
+        padding-left: 20px;
+    }
+
+    .eligibilty-form1-section {
+        padding-left: 0px
+    }
+
+    .eligiform1-innerwrapper {
+        width: 100%;
+    }
+
+    .smallinput-box {
+        margin: 0px;
+        margin-left: 5px;
+    }
+
+    .sec-pg-mid .common-inputbox.smallinput-box:first-child {
+        margin-left: 0;
+    }
+
+    .check-visible-box .common-inputbox.smallinput-box:first-child {
+        margin-left: 0;
+    }
+
+    .ntb-drp-box .common-inputbox.smallinput-box:first-child {
+        margin-left: 0;
+    }
+
+    .ntb-section .input-box input[type="text"] {
+        width: 240px;
+    }
+
+    .ntb-section .input-box .drp {
+        width: 240px;
+    }
+
+
+    .info-strip {
+        padding: 10px 10%;
+    }
+
+    .burg-cic:before{
+        top: 45px;
+    }
+
+    .sec-pg-top .common-inputbox.smallinput-box {
+        margin-left: 5px;
+    }
+
+    .smallinput-box input[type="text"] {
+        width: 100%;
+    }
+
+    .smallinput-box input[type="number"] {
+        width: 190px;
+    }
+
+    /*.gender-div{width: 200px;}*/
+    .commoneligi-formbox {
+        justify-content: flex-start;
+    }
+
+    /*14-08-2018*/
+    .eligiform2-innerwrapper {
+        width: 100%;
+    }
+
+    .smallinput-box select {
+        width: 190px;
+    }
+
+    .info-logo {
+        position: relative;
+        left: -7px;
+    }
+
+    /*16 A Mo Start*/
+    .mo-box {
+        margin-top: 15px;
+    }
+
+    .comp-full {
+        margin-top: 15px;
+    }
+
+    .gender-div .address-confirm-txt {
+        font-size: 13px;
+    }
+
+    .am-btn.ok-btn {
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(173, 177, 184);
+        border-radius: 5px;
+        background-image: -ms-linear-gradient(90deg, rgb(231, 233, 236) 0%, rgb(247, 248, 250) 100%);
+    }
+
+    /*16 A Mo End*/
+
+
+    /* MOHSIN 14-09-2018 */
+    .loader-box {
+        margin-top: 25%;
+    }
+
+    /* 22-11-2018 START*/
+    .gen-d {
+        width: 392px;
+
+    }
+
+    .offer-banner {
+        width: 100%;
+    }
+
+    .left-offer {
+        width: 30%;
+    }
+
+    .sec-pg-top .gender-div {
+        width: 45%;
+    }
+
+    .cicle-burg.mob-circ
+    {
+        display: block;
+    }
+    
+
+
+    /* 22-11-2018 END*/
+.cibil-box h3
+{
+    margin: 20px 170px 0;
+}
+.positive-process .highlight-thankbox
+{
+    margin-top: 15px;
+}
+
+
+/* 17-01-2019 css start */
+
+.preapproved-section .sec-pg-top .gender-div {
+    width: 100%;
+}
+
+
+}
+
+/*===========End of the media 768 and 991=============*/
+
+
+/*===========Start of the media 768 and 991=============*/
+@media only screen and (max-width:768px) {
+    .amazonform-innerwrapper {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    /* 13-11-2018 STart */
+    .upgrade-section .sec-pg-newD .common-inputbox:last-child {
+        width: 100%;
+    }
+
+    /* 13-11-2018 End */
+
+
+    .upgrade-section .sec-pg-last {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .exist-div-ul li {
+        font-size: 13px;
+    }
+
+    .exist-div-ul ul {
+        margin-top: 15px;
+    }
+
+    .upgrade-section .sec-pg-mid .curr-add.has-content {
+        height: 105px;
+    }
+
+    body {
+        background-image: none;
+        height: auto;
+
+    }
+
+    .bottom-footer-img {
+        display: none;
+        background-image: none;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 195px;
+        position: relative;
+        background-position: 0px 0px;
+        bottom: 0;
+        z-index: -2;
+        top: 140px;
+    }
+
+    .add-absolute-footer {
+        position: absolute;
+        margin-top: 0px;
+        top: auto;
+    }
+
+    .card-heading {
+        font-size: 22px;
+        padding: 0 27px;
+    }
+
+    .amezon-header {
+        color: #f1ae73;
+        padding: 10px 5%;
+    }
+
+    .card-heading span {
+        display: block;
+    }
+
+    .card-text {
+        font-size: 14px;
+        padding: 0 16px;
+    }
+
+    .inputwrapper {
+        height: 43px;
+        width: 275px;
+    }
+
+    .inputfield {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .input-btn {
+        font-size: 14px;
+    }
+
+    .mob-no-text {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .amezonlogo img {
+        width: 90px;
+    }
+
+    .icici-logo img {
+        width: 120px;
+    }
+
+    .mobotp-mainwrapper {
+        padding-top: 20px;
+    }
+
+    .container-content {
+        padding-top: 0px;
+    }
+
+    /*==============Start of the otp input wrapper==============*/
+    .otpinput-mainwrap {
+        width: 100%;
+        margin: 0 auto;
+        /*padding-top: 35px;*/
+        text-align: center;
+    }
+
+    .inputwrapper {
+        height: auto;
+        width: 267px;
+        margin: 0 auto;
+    }
+
+    .otpinput-mainwrap p {
+        font-size: 14px;
+        padding: 0 7px;
+    }
+
+    .otp-inputwrapper .inputfield {
+        height: 40px;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    .commoncheckbox-list {
+        margin: 0px;
+    }
+
+    .commoncheckbox-list label {
+        padding-left: 2px;
+        width: 290px;
+    }
+
+    /*==============End of the otp input wrapper==============*/
+
+    /*================Start of the amazon form wrapper==============*/
+    .amazonform-innerwrapper {
+        width: 78%;
+    }
+
+    .commonhead-formpanel .card-heading {
+        padding: 0 15px;
+    }
+
+    .commonhead-formpanel .card-text {
+        font-size: 14px;
+    }
+
+    .commonhead-formpanel {
+        padding-bottom: 10px;
+    }
+
+    .eligibilty-form1-section {
+        padding-left: 0px;
+    }
+
+    .eligiform1-innerwrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .commoneligi-formbox {
+        display: block;
+        padding-bottom: 5px
+    }
+
+    .common-inputbox {
+        padding: 15px 0px 0px;
+    }
+
+    /*================End of the amazon form wrapper==============*/
+
+    /*================Start iof the amazon thank you card============*/
+    .amazonthank-innercard p {
+        font-size: 18px;
+    }
+
+    .amazonthank-innercard h5 {
+        padding: 15px 0px 0px;
+        font-size: 18px;
+    }
+
+    .highlight-thankbox {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .highlight-thankbox p {
+        padding: 10px 30px 0;
+        font-size: 14px;
+    }
+
+    /*================Emd iof the amazon thank you card============*/
+
+    /*==============Start of the regert card===============*/
+    .amazonregret-innercard h5 {
+        font-size: 18px;
+    }
+
+    /*==============End of the regert card===============*/
+
+    .eligibilty-form2-section {
+        padding: 0px 0%;
+    }
+
+    .eligibilty-form2-section .gender-div {
+        margin-top: 14px;
+    }
+
+    .eligibilty-thank-section {
+        padding: 25px 11%;
+    }
+
+    .eligiform2-innerwrapper {
+        width: 100%;
+    }
+
+    .amazonthank-innercard {
+        text-align: center;
+        padding: 0 0;
+    }
+
+    .tf-logo {
+        display: block;
+    }
+    .amazonthank-innercard h3 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+
+    }
+
+    .mobile-label {
+        display: block;
+    }
+
+    .commoncheckbox-list label.mob-chk {
+        padding-left: 18px;
+    }
+
+    .container-content {
+        padding: 0 20px;
+    }
+
+    .view-anch {
+        margin-top: 10px;
+    }
+
+    .cibil-box h3 {
+        font-size: 18px;
+        font-family: "amazon_emberregular";
+        margin-top: 40px;
+        margin-bottom: 0px;
+
+    }
+
+    .hidd-add-box .commoneligi-formbox {
+        padding-bottom: 0;
+    }
+
+    .am-bold {
+        font-weight: 600;
+    }
+
+    .cibil-box p {
+        font-size: 14px;
+        font-family: "amazon_emberregular";
+        color: rgb(38, 47, 61);
+        margin-bottom: 40px;
+        margin: 10px auto 0px;
+        padding: 10px;
+
+    }
+
+    .cibil-box a {
+        font-size: 16px;
+        font-family: "amazon_emberbold";
+        color: rgb(242, 242, 242);
+        border-radius: 10px;
+        background-color: #f89822;
+        padding: 11px 20px;
+    }
+
+    /*CIBIL PAGE END*/
+    .amazon-form-wrapper {
+        margin-top: 0px;            /* 11-02-2019 css changed*/
+        padding-bottom: 50%;
+    }
+
+    .mob-label {
+        display: none;
+    }
+
+    .effect-animate~label {
+        font-size: 14px;
+    }
+
+    .input-box input[type="text"],
+    .input-box input[type="number"],
+    .gender-div,
+    .smallinput-box input[type="text"],
+    .smallinput-box select {
+        width: 100%;
+    }
+
+    .mid-thankbox .last-p {
+        font-size: 13px;
+        color: #262f3db5;
+    }
+
+    .mid-thankbox .top-p {
+        font-size: 16px
+    }
+
+    hr {
+        display: none;
+    }
+
+    .mid-thankbox .contact-p {
+        padding-top: 0;
+    }
+
+    .mid-thankbox .tf-logo {
+        position: relative;
+        top: 40px;
+        z-index: 1;
+        left: 45%;
+    }
+
+    .mid-thankbox .contact-p {
+        font-size: 14px;
+    }
+
+    /*13-08-2018*/
+
+    .amazon-tankyou-card .commoncheckbox-list [type="checkbox"]:not(:checked)+label:before,
+    .amazon-tankyou-card .commoncheckbox-list [type="checkbox"]:checked+label:before {
+        left: -15px;
+    }
+
+    .amazon-tankyou-card .commoncheckbox-list [type="checkbox"]:not(:checked)+label:after,
+    .amazon-tankyou-card .commoncheckbox-list [type="checkbox"]:checked+label:after {
+        left: -10px;
+    }
+
+    .amazon-tankyou-card .commoneligi-btn {
+        padding-bottom: 0px;
+    }
+
+    .doc-check-div .mid-p {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .doc-check-div .lastp-p {
+        font-size: 13px;
+    }
+
+    .hidd-add-box {
+        padding: 0 0%;
+    }
+
+
+    /*13-08-2018 ends*/
+
+    .hide-br br {
+        display: block;
+    }
+
+    /*14-08-2018 ends*/
+    .dropdown-option {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    .down-arrow::after {
+        position: absolute;
+        content: "";
+        top: 18px;
+        right: 15px;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        margin-left: 10px;
+        border: solid #666666;
+        border-width: 0 1px 1px 0;
+        padding: 4px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        
+    }
+
+    .eligibilty-form1-section {
+        padding-top: 0;
+    }
+
+    .gender-div .labetext {
+        padding-left: 5px;
+    }
+
+    .comp-name {
+        padding-top: 10px;
+    }
+
+    .custom-cont .commoneligi-btn .fill-btn {
+        font-size: 14px;
+    }
+
+    /*14-A Mo Start*/
+    .popUpOpenBoard1 {
+        width: 95%;
+    }
+
+    .smallinput-box textarea {
+        overflow-y: scroll;
+    }
+
+    .curr-p {
+        font-size: 12px;
+        margin-bottom: 2px;
+        margin-left: 3px;
+    }
+
+    .comp-full {
+        margin-top: 0;
+    }
+
+    .mo-box {
+        margin-top: 0;
+    }
+
+
+    /*14-A Mo End*/
+
+    /* 16-08-2018 */
+    .amazonthank-innercard .show-cvv {
+        margin-top: 0;
+    }
+
+    .details-sent h4 {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .anytimelogin-text p {
+        font-size: 14px;
+    }
+
+    .howtoaddText h5 {
+        font-size: 14px;
+    }
+
+    .custom-amazonpay h3 {
+        font-size: 16px;
+    }
+
+    .popUpOpenBoard.popUpOpenBoard3 {
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+    .add-cardSteps {
+        flex-direction: column;
+    }
+
+    .steps {
+        width: 100%;
+    }
+
+    .step-head {
+        align-items: center;
+    }
+
+    .step-img {
+        text-align: left;
+        padding: 5px 45px;
+    }
+
+    .top-add-company {
+        flex-direction: column;
+    }
+
+    .top-add-company .form-box {
+        width: 100%;
+    }
+
+    .add-company-inner2 {
+        margin-top: 20px;
+    }
+
+    .sec-pg-last {
+        padding-top: 0;
+    }
+
+    .details-sent a {
+        display: inline-block;
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .commoncheckbox-list.address-checkbox [type="checkbox"]:not(:checked)+label,
+    .commoncheckbox-list.address-checkbox [type="checkbox"]:checked+label {
+        width: auto;
+    }
+
+    .amazon-loader .last-p,
+    .amazon-loader .top-p {
+        font-size: 18px;
+    }
+
+    .am-btn,
+    .cibil-box a {
+        padding: 8px 10px;
+    }
+
+    .amazonthank-innercard .hide-cvv {
+        margin-top: 0;
+    }
+
+    /* end of 16-08-2018*/
+    /*18-A-MO-START*/
+    .comp-full,
+    .comp-full input[type="text"] {
+        width: 100%;
+    }
+
+    .checkpad {
+        margin-left: 20px;
+    }
+
+    .amazon-congrats {
+        padding: 0 10px;
+    }
+
+    .accept-p {
+        margin-left: 20px;
+    }
+
+    .commoncheckbox-list {
+        justify-content: start;
+        text-align: left;
+    }
+
+    .mobile-number-section .address-confirm-txt {
+        margin-left: 10px;
+    }
+
+    .card-input-boxes h4 {
+        font-size: 14px;
+    }
+
+    /*18-A-MO-End*/
+
+    /*19-A-MO-Start*/
+
+    .sec-pg-top .common-inputbox.smallinput-box {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .amazon-tankyou-card {
+        padding: 0 10px;
+    }
+
+    .amazon-tankyou-card {
+        margin-top: 20px;
+    }
+
+    .tf-logo {
+        left: 45%;
+    }
+
+    .popUpOpenBoard.thank-popUpOpenBoard {
+        width: 95%;
+    }
+
+    .commoneligi-btn .fill-btn {
+        font-size: 16px;
+    }
+
+    /*19-A-MO-End*/
+
+    /*20-A-MO-Start*/
+
+    .am-btn,
+    .cibil-box a,
+    .custom-cont .commoneligi-btn .fill-btn {
+        font-size: 12px;
+    }
+
+    /*21-A-MO-Start*/
+    .ntb-section .sec-pg-mid .input-box input[type="text"] {
+        width: 100%;
+    }
+
+
+    .ntb-section .eligiform2-innerwrapper .top1-add .med-add {
+        width: 100%;
+    }
+
+    .ntb-section .eligibilty-form2-section .commoneligi-formbox {
+        padding-bottom: 0;
+    }
+
+    .ntb-section .commoncheckbox-list label,
+    .ntb-section .commoncheckbox-list label {
+        padding-left: 25px;
+    }
+
+    .ntb-section .ntb-proceed-btn {
+        margin-top: 15px;
+    }
+
+    .ntb-section .commoncheckbox-list {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .ntb-section .commoncheckbox-list label {
+        padding-left: 25px;
+        width: 290px;
+        margin: auto;
+    }
+
+    .amazon-NTB-tankyou-card {
+        padding: 25px 20px 0;
+    }
+
+    .commoncheckbox-list label.address-confirm-txt {       /* 11-02-2019 css changed */
+        padding-left: 0;
+        width: 30px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .preapproved-section .checkpad {
+        margin-left: 20px;
+    }
+
+    .preapproved-section .accept-p {
+        margin-left: 0;
+    }
+
+    /* 21-09-2018 Start */
+    .preapproved-section .top-add-company .add-company-inner1 input[type="text"].add-inp {
+        width: 100%;
+    }
+
+    .preapproved-section .top-add-company .add-company-inner1 {
+        margin-bottom: 20px;
+    }
+
+    /* 21-09-2018 Start */
+    /*21-A-MO-END*/
+
+    .upgrade-section .sec-pg-last .common-inputbox:first-child {
+        width: 100%;
+    }
+
+    .upgrade-section .commoneligi-formbox.sec-pg-top {
+        padding-bottom: 0;
+    }
+
+    .upgrade-section .accept-p {
+        margin-left: 0;
+    }
+
+    .upgrade-section .checkpad {
+        margin-left: 0;
+    }
+
+    .card-input-boxes h4 {
+        font-size: 14px;
+    }
+
+    .card-number-box .Box {
+        width: 49px;
+        height: 33px;
+        text-align: center;
+        outline: none;
+        border-radius: 5px;
+        color: #262f3d;
+        font-size: 14px;
+        font-family: "amazon_emberregular";
+        border: 1px solid #aeb1b6;
+    }
+
+    .popUpOpenBoard.popUpOpenBoardtermscondition {
+        padding: 30px 20px 23px;
+    }
+
+    .custom-cont {
+        margin-top: 5px;
+    }
+
+    .popUpOpenBoard.eligible-popUpOpenBoard {
+        padding: 15px 15px 20px;
+    }
+
+    .upgrade-last-box h5,
+    .preQual-last-box h5 {
+        font-size: 18px;
+    }
+
+    /* MOHSIB 14-09-2018 */
+    .loader-box {
+        margin-top: 30%;
+    }
+
+    .markup-rear p {
+        font-size: 13px;
+    }
+
+    .markup-box {
+        bottom: 8px;
+    }
+
+    .otp-enter-section .otp-alert.alert-warning {
+        font-size: 12px;
+        width: auto;
+    }
+
+    .terms-txt-change {
+        font-size: 13px;
+    }
+
+
+
+
+
+
+    /* Left-CONTENT SLIDER START*/
+    .left-offer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background: #fef2e5;
+        z-index: 1;
+        height: 4%;
+        border-radius: 50% 50% 0 0;
+        z-index: 7;
+
+    }
+
+    .offer-img-box {
+        height: 100%;
+        opacity: 0;
+        position: relative;
+
+    }
+
+    .left-offer::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: -20px;
+        background-image: url(../images/offer-banner/up-arrow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0.418px 2.971px 2.73px 0.27px rgba(0, 0, 0, 0.16);
+    }
+
+    .left-offer.active::after {
+        -webkit-transform: rotate(180deg) translateX(50%);
+        transform: rotate(180deg) translateX(50%);
+    }
+
+    .left-offer.active .offer-img-box {
+        opacity: 1;
+        width: 100%;
+        background: #fef2e5;
+        overflow-y: scroll;
+    }
+
+    .offer-banner1 {
+        padding-bottom: 80px;
+    }
+
+    .gen-d .form-box {
+        margin-top: 20px;
+    }
+
+    .preapproved-section .scenario-1 {
+        margin-top: 5px;
+    }
+
+    .left-offer.active {
+        height: 100%;
+        bottom: auto;
+        z-index: 10;
+        border-radius: 0;
+    }
+
+    .left-offer.active .mCSB_scrollTools {
+        display: none !important;
+    }
+
+    .right-content {
+        background: none;
+    }
+
+    .amazon-container {
+        display: block;
+    }
+
+    .amazon-container.active {
+        position: relative;
+
+    }
+
+    .gen-d {
+        flex-direction: column;
+    }
+
+    .offer-banner {
+        width: 100%;
+        height: 0;
+
+    }
+
+    .left-offer.active .offer-banner {
+        height: auto;
+        width: 100%;
+        background: #fef2e5;
+        padding-bottom: 80px;
+    }
+
+    .left-offer.active .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        opacity: 1
+    }
+
+    .left-offer .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        opacity: 0;
+    }
+
+    .eligibilty-form1-section .commoneligi-btn {
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    .a.active {
+        overflow: auto;
+    }
+
+    .left-offer.mcs-horizontal-example::before {
+        position: absolute;
+        top: -40px;
+        content: "Click below to view benefits";
+        z-index: 2;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+        font-family: amazon_emberregular;
+        font-size: 12px;
+
+    }
+
+    .left-offer.active.mcs-horizontal-example::before {
+
+        content: "";
+    }
+    
+    .ntb-section .commoneligi-formbox.sec-pg-top
+    {
+        flex-direction: column;
+    }
+    .ntb-section .input-box input[type="text"]
+    {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .ntb-section .sec-pg-top .common-inputbox.smallinput-box
+    {
+        margin: 0;
+    }
+    .cicle-burg
+    {
+        display: none
+    }
+    .cicle-burg.mob-circ
+    {
+        display: block;
+        width: 60px;
+    }
+    .ntb-section .eligibilty-form1-section
+    {
+        width: 100%;
+    }
+    .circ-burg-inner
+    {
+        flex-direction: column;
+        width: auto;
+    }
+    .ntb-section .amazonform-innerwrapper
+    {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+    }
+    .ntb-section .eligiform1-innerwrapper,.ntb-section .eligiform2-innerwrapper {
+    width: 88%;                                     /* 02-01-2019 */
+    /* margin: 0 auto; */
+    float: right;
+    clear: both;
+}
+.ntb-section .personal-head.head-1:after
+{
+    content: "1";
+    position: absolute;
+    text-align: center;
+    width: 26px;
+    height: 28px;
+    left: 0;
+    top: 10px;
+    border-radius: 50%;
+    border: 1px solid #2ccf74;
+    padding-top: 3px;
+    color: #2ccf74;
+    background: #fff;
+
+}
+
+.ntb-section .personal-head.head-1.head-1-2:after
+{
+    content: "\f00c";
+    position: absolute;
+    text-align: center;
+    width: 26px;
+    height: 28px;
+    left: 0;
+    top: 10px;
+    border-radius: 50%;
+    border: 1px solid #2ccf74;
+    padding-top: 3px;
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #2ccf74;
+}
+
+
+.ntb-section .eligibilty-form1-section .commoneligi-btn
+{
+    padding-bottom: 0;
+    /*20-A-MO-End*/
+}
+.ntb-section .personal-head.head-2:after
+{
+    content: "2";
+    position: absolute;
+    text-align: center;
+    width: 26px;
+    height: 28px;
+    left: 0;
+    bottom: 120px;
+    border-radius: 50%;
+    border: 1px solid #d6d6d6;  
+    padding-top: 3px;
+    color: #d6d6d6;
+
+}
+.ntb-section .personal-head.comm-head.head-1:before {
+    content: "";
+    position: absolute;
+    background:#d6d6d6;
+    width: 1px;
+    height: 80.5%;
+    left: 12px;
+    top: 42%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.ntb-section.active .personal-head.head-2:after
+{
+
+    border: 1px solid #2ccf74;  
+    color: #2ccf74;
+
+}
+.ntb-section.active .personal-head.comm-head.head-1:before 
+{
+    background: #2ccf74;
+    height: 10%;
+    top: 11%;
+}
+    .personal-head h3
+    {
+        font-family: amazon_emberbold;
+        font-size: 18px;
+        color: #333333;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+        .personal-head p
+    {
+        font-family: amazon_emberregular;
+        font-size: 13px;
+        color: #333333;
+    }
+    .ntb-section .commoneligi-btn
+    {
+        display: none;
+    }
+    .ntb-section .commoneligi-btn.ntb-mob-btn
+    {
+        display: block;
+    }
+    .ntb-section .commoneligi-btn.ntb-mob-btn{
+        padding-bottom: 40px;
+
+    }
+    .ntb-section .commoneligi-btn.ntb-mob-btn .ntb-proceed-btn,.ntb-section .commoneligi-btn.ntb-mob-btn .ntb-submit-btn
+    {
+        width: 320px;
+    }
+.info-li
+{
+    flex-direction: column;
+    padding: 15px 20px 10px;
+}
+.container-content
+{
+    padding: 0;
+}
+.info-strip,.ntb-section .eligibilty-form2-section
+{
+    padding: 0;
+}
+.txt-re
+{
+    font-size:  10px;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 5px;
+}
+.ntb-section.active .personal-head.head-2:after
+{
+        bottom: 79%;
+    }
+
+.ntb-section.active.res-checked .personal-head.head-2:after
+{
+    bottom: 89.5%;
+}
+.ntb-section.active.res-checked .personal-head.comm-head.head-1:before {
+    height: 4.7%;
+    top: 5.2%;
+}
+.ntb-section.res-checked .check-visible-box
+{
+    flex-direction: column;
+}
+.ntb-section .eligibilty-form2-section
+{
+    width: 100%;
+}
+.check-visible-box > div
+{
+    width: 100%;
+}
+.mob-hide
+{
+    display: none;
+}
+.desk-hide
+{
+    display: block;
+}
+
+
+
+
+
+
+    /* 02-01-2019 */
+    .highlight-thankbox .first-hightlight{
+            width: 100%;
+            font-size: 14px;
+    }
+
+    .highlight-thankbox p {
+        padding: 10px 10px 10px;
+    }
+
+    .highlight-thankbox .posi-address{
+        width: 100%;
+    }
+
+    .highlight-thankbox hr {
+      display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .amazonthank-innercard .toll-no-div p {
+        font-size: 13px;
+    }
+
+    .amazonthank-innercard .toll-no-div a {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-family: amazon_emberbold;
+        font-size: 18px;
+        color: #0089ed;
+    }
+
+    .drp
+    {
+        width: 100%;
+    }
+.dropdown-menu.drp-menu>li>p, .dropdown-menu.drp-menu>li>a
+{
+    padding:10px 5px 10px;
+
+}
+.popUpOpenPinError .return-btn, .popUpOpenPinError .input-btn {
+    padding: 6px 0;
+    width: 141px;
+
+}
+.pin-panel-body {
+    height: 210px;
+}
+
+.popUpOpenPinError .commoninput-btnwrap {
+    flex-direction: row;
+}
+
+.container
+{
+    padding: 0 20px;
+}
+.positive-cont .amazonthank-innercard .congo-p
+{
+
+    font-size:18px;
+    padding-top: 13px;
+}
+.app-no
+{
+    font-size: 16px;
+}
+.positive-cont .commoneligi-btn .fill-btn
+{
+    width: 100%;
+}
+.toll-no-div
+{
+    padding-bottom: 50%;
+}
+.cibil-box h3
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+}
+.cibil-box a 
+{
+    border-radius: 5px;
+    color: #111111;
+}
+.cibil-head-box a
+{
+margin-top: 0;
+    margin-bottom: 5px;
+    font-family: amazon_emberbold;
+    font-size: 18px;
+    color: #0089ed;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+
+}
+.cibil-img-box1
+{
+    width: auto;
+}
+.cibil-img-box .card-name
+{
+    bottom: 20px;
+    font-size: 9px;
+}
+.cibil-img-box
+{
+    width: 285px;
+}
+.positive-cont
+{
+background-image: url("../images/mob-botton-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.cibil-logo {
+
+    background: url("../images/cibil-negative-card.png") no-repeat;
+    width: 85px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    }
+.cibil-pos-box
+{
+    margin-bottom: 20px;
+}
+.right-content.forms
+{
+  background-image: none;  
+}
+.ntb-section
+{
+    background-image: url(../images/mob-botton-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.ntb-section .commoncheckbox-list.commoncheckbox-list.desk-hide
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 8px;
+}
+.ntb-section .commoneligi-btn.ntb-mob-btn .ntb-proceed-btn, .ntb-section .commoneligi-btn.ntb-mob-btn .ntb-submit-btn
+{
+    width: 100%;
+}
+.eligiform2-innerwrapper .personal-head.head-2 h3
+{
+    margin-top: 25px;
+}
+
+.ntb-section .form-radio-box,.ntb-section .custom-radio-li
+{
+    margin-bottom: 0;
+}
+.contact-para
+{
+    margin-top: 0;
+}
+
+.popUpOpenPinError .cibil-img-box
+{
+    width: auto;
+}
+.custom-radio-ul
+{
+    /* flex-direction: column; */
+}
+
+
+
+    /* 04-01-2018 css start */
+
+    .carousel-heading {
+        font-size: 16px;
+    }
+
+    .heading-steps {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+
+    .carousal-steps .inputwrapper {
+        width: 100%;
+        height: 43px;
+    }
+
+    .container .placeh-contrycode {
+        width: 20%;
+        font-size: 13px;
+    }
+
+    .container .steps-input {
+        font-size: 13px;
+        cursor: pointer;
+
+    }
+
+    .carousal-steps {
+        padding: 25px 10px;
+        margin: 0 20px;
+    }
+
+    .mob-text {
+        font-size: 11px;
+    }
+
+    .carousalcontainer {
+        padding: 0;
+    }
+
+    .carousal-steps .commoninput-btnwrap .input-btn {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    body {
+        overflow: auto;
+    }
+
+    .edit-no-carousal p {
+        font-size: 15px;
+        color: #333333;
+        font-family: 'amazon_emberregular';
+        text-align: center;
+        width: 155px;
+        padding: 2px 0;
+        margin: 0 auto;
+        border-radius: 20px;
+        border: 1px solid #c2c2c2;
+        padding: 5px 0;
+    }
+
+    .edit-nu {
+        position: relative;
+        top: -4px;
+        left: 5px;
+    }
+
+    .carousal-steps .inputwrapper {
+        width: 100%;
+        height: 43px;
+    }
+
+    .container .carousel-otp .steps-input {
+        text-align: center;
+        color: #033334;
+        letter-spacing: 12px;
+    }
+
+    .container .carousel-otp .steps-input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        letter-spacing: 0;
+    }
+
+    .container .carousel-otp .steps-input::-moz-placeholder {
+        /* Firefox 19+ */
+        letter-spacing: 0;
+    }
+
+    .container .carousel-otp .steps-input:-ms-input-placeholder {
+        /* IE 10+ */
+        letter-spacing: 0;
+    }
+
+    .container .carousel-otp .steps-input:-moz-placeholder {
+        /* Firefox 18- */
+        letter-spacing: 0;
+    }
+
+    .resendbtn {
+        color: #0066c0;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 12px;
+    }
+
+
+
+    .carousal-steps .inputwrapper.otpinputwrapper {
+        display: block;
+    }
+
+    .otpinputwrapper .mobile-error {
+        position: relative;
+        padding-top: 2px;
+    }
+
+    .carousal-steps .commoninput-btnwrap.verifycode-div {
+        padding-top: 30px;
+    }
+
+    .edit-no-carousal {
+        padding-top: 0;
+    }
+
+    .application-status p {
+        font-size: 14px;
+        padding: 0;
+    }
+.failedotpbtn
+{
+    width: 100%;
+}
+.cibil-box .apply-one-para
+{
+    margin-bottom: 0;
+    display: inline-block;
+    width: auto;
+}
+.positive-process .highlight-thankbox
+{
+    margin-top: 15px;
+}
+
+.positive-cont .amazonthank-innercard h5{
+        font-size: 16px;
+    padding-top: 5px;
+}
+
+.gender-div{
+    padding-top: 5px;
+}
+
+.common-inputbox.pan-box{
+    padding-top: 0px;
+}
+
+/* 08-01-2019 css stars track  */
+
+.container-tma h2{
+        font-size: 22px;
+}
+
+.cardapplication-number{
+    width: 100%;
+}
+
+.textcrd{
+    font-size: 14px;
+}
+.appno{
+    font-size: 14px;
+}
+
+.flexer, .progress-indicator{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.progress-indicator>li .bubble{
+        margin: 0;
+}
+
+.progress-indicator>li .bubble:after, .progress-indicator>li .bubble:before{
+    display: block;
+    position: absolute;
+    top: auto;
+    width: 3px;
+    height: 100%;
+    content: '';
+    background-color: transparent;
+    border-bottom: none;
+    border-left: 2px dashed #dadada;
+    z-index: -2;
+}
+
+.progress-indicator>li:first-child .bubble:after, 
+.progress-indicator>li:first-child .bubble:before {
+    width: auto;
+    margin-left: 0;
+}
+
+.progress-indicator>li .bubble:after, .progress-indicator>li .bubble:before {
+    right: auto;
+    left: 15px;
+}
+
+.progress-indicator>li{
+    text-align: left;
+}
+
+.progress-indicator li{
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.progress-indicator li:last-child{
+    padding-bottom: 0;
+}
+
+.txt-track-res{
+    padding-left: 45px;
+    position: relative;
+    top: -30px;
+}
+
+.trackcontinue{
+    width: 100%;
+}
+
+.alert-box-track{
+    width: 90%;
+        margin: 30px auto 0;
+}
+
+.progress-indicator>li:last-child .bubble:after, .progress-indicator>li:last-child .bubble:before {
+    width: 100%;
+    margin-right: auto;
+    z-index: -1;
+    background: none;
+    border: none;
+}
+
+.track-section {
+    padding-bottom: 12px;
+}
+.bottom-text-appl .tel-no{
+    color: #0089ed;
+}
+
+
+/* 17-01-2019 css  */
+.preapproved-section .sec-pg-top .common-inputbox.smallinput-box{
+    margin-right: 0;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.preapproved-section .comp-full {
+    margin-top: 0;
+}
+
+.preapproved-section .common-inputbox.smallinput-box {
+    margin-right: 0;
+}
+
+.preapproved-section .sec-pg-last {
+    padding-top: 0px;
+}
+
+.preapproved-section .amazon-form-wrapper {
+    margin-top: 0;
+        padding-bottom: 0;
+}
+
+.preapproved-section .eligibilty-form1-section {
+    padding-top: 20px;
+
+}
+
+.preapproved-section .checked-hide-address {
+    padding-top: 15px;
+}
+
+.preapproved-section .eligibilty-form1-section .commoneligi-btn {
+    padding-bottom: 30px;
+}
+
+
+.disclosurepopup .termsok {
+    padding-bottom: 35px;
+}
+
+.upgrade-section .sec-pg-top .common-inputbox.smallinput-box
+{
+    width: 100%;
+}
+.card-upgradelist
+{
+    width: 98%;
+}
+.card-upgradelist
+{
+    width: 98%;
+}
+.creditupgrade-container .card-input-boxes h4
+{
+    padding: 10px 23px;
+}
+.amazonthank-innercard .hide-btn
+{
+    padding-top: 0;
+}
+.pa-congrats .details-sent h4
+{
+    margin-top: 5px;
+}
+.enter-details
+{
+    margin-bottom: 10px;
+}
+.common-inputbox.smallinput-box.add
+{
+    padding-top: 23px;
+}
+.upgrade-section .sec-pg-top .common-inputbox.smallinput-box:nth-child(2) {
+    padding-top: 22px;
+}
+.preapproved-section .common-inputbox
+{
+    padding-top: 5px;
+}
+.preapproved-section .sec-pg-top .common-inputbox
+{
+    padding-top: 25px;
+}
+.preapproved-section .sec-pg-top .common-inputbox.f-gen
+{
+    padding-top: 15px;
+}
+.preapproved-section .sec-pg-top .common-inputbox.s-gen
+{
+    padding-top: 5px;
+}
+.preapproved-section .commoneligi-formbox.sec-pg-last .common-inputbox.smallinput-box
+{
+    padding-top: 25px;
+}
+.commoneligi-btn .fill-btn.ntb-proceed-btn, .commoneligi-btn .fill-btn.ntb-submit-btn,.input-btn
+{
+    width: 360px;
+}
+/*29-01-2019*/
+.tooltip.fade.top {
+    left: auto !important;
+    right: -13%;
+}
+/*21-01-2019*/
+.white-box
+{
+    margin:0;
+}
+.thin-li {
+   margin-bottom: 15px;
+}
+.thin-head
+{
+    margin-bottom: 0;
+}
+.highlight-thankbox p.docs-para
+{
+    font-size:14px;
+}
+
+
+.radio-boxwithshadow{
+    width: 100%;
+}
+
+.ntb-section .commoneligi-formbox .ntb-drp {
+    margin-right: 0px;
+}
+
+.form-radio-box.radio-boxwithshadow{
+    width: 100%;
+}
+
+ .identity-error
+ {
+    width: 100%;
+ }
+
+.form-radio-box.radio-boxwithshadow.resradioaddress{
+     height: auto;
+    padding-bottom: 10px;
+        padding-left: 10px;
+}
+
+.ntb-section .sec-pg-last >div
+{
+    margin-right:0;
+}
+.ntb-section .eligibilty-form1-section .pin-box
+{
+    margin-top:20px;
+}
+}
+
+
+@media only screen and (max-width:480px) {
+    .popUpOpenBoard.popUpOpenBoardtermscondition.disclosurepopup {
+        width: 90%;
+    }
+
+    .pa-congrats .details-sent h4 {
+        width: 90%;
+    }
+.terms-content .commoneligi-btn input.fill-btn,
+.terms-content .commoneligi-btn input.fill-btn:focus,
+.terms-content .commoneligi-btn input.fill-btn:hover,
+.terms-content .commoneligi-btn input.fill-btn:active,
+.terms-content .commoneligi-btn input.fill-btn-neg,
+.terms-content .commoneligi-btn input.fill-btn-neg:focus,
+.terms-content .commoneligi-btn input.fill-btn-neg:hover,
+.terms-content .commoneligi-btn input.fill-btn-neg:active
+    {
+        width: 90%;
+    }
+        .creditupgrade-container .card-number-box .Box {
+    width: 20%;
+    border: 1px solid #aeb1b6;
+}
+    .creditupgrade-container .card-number-box
+    {
+        width: auto;
+    }
+    .popUpOpenBoard.popUpOpenBoardtermscondition1.startrnewpopup
+    {
+        width: 95%;
+    }
+    .upgrade-section .sec-pg-top .common-inputbox.smallinput-box
+    {
+        margin-left: 0;
+    }
+    .popUpOpenBoard.popUpOpenBoardtermscondition.disclosurepopup.disclosurePapopup
+    {
+        width: 90%;
+    }
+    .popUpOpenPinError
+    {
+        width: 95%;
+    }
+    .popUpOpenPinError .panel-body,.popUpOpenPinError .panel-default>.panel-heading
+    {
+        padding: 15px 6px;
+    }
+    .commoneligi-btn .fill-btn.ntb-proceed-btn, .commoneligi-btn .fill-btn.ntb-submit-btn
+    {
+        width: 100%;
+    }
+    .input-btn.card-proceed
+    {
+        width: 90%;
+    }
+
+    .radio-boxwithshadow{
+        padding-left: 5px;
+    }
+
+    .custom-radio-li{
+       margin-right: 15px; 
+    }
+
+    .ntb-section .commoneligi-formbox .ntb-drp {
+        margin-right: 0;
+    }
+
+    .radio-boxwithshadow .custom-radio-li{
+            font-size: 13px;
+    }
+
+    .radio-boxwithshadow.resradioaddress .custom-radio-li {
+        font-size: 12px;
+    }
+    .pin-cont.common-inputbox 
+    {
+        padding-top:0;
+    } 
+}
+/* 13-08-2018 css start */
+
+@media only screen and (max-width:350px) {
+
+    .commoncheckbox-list [type="checkbox"]:not(:checked)+label:before,
+    .commoncheckbox-list [type="checkbox"]:checked+label:before {
+        left: -5px;
+    }
+
+    .commoncheckbox-list [type="checkbox"]:not(:checked)+label:after,
+    .commoncheckbox-list [type="checkbox"]:checked+label:after {
+        left: 0px;
+    }
+
+    .exist-div-ul li {
+        font-size: 12px;
+    }
+
+    /* MOHSIB 14-09-2018 */
+    .loader-box {
+        margin-top: 30%;
+    }
+
+    a.test.collapsed:after,a.test:after
+    {
+        top: 10px;
+        right: 5px;
+    }
+    .popUpOpenBoard.popUpOpenBoardtermscondition.disclosurepopup
+    {
+        height: 300px;
+        overflow-y: scroll;
+    }
+    .popUpOpenBoard.popUpOpenBoardtermscondition.disclosurepopup.disclosurePapopup
+        {
+            height: 300px;
+            overflow-y: scroll;
+        }
+
+    .radio-boxwithshadow .custom-radio-li {
+        margin-right: 10px;
+            font-size: 12px;
+    }
+}
+
+/* 13-08-2018 css ends */
+
