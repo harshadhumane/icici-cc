@@ -213,6 +213,7 @@
 
 .offers-creditcard{
     padding: 0 10px;
+        margin-top: 35px;
 }
 
 .offerheading{
@@ -333,7 +334,7 @@
 
 .creditcard{
     width: 311px;
-    height: 600px;
+    height: 650px;
     border-radius: 5px;
     border: solid 1px #e6ebf0;
 }
@@ -355,10 +356,38 @@
 }
 
 .creditcards-container{
-    margin-top: 100px;
+    margin-top: 130px;
     margin-left: 15px;
     margin-right: 15px;
 }
+
+.feesection{
+    background-color: #f5f5f5;
+    padding: 10px 40px;
+    line-height: 24px;
+}
+
+.feetxt{
+    display: flex;
+}
+
+.feetxt p{
+    font-family: 'zurich_bt';  
+    font-size: 14px;  
+}
+
+.recommended-card .creditcard {
+    height: 690px;
+    border: solid 1px #e77817;
+}
+
+.recommended-card .headercredit{
+    border-bottom: 1px solid #e77817;
+    height: 160px;
+    border-radius: 3px; 
+}
+
+
 
 /* .cardssection-slider{
     margin-top: 120px;
@@ -422,6 +451,60 @@
 .slick-slide .headercredit img{
     display: inline-block;
 }
+
+.feetxt p.bold-txt{
+    font-family: 'zurich_bold_bt';
+}
+
+.extratxt{
+    font-size: 12px;
+    display: block;
+    position: relative;
+    top: -8px;
+}
+
+.featurelist:last-child{
+    margin-bottom: 0;
+}
+
+.viewdetailslink{
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+}
+
+.creditcards-container.recommended-card{
+    position: relative;
+    margin-top: 110px;
+}
+
+.recommendedtxt{
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    text-align: center;
+    color:#e77817;
+}
+
+.arrows-cardsslider{
+    position: relative;
+    top: -700px;
+}
+
+.prev-arrow-cards {
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    left: -25px;
+}
+
+.next-arrow-cards {
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: -25px;
+}
+
 
 
 /* credit cards section ends */

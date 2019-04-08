@@ -115,11 +115,12 @@ $('.steps-start').slick({
 $('.cardssection-slider').slick({
   dots: false,
   infinite: false,
-  arrows: false,
+  arrows: true,
   slidesToShow: 3,
   slidesToScroll: 1,
   variableWidth: true,
-  
+  prevArrow: $('.prev-arrow-cards'),
+  nextArrow: $('.next-arrow-cards'),
 });
 
 
