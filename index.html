@@ -54,8 +54,63 @@
             <div class="creditcard">
               <div class="headercredit">
                 <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard">
+                    <p class="cardcaption">Rubyx<br>Credit Card</p>
                   <div class="cardtxtcontainer">
-                    <p class="cardcaption">Rubyx Credit Card</p>
+                    <button type="submit" class="selectbtn">Select</button>
+                  </div>
+              </div><!-- headercredit -->
+              
+              <div class="cardfeatures">
+
+                <div class="featurelist">
+                  <i class="checkedicon"></i>
+                  <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
+                </div>
+
+                <div class="featurelist">
+                  <i class="checkedicon"></i>
+                  <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
+                </div>
+
+                <div class="featurelist">
+                  <i class="checkedicon"></i>
+                  <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
+                    <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                      Rs 3500 + Service Tax (Nil when the
+                      card spends are greater than 6,00,000
+                      in the previous year)"><i class="tooltipicon"></i></a>
+                  </p>
+                </div>
+
+                <div class="featurelist">
+                  <i class="checkedicon"></i>
+                  <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
+                </div>
+
+                <div class="featurelist">
+                  <i class="checkedicon"></i>
+                  <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
+                </div>
+
+                <div class="featurelist">
+                  <i class="checkedicon"></i>
+                  <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
+                </div>                
+              </div><!-- cardfeatures -->
+
+              <div class="feesection">
+                
+              </div><!-- feesection -->
+
+            </div><!-- creditcard -->
+          </div><!-- creditcards-container -->
+
+          <div class="creditcards-container">
+            <div class="creditcard">
+              <div class="headercredit">
+                <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard">
+                  <p class="cardcaption">Rubyx<br>Credit Card</p>
+                  <div class="cardtxtcontainer">
 
                     <button type="submit" class="selectbtn">Select</button>
                   </div>
@@ -110,64 +165,8 @@
             <div class="creditcard">
               <div class="headercredit">
                 <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard">
+                  <p class="cardcaption">Rubyx<br>Credit Card</p>
                   <div class="cardtxtcontainer">
-                    <p class="cardcaption">Rubyx Credit Card</p>
-
-                    <button type="submit" class="selectbtn">Select</button>
-                  </div>
-              </div><!-- headercredit -->
-              
-              <div class="cardfeatures">
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
-                </div>
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
-                </div>
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
-                    <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
-                      Rs 3500 + Service Tax (Nil when the
-                      card spends are greater than 6,00,000
-                      in the previous year)"><i class="tooltipicon"></i></a>
-                  </p>
-                </div>
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
-                </div>
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
-                </div>
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
-                </div>                
-              </div><!-- cardfeatures -->
-
-              <div class="feesection">
-                
-              </div><!-- feesection -->
-
-            </div><!-- creditcard -->
-          </div><!-- creditcards-container -->
-
-          <div class="creditcards-container">
-            <div class="creditcard">
-              <div class="headercredit">
-                <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard">
-                  <div class="cardtxtcontainer">
-                    <p class="cardcaption">Rubyx Credit Card</p>
 
                     <button type="submit" class="selectbtn">Select</button>
                   </div>
@@ -299,8 +298,26 @@
   <script type="text/javascript" src="js/common.js"></script>
   <script>
     $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+      $('[data-toggle="tooltip"]').tooltip();
+      // fixed-heasder-STRAT-slick
+    window.onscroll = function() {myFunction()};
+
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > 200 && window.pageYOffset < 700) {
+    $(".cardssection-slider").addClass("fixed-act");
+  }
+   else {
+    $(".cardssection-slider").removeClass("fixed-act");
+
+  }
+}
+            
+      // fixed-heasder END-slick      
     });
+
+
   </script>
 
 </body>
