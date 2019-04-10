@@ -108,73 +108,10 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.commoncheckbox-list [type="checkbox"]:not(:checked), 
-.commoncheckbox-list [type="checkbox"]:checked {
-    display: none;
-}
-
-.commoncheckbox-list [type="checkbox"]:not(:checked)+label, 
-.commoncheckbox-list [type="checkbox"]:checked+label {
-    position: relative;
-    margin-bottom: 7px;
-}
-
-.commoncheckbox-list [type="checkbox"]:not(:checked)+label:before, 
-.commoncheckbox-list [type="checkbox"]:checked+label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 14px;
-    height: 14px;
-    border: 1px solid #b4b4b4;
-    background: #fff;
-    border-radius: 0px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1);
-    margin: 0 2px;
-}
-
-.commoncheckbox-list [type="checkbox"]:not(:checked)+label:after, 
-.commoncheckbox-list [type="checkbox"]:checked+label:after {
-    content: '\f00c';
-    position: absolute;
-    top: 1px;
-    left: 4px;
-    font-size: 10px;
-    color: #e77817;
-    transition: all .2s;
-    font-family: 'FontAwesome';
-}
-
-.commoncheckbox-list{
-    position: relative;
-}
-
-.commoncheckbox-list label.address-confirm-txt.clickabove {
-    padding-left: 25px;
-    width: auto;
-}
-
-.commoncheckbox-list input[type=checkbox] {
-    margin: 1px 0px 0px;
-}
-
-.commoncheckbox-list label.address-confirm-txt.clickabove {
-    padding-left: 25px;
-    width: auto;
-}
-
-.commoncheckbox-list label {
-    font-weight: 100;
-    font-size: 12px;
-    color: #262f3d;
-    cursor: pointer;
-}
-
 .cards-slider-container
-{
-    padding: 15px 70px;
-}
+    {
+        padding: 15px 70px;
+    }
 
 /* breadcrum css ends*/
 
@@ -321,7 +258,9 @@
     background-image: url('../images/bgcardheader.png');
     background-repeat: no-repeat;
     height: 148px;
-    text-align: center
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e6ebf0;
 }
 
 .cardcaption{
@@ -388,11 +327,6 @@
 }
 
 
-
-/* .cardssection-slider{
-    margin-top: 120px;
-} */
-
 /* offers card css ends*/
 
 
@@ -405,6 +339,17 @@
     background-repeat: no-repeat;
     display: inline-block;
     margin-right: 10px;
+}
+
+.deleteicon{
+    background-image: url('../images/delete-button.png');
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
 }
 
 .featurelist{
@@ -471,6 +416,7 @@
     text-align: center;
     display: block;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .creditcards-container.recommended-card{
@@ -506,15 +452,190 @@
 }
 
 
+/*MOHSIN START 08-04-201*/
+
+.cardssection-slider.fixed-act .headercredit
+{
+        position: fixed;
+        top:0;
+        height:auto;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;  
+        flex-flow: wrap;
+        max-width: 309px;
+        width:100%; 
+        padding: 11px 51px 18px;   
+        z-index: 1;
+}
+.cardssection-slider.fixed-act .creditcard .cardcaption
+{
+    text-align: left; 
+    line-height:20px;  
+        margin-left:10px;
+}
+.cardssection-slider.fixed-act .creditcard
+{
+    position: relative;
+    height: auto;
+}
+.cardssection-slider.fixed-act .cardtxtcontainer
+{
+    width:100%;
+}
+.cardssection-slider.fixed-act .slick-list
+{
+    overflow-y:visible 
+}
+.cardssection-slider.fixed-act .creditcardimg
+{
+    margin-top: 0; 
+    max-width: 113px;
+    width: 100%;    
+    height:70px; 
+}
+.cardssection-slider.fixed-act.slick-slider .slick-track,
+.cardssection-slider.fixed-act.slick-slider .slick-list
+{
+    transform: none !important;
+}
+
+/*MOHSIN END 08-04-201*/
+
+
+/* 09-04-2019 css start */
+
+.cardssection-slider.fixed-act .headercredit .fixedtxt{
+    width: 100%;
+    display: flex;
+}
+
+.redtxt .featuretxt{
+    color: #c9383d;
+}
+
+.checkedtxtcolor{
+    color: #e77817;
+}
+
+.checked-differance{
+    display: none;
+}
 
 /* credit cards section ends */
 
+/* checkbox css start */
 
+.chkcontainer {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'zurich_bt';
+  color: #262f3d;
+}
+
+/* Hide the browser's default checkbox */
+.chkcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+/* On mouse-over, add a grey background color */
+.chkcontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.chkcontainer input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.chkcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.chkcontainer .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 9px;
+    border: solid #e77817;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* checkbox css ends */
+
+
+.creditcard.checkedheight{
+    height: auto;
+}
+
+.deskhide{
+    display: none;
+}
 
 
 /*MEDIA*/
-@media(min-width:1200px) and (max-width:992px) {
+@media(min-width:992px) and (max-width:1192px) {
+    .cards-slider-container{
+        padding: 15px 30px;
+    }
 
+    .creditcard{
+        width: 278px;
+    }
+
+    .stepstxt {
+        font-size: 20px;
+    }
+
+    .featuretxt {
+        font-size: 13px;
+    }
+
+    .feesection {
+        padding: 10px 20px;
+    }
+
+    .cardssection-slider.fixed-act .headercredit{
+        max-width: 276px;
+        padding: 10px 30px 18px;
+    }
 
 }
 
@@ -524,26 +645,201 @@
 /*===========Start of the media 768 and 991=============*/
 
 @media(min-width:768px) and (max-width:991px) {
+    .stepstxt {
+        font-size: 14px;
+    }
 
+    .eligibletxt {
+        font-size: 14px;
+    }
+
+    .cards-slider-container {
+        padding: 15px 40px;
+    }
 
 }
 
 /*===========End of the media 768 and 991=============*/
 
 
-/*===========Start of the media max-width:768px=============*/
-
-@media only screen and (max-width:768px) {
-
-
-}
-
-/*===========End of the media max-width:768px=============*/
-
-
 /*===========Start of the media max-width:767px=============*/
 
 @media only screen and (max-width:767px) {
+
+    .landing-header{
+        flex-direction: column;
+        padding: 15px 5px;
+        box-shadow: 0 0 3.6px 0.4px rgba(0, 0, 0, 0.5);
+        border-bottom: none;
+    }
+
+    .mobhide{
+        display: none;
+    }
+
+    .stepstxt {
+        font-size: 16px;
+    }
+
+    .eligibletxt {
+        font-size: 14px;
+        padding-top: 6px;
+    }
+
+    .heading-breadcrum{
+        position: absolute;
+        top: 85px;
+    }
+
+    .chkbox-cards{
+        display: none;
+    }
+
+    .cicle-burg .burg-cic {
+        width: 34px;
+        height: 23px;
+    }
+
+    .burg-cic:before{
+        top: 36px;
+    }
+
+    .circ-burg-inner {
+        width: 140px;
+    }
+
+    .deskhide{
+        display: block
+    }
+
+    .onecard-container{
+        padding-top: 65px; 
+            padding-left: 25%;
+    padding-right: 25%;
+    }
+
+    .onecard-container .creditcard{
+        margin: auto;
+        width: 290px;
+            height: auto;
+    }
+
+    .headercredit.mobheadercredit{
+         background-color: #f9f9f9;
+         background-image: none;
+         height: 82px;
+    }
+
+    .chkbox-cards-mob .chkcontainer{
+        padding-top: 10px;
+    }
+
+    .chkbox-cards-mob .checkmark{
+        top: 10px;
+        left: 45px;
+    }
+
+    .mobheadercredit .fixedtxt{
+        padding-top: 20px;
+    }
+        
+    .featuretxt {font-size: 12px} 
+    
+    .featurelist{margin-bottom: 20px;}
+
+    .feesection{ padding: 10px 30px;}
+
+    .viewdetailslink {
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    .offerheading{
+        font-size: 14px;
+    }
+
+    .offertxt{
+            font-size: 12px;
+                padding-top: 8px;
+    }
+
+    .stepsget-card .offerheading {
+        font-size: 18px
+    }
+
+    .steps-start {
+        padding: 0 18px 20px;
+    }
+
+    .selectbtnmobile .cardbtn{
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        background-color: #e77817;
+        color: #fff;
+        padding: 16px 0;
+    } 
+
+    .landing-container {
+        padding: 0 0 50px;
+    }   
+
+    .creditcards-container {
+        margin-top: -25px;
+    }
+
+    .imgcreditmob {
+        width: 90%;
+    }
+    
+    .imgcreditmob img{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+    }
+
+    .mobcreditslider .slick-slide{
+       /*  padding: 20px 0; */
+        height: 80px;
+            margin-top: 25px;
+    }
+
+    .mobcreditslider .slick-slide.slick-current{
+        padding: 0;
+        height: 140px;
+            margin-top: 0px;
+    }
+
+    .lharrow{
+        display: inline-block;
+        background-image: url('../images/left-arrow.png');
+        height: 23px;
+        width: 12px;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 10px;
+    }
+
+    .rharrow{
+        display: inline-block;
+        background-image: url('../images/right-arrow.png');
+        height: 23px;
+        width: 12px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 10px;
+    }
+
+    .arrowmobslick{
+        position: relative;
+        top: -85px;
+    }
+
+    .creditcard-box2, .creditcard-box3{
+        display: none;
+    }
 
 }
 
@@ -554,6 +850,11 @@
 
 @media only screen and (max-width:480px) {
 
+    .onecard-container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }
 
 /*===========End of the media max-width:480px=============*/
@@ -561,8 +862,12 @@
 
 /*===========Start of the media max-width:480px=============*/
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:360px) {
 
+    .onecard-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 }
 

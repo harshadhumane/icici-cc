@@ -22,8 +22,8 @@
      <!-- cc landing header starts here -->
       <div class="landing-header">
         <div class="headings-header">
-          <h1 class="stepstxt">Hi Jamir, get your Pre-Qualified Credit Card instantly in just 2 simple steps</h1>
-          <p class="eligibletxt">Max eligible Card Limit upto ₹300,000 and it may update on basis of credit check </p>
+          <h1 class="stepstxt">Hi Jamir, get your Pre-Qualified Credit Card instantly <span class="mobhide">in just 2 simple steps</span></h1>
+          <p class="eligibletxt">Max eligible Card Limit upto ₹300,000  <span class="mobhide">and it may update on basis of credit check </span></p>
         </div>
 
         <div class="heading-breadcrum">
@@ -40,12 +40,12 @@
 
 
     <!-- cc landing cards slider starts here -->
-      <div class="cards-slider-container">
+      <div class="cards-slider-container mobhide">
         <div class="chkbox-cards">
-          <div class=" commoncheckbox-list">
-              <input type="checkbox" class="styled-checkbox" id="carousel-new-check" checked="">
-              <label class="address-confirm-txt clickabove" for="carousel-new-check">Show Differences Only</label>
-          </div>
+            <label class="chkcontainer">Show Differences Only
+              <input type="checkbox" id="chkdifferance">
+              <span class="checkmark"></span>
+            </label>
         </div><!-- chkbox-cards -->
 
         <div class="cardssection-slider">
@@ -53,9 +53,10 @@
           <div class="creditcards-container">
             <div class="creditcard">
               <div class="headercredit">
-                <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard">
-
-                <p class="cardcaption">Rubyx Credit Card</p>
+                <div class="fixedtxt">
+                  <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard">
+                  <p class="cardcaption">Rubyx Credit Card</p>
+                </div>    
                   <div class="cardtxtcontainer">
                     <button type="submit" class="selectbtn">Select</button>
                   </div>
@@ -63,40 +64,70 @@
               
               <div class="cardfeatures">
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
-                </div>
+                <div class="unchecked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
-                </div>
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
-                    <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
-                      Rs 3500 + Service Tax (Nil when the
-                      card spends are greater than 6,00,000
-                      in the previous year)"><i class="tooltipicon"></i></a>
-                  </p>
-                </div>
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
+                      <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                    </p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
-                </div>
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
-                </div>
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
-                </div>                
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
+                  </div> 
+                </div><!-- unchecked-differance -->
+                
+                <div class="checked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">No</span> joining fee</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">Lifetime free</span> Credit Card</p>
+                  </div>
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Reward Points </p>
+                  </div> 
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Discount on dining</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">2.5%</span> Fuel Surcharge Waiver</p>
+                  </div>
+                </div> <!-- checked-differance -->
+
               </div><!-- cardfeatures -->
 
               <div class="feesection">
@@ -126,8 +157,10 @@
             <h3 class="recommendedtxt"><span class="fa fa-star checked"></span> Recommended</h3>
             <div class="creditcard">
               <div class="headercredit">
-                <img src="images/saphhiroCredit.png" class="creditcardimg" alt="sapphirocard">
-                <p class="cardcaption">Sapphiro Credit Card</p>
+                <div class="fixedtxt">
+                  <img src="images/saphhiroCredit.png" class="creditcardimg" alt="sapphirocard">
+                  <p class="cardcaption">Sapphiro Credit Card</p>
+                </div>
                   <div class="cardtxtcontainer">
                     <button type="submit" class="selectbtn">Select</button>
                   </div>
@@ -135,6 +168,7 @@
               
               <div class="cardfeatures">
 
+               <div class="unchecked-differance">
                 <div class="featurelist">
                   <i class="checkedicon"></i>
                   <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
@@ -143,33 +177,67 @@
                 <div class="featurelist">
                   <i class="checkedicon"></i>
                   <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic Airport and Railway Lounge</span> Visits per quarter</p>
-                    
                 </div>
 
                 <div class="featurelist">
                   <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
+                  <p class="featuretxt"><span class="bold-txt">Upto 3X</span>Accelerated Reward <br />Points 
                     <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
                       Rs 3500 + Service Tax (Nil when the
                       card spends are greater than 6,00,000
                       in the previous year)"><i class="tooltipicon"></i></a>
                   </p>
+
+                   
                 </div>
 
                 <div class="featurelist">
                   <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
+                  <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span>Welcome Voucher</p>
+
                 </div>
 
                 <div class="featurelist">
                   <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
+                  <p class="featuretxt"><span class="bold-txt">15% discount</span> on Dining at over 2500+ restaurants across India </p>
+
+                   
                 </div>
 
                 <div class="featurelist">
                   <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
-                </div>                
+                  <p class="featuretxt"><span class="bold-txt">2.5%</span> Fuel Surcharge Waiver</p>                   
+                </div>  
+               </div> <!-- unchecked-differance -->
+
+               <div class="checked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Joining Fee: <span class="bold-txt checkedtxtcolor">₹499+GST</span></p>
+                  </div>
+
+
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Annual Fee:<span class="bold-txt checkedtxtcolor">₹3,500+GST</span></p>
+                  </div> 
+
+                  <div class="featurelist ">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">Upto 3X</span> Accelerated Reward Points </p>
+                  </div>  
+                  <div class="featurelist ">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">15% discount</span> on Dining at over 2500+ restaurants across India</p>
+                  </div>  
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">3.5%</span> Fuel Surcharge Waiver</p>
+                  </div>
+               </div> <!-- checked-differance -->
+
               </div><!-- cardfeatures -->
 
               <div class="feesection">
@@ -198,8 +266,10 @@
           <div class="creditcards-container">
             <div class="creditcard">
               <div class="headercredit">
-                <img src="images/coralCredit.png" class="creditcardimg" alt="coralCredit">
-                 <p class="cardcaption">Coral Credit Card</p> 
+                <div class="fixedtxt">
+                  <img src="images/coralCredit.png" class="creditcardimg" alt="coralCredit">
+                  <p class="cardcaption">Coral Credit Card</p> 
+                </div>
                   <div class="cardtxtcontainer">
                      <button type="submit" class="selectbtn">Select</button>
                   </div>
@@ -207,9 +277,10 @@
               
               <div class="cardfeatures">
 
+               <div class="unchecked-differance">  
                 <div class="featurelist">
                   <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
+                  <p class="featuretxt"><span class="bold-txt">Upto 4X</span> Accelerated Reward Point</p>
                 </div>
 
                 <div class="featurelist">
@@ -240,78 +311,36 @@
                 <div class="featurelist">
                   <i class="checkedicon"></i>
                   <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
-                </div>                
-              </div><!-- cardfeatures -->
+                </div>  
+              </div><!-- unchecked-differance -->
 
-              <div class="feesection">
-                <div class="feetxt">
-                  <p class="bold-txt">Joining Fee:</p>
-                  <p>₹499+GST Nill</p>
-                </div>
-                <div class="feetxt">
-                  <p class="bold-txt">Annual Fee:</p>
-                  <p class="servicetxtamt">₹2000 + Service Tax
-                      <span class="extratxt">(second year onwards)
-                        <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
-                        Rs 3500 + Service Tax (Nil when the
-                        card spends are greater than 6,00,000
-                        in the previous year)"><i class="tooltipicon"></i></a>
-                      </span>
-                  </p>
-                </div>
-              </div><!-- feesection -->
-
-              <a href="javascript:void" class="viewdetailslink">View Details</a>
-
-            </div><!-- creditcard -->
-          </div><!-- creditcards-container -->
-
-          <div class="creditcards-container">
-            <div class="creditcard">
-              <div class="headercredit">
-                <img src="images/coralCredit.png" class="creditcardimg" alt="coralCredit">
-                 <p class="cardcaption">Rubyx Credit Card</p> 
-                  <div class="cardtxtcontainer">
-                     <button type="submit" class="selectbtn">Select</button>
+                <div class="checked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Joining Fee: <span class="bold-txt checkedtxtcolor">₹499+GST</span></p>
                   </div>
-              </div><!-- headercredit -->
-              
-              <div class="cardfeatures">
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
-                </div>
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Joining Fee: <span class="bold-txt checkedtxtcolor">₹500+GST</span></p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
-                </div>
+                  <div class="featurelist">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">Upto 4X </span>Accelerated Reward Points</p>
+                  </div>   
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
-                    <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
-                      Rs 3500 + Service Tax (Nil when the
-                      card spends are greater than 6,00,000
-                      in the previous year)"><i class="tooltipicon"></i></a>
-                  </p>
-                </div>
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Discount on dining</p>
+                  </div>
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
-                </div>
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">1.5%</span> Fuel Surcharge Waiver</p>
+                  </div>
+                </div> <!-- checked-differance -->
 
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
-                </div>
-
-                <div class="featurelist">
-                  <i class="checkedicon"></i>
-                  <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
-                </div>                
               </div><!-- cardfeatures -->
 
               <div class="feesection">
@@ -336,6 +365,7 @@
 
             </div><!-- creditcard -->
           </div><!-- creditcards-container -->
+
         </div><!-- cardssection-slider -->
 
         <div class="arrows-cardsslider">
@@ -346,8 +376,345 @@
             <i class="fa fa-angle-right"></i>
           </span>
         </div><!-- arrows-cardsslider -->
-
       </div>
+
+      <div class="cardslider-mobile deskhide">
+
+        <div class="onecard-container">
+          <div class="mobcreditslider">
+            <div class="imgcreditmob" data-index="1">
+              <img src="images/Coral_Credit1.png" alt="saphhiro">
+            </div>
+            <div class="imgcreditmob" data-index="2">
+              <img src="images/Rubyx _Credit2.png" alt="saphhiro">
+            </div>
+            <div class="imgcreditmob" data-index="3">
+              <img src="images/Saphiro_Credit3.png" alt="saphhiro">
+            </div>
+          </div><!-- mobcreditslider -->
+
+          <div class="arrowmobslick">
+            <span class="lharrow"></span>
+            <span class="rharrow"></span>
+          </div><!-- arrowmobslick -->
+
+           <div class="creditcards-container">
+            
+
+            <div class="creditcard creditcard-box1">
+              <div class="headercredit mobheadercredit">
+                <div class="fixedtxt">
+                  <!-- <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard"> -->
+                  <p class="cardcaption">Rubyx Credit Card</p>
+                    <div class="chkbox-cards-mob">
+                      <label class="chkcontainer">Show what is special in this card
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                      </label>
+                  </div><!-- chkbox-cards -->
+                </div>    
+              </div><!-- headercredit -->
+              
+              <div class="cardfeatures">
+
+                <div class="unchecked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
+                      <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                    </p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
+                  </div> 
+                </div><!-- unchecked-differance -->
+                
+                <div class="checked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">No</span> joining fee</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">Lifetime free</span> Credit Card</p>
+                  </div>
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Reward Points </p>
+                  </div> 
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Discount on dining</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">2.5%</span> Fuel Surcharge Waiver</p>
+                  </div>
+                </div> <!-- checked-differance -->
+
+              </div><!-- cardfeatures -->
+
+              <div class="feesection">
+                <div class="feetxt">
+                  <p class="bold-txt">Joining Fee:</p>
+                  <p>₹499+GST Nill</p>
+                </div>
+                <div class="feetxt">
+                  <p class="bold-txt">Annual Fee:</p>
+                  <p class="servicetxtamt">₹2000 + Service Tax
+                      <span class="extratxt">(second year onwards)
+                        <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                      </span>
+                  </p>
+                </div>
+              </div><!-- feesection -->
+
+              <a href="javascript:void" class="viewdetailslink">View Details</a>
+            </div><!-- creditcard -->
+
+            <div class="creditcard creditcard-box2">
+              <div class="headercredit mobheadercredit">
+                <div class="fixedtxt">
+                  <!-- <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard"> -->
+                  <p class="cardcaption">Saphhiro Credit Card </p>
+                    <div class="chkbox-cards-mob">
+                      <label class="chkcontainer">Show what is special in this card
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                      </label>
+                  </div><!-- chkbox-cards -->
+                </div>    
+              </div><!-- headercredit -->
+              
+              <div class="cardfeatures">
+
+                <div class="unchecked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
+                      <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                    </p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
+                  </div> 
+                </div><!-- unchecked-differance -->
+                
+                <div class="checked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">No</span> joining fee</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">Lifetime free</span> Credit Card</p>
+                  </div>
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Reward Points </p>
+                  </div> 
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Discount on dining</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">2.5%</span> Fuel Surcharge Waiver</p>
+                  </div>
+                </div> <!-- checked-differance -->
+
+              </div><!-- cardfeatures -->
+
+              <div class="feesection">
+                <div class="feetxt">
+                  <p class="bold-txt">Joining Fee:</p>
+                  <p>₹499+GST Nill</p>
+                </div>
+                <div class="feetxt">
+                  <p class="bold-txt">Annual Fee:</p>
+                  <p class="servicetxtamt">₹2000 + Service Tax
+                      <span class="extratxt">(second year onwards)
+                        <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                      </span>
+                  </p>
+                </div>
+              </div><!-- feesection -->
+
+              <a href="javascript:void" class="viewdetailslink">View Details</a>
+            </div><!-- creditcard -->
+
+            <div class="creditcard creditcard-box3">
+              <div class="headercredit mobheadercredit">
+                <div class="fixedtxt">
+                  <!-- <img src="images/rubixCredit.png" class="creditcardimg" alt="rubixcard"> -->
+                  <p class="cardcaption">Coral Credit Card </p>
+                    <div class="chkbox-cards-mob">
+                      <label class="chkcontainer">Show what is special in this card
+                        <input type="checkbox" >
+                        <span class="checkmark"></span>
+                      </label>
+                  </div><!-- chkbox-cards -->
+                </div>    
+              </div><!-- headercredit -->
+              
+              <div class="cardfeatures">
+
+                <div class="unchecked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto 2X</span> Accelerated Reward Point</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">Upto ₹5,000</span> Welcome Voucher</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">15% discount </span>on Dining at over 2500+ restaurants across India 
+                      <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                    </p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">2.5%</span>Fuel Surcharge Waiver</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Movie Tickets</span> per month</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt">Complementary <span class="bold-txt">2 Domestic  Airport and Railway Lounge</span> Visits per quarter</p>
+                  </div> 
+                </div><!-- unchecked-differance -->
+                
+                <div class="checked-differance">
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">No</span> joining fee</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">Lifetime free</span> Credit Card</p>
+                  </div>
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Reward Points </p>
+                  </div> 
+
+                  <div class="featurelist redtxt">
+                    <i class="deleteicon"></i>
+                    <p class="featuretxt"><span class="bold-txt">No</span> Discount on dining</p>
+                  </div>
+
+                  <div class="featurelist">
+                    <i class="checkedicon"></i>
+                    <p class="featuretxt"><span class="bold-txt checkedtxtcolor">2.5%</span> Fuel Surcharge Waiver</p>
+                  </div>
+                </div> <!-- checked-differance -->
+
+              </div><!-- cardfeatures -->
+
+              <div class="feesection">
+                <div class="feetxt">
+                  <p class="bold-txt">Joining Fee:</p>
+                  <p>₹499+GST Nill</p>
+                </div>
+                <div class="feetxt">
+                  <p class="bold-txt">Annual Fee:</p>
+                  <p class="servicetxtamt">₹2000 + Service Tax
+                      <span class="extratxt">(second year onwards)
+                        <a href="#" data-toggle="tooltip" class="customtooltip" title="Annual Fee (second year onwards) :
+                        Rs 3500 + Service Tax (Nil when the
+                        card spends are greater than 6,00,000
+                        in the previous year)"><i class="tooltipicon"></i></a>
+                      </span>
+                  </p>
+                </div>
+              </div><!-- feesection -->
+
+              <a href="javascript:void" class="viewdetailslink">View Details</a>
+            </div><!-- creditcard -->
+
+           </div><!-- creditcards-container -->          
+
+        </div>
+      </div>
+
     <!-- cc landing cards slider ends here -->
 
     <!-- offers on credit card section start here-->
@@ -417,6 +784,10 @@
     <!-- steps to get the card section ends here -->
 
 
+    <div class="selectbtnmobile">
+      <a href="javascript:void" class="cardbtn">Select Card</a>
+    </div><!-- selectbtnmobile -->
+
    </div>
   <!-- cc landing container ends here -->
   
@@ -425,9 +796,31 @@
   <script type="text/javascript" src="js/slick.min.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
   <script>
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
+
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+        // fixed-heasder-STRAT-slick
+
+
+      if (window.matchMedia("(min-width: 991px)").matches) {
+              window.onscroll = function() { myFunction() };
+
+              var sticky = header.offsetTop;
+
+              function myFunction() {
+                  if (window.pageYOffset > 200 && window.pageYOffset < 600) {
+                      $(".cardssection-slider").addClass("fixed-act");
+                  } else {
+                      $(".cardssection-slider").removeClass("fixed-act");
+
+                  }
+              }
+
+      }
+
+        // fixed-heasder END-slick      
     });
+
   </script>
 
 </body>

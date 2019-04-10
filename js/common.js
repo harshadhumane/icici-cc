@@ -121,6 +121,100 @@ $('.cardssection-slider').slick({
   variableWidth: true,
   prevArrow: $('.prev-arrow-cards'),
   nextArrow: $('.next-arrow-cards'),
+    responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false
+        }
+      },
+           {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        draggable: true
+      }
+    },
+    ]
+  });
+
+
+/*checkbox script*/
+
+$(function () {
+        $("#chkdifferance").click(function () {
+            if ($(this).is(":checked")) {
+                $(".checked-differance").show();
+                $(".unchecked-differance").hide();
+                $(".feesection").hide();
+                $(".creditcard").addClass("checkedheight");
+
+            } else {
+                $(".checked-differance").hide();
+                $(".unchecked-differance").show();
+                $(".feesection").show();
+                $(".creditcard").removeClass("checkedheight");
+            }
+        });
 });
 
+
+
+/*mobile-credit card slider start*/
+
+
+
+$('.mobcreditslider').slick({
+  centerMode: true,
+  centerPadding: '20px',
+  slidesToShow: 3,
+  prevArrow: $('.lharrow'),
+  nextArrow: $('.rharrow'),
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+var mySlideNumber = 0;
+$('.mobcreditslider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+    mySlideNumber = nextSlide;
+    if (mySlideNumber == 1) {
+
+        $('.creditcard-box1').hide();
+        $('.creditcard-box2').show();
+        $('.creditcard-box3').hide();
+    } else if (mySlideNumber == 2) {
+
+        $('.creditcard-box1').hide();
+        $('.creditcard-box2').hide();
+        $('.creditcard-box3').show();
+    } else {
+        $('.creditcard-box1').show();
+        $('.creditcard-box2').hide();
+        $('.creditcard-box3').hide();
+    }
+});
+
+
+
+/*mobile-credit card slider finished*/
 
