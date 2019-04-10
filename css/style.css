@@ -609,6 +609,288 @@
     display: none;
 }
 
+/* popup index start */
+
+/* overlay css  */
+
+.bg-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    z-index: 21;
+    display: none;
+}
+
+.popUpOpenBoard {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 445px;
+    display: none;
+    z-index: 25;
+    width: 95%;
+    max-width: 946px;
+    height: 603px;
+    padding: 18px 2px 20px 30px;
+    border-radius: 5px;
+}
+
+.popup-heading{
+    font-family: 'zurich_bt';
+    color: #262f3d;
+    font-size: 18px;
+    text-align: center;
+        padding-top: 28px;
+}
+
+/* stars css starts */
+
+.rating-stars{
+    padding-top: 12px;
+}
+
+.rating-stars ul li{
+    display: inline-block;
+    color: #FF912C;
+}
+
+/* stars css ends */
+
+.card-detail{
+    width: 292px;
+}
+
+.popupcardtop{
+    text-align: center;
+    margin-top: -70px;
+}
+
+.popuphrfirst{
+    width: 85%;
+    margin: 10px auto;
+}
+
+.popupsubheading{
+    font-family: 'zurich_bold_bt';
+    color: #e87816;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 45px;
+}
+  
+ .dettxt h5{
+    font-family: 'zurich_bold_bt';
+    font-size: 14px;
+    color: #333333;
+ }   
+
+ .dettxt h6{
+    font-family: 'zurich_bt';
+    font-size: 14px;
+    color: #262f3d;
+    padding: 2px 0;
+ } 
+
+ .dettxt p{
+    font-family: 'zurich_bt';
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.6);
+    padding-right: 20px;
+ } 
+
+ .detailcontainer{
+    line-height: 16px;
+ }
+
+.icontxtdiv{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.joiningfeeicon{
+    display: inline-block;
+    height: 22px;
+    width: 30px;
+    background-image: url('../images/popupicons/money.png');
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.annualfeeicon{
+    display: inline-block;
+    height: 22px;
+    width: 70px;
+    background-image: url('../images/popupicons/annual-fees.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.movieicon{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/popupicons/movie.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.diningicon{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/popupicons/dining.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.airporticon{
+    display: inline-block;
+    height: 22px;
+    width: 28px;
+    background-image: url('../images/popupicons/travel.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.railwayicon{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/popupicons/train.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.golficon{
+    display: inline-block;
+    height: 24px;
+    width: 22px;
+    background-image: url('../images/popupicons/golf.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.fuelicon{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/popupicons/fuel-station.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.vouchericon{
+    display: inline-block;
+    height: 22px;
+    width: 24px;
+    background-image: url('../images/popupicons/gift-card.png');
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.pointsicon{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/popupicons/favorites-button.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+.rewardsicon{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/popupicons/medal.png');
+    background-repeat: no-repeat;
+     margin-right: 15px;
+}
+
+.boardDetailsWrp{
+    display: flex;
+    align-items: flex-start;
+}
+
+.benefitsection .popupsubheading{
+    padding-left: 0;
+}
+
+.card-benefits{
+    padding: 15px 0px 0 20px;
+    border-left: 1px solid #bfbfbf;
+    margin-left: 20px;
+}
+
+.benefitsection .icontxtdiv{
+    display: block;
+}
+
+.benefitsection .dettxt{
+    width: 160px;
+}
+
+.benefitsection .dettxt p{
+    padding-right: 0;
+}
+
+.benefitsection .icontxtdiv span{
+    margin-bottom: 8px;
+}
+
+.benefiticontxtcontainer{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.crossPop{
+    display: inline-block;
+    background-image: url('../images/crosspop.png');
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.rowborder{
+    border-top: 1px solid #eee;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.popupfooter{
+    padding-top: 28px;
+    text-align: center;
+}
+
+.popupfooter p{
+    color: rgba(38, 40, 61, 0.6);
+    text-align: center;
+    font-size: 12px;
+}
+
+.card-benefits{
+    height: 470px;
+}
+
+.card-benefits .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+        background-color: #ffc17a;
+}
+
+.card-benefits .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar 
+{ background-color: #ffc17a; background-color: #ffc17a }
+.card-benefits .mCS-dark-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar 
+{ background-color: #ffc17a; background-color: #ffc17a; }
+.card-benefits .mCS-dark-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.card-benefits .mCS-dark-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar 
+{ background-color: #ffc17a; background-color: #ffc17a; }
+
+
+.selectbtnmobile{
+    display: none;
+}
+
 
 /*MEDIA*/
 @media(min-width:992px) and (max-width:1192px) {
@@ -636,6 +918,8 @@
         max-width: 276px;
         padding: 10px 30px 18px;
     }
+
+
 
 }
 
@@ -841,6 +1125,131 @@
         display: none;
     }
 
+    /* popup start here */
+    .popUpOpenBoard{
+        padding: 30px;
+        position: absolute;
+        height: auto;
+        top: 95%;
+    }
+
+    .boardDetailsWrp{
+        flex-direction: column;
+    }
+
+    .card-detail {
+        width: 100%;
+    }
+
+    .popup-heading{
+        padding-top: 5px;
+    }
+
+    .rating-stars{
+        display: none
+    }
+
+    .detailcontainer{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 10px;
+    }
+
+    .dettxt p{
+        display: none;
+            justify-content: space-between;
+    }
+
+    .popupsubheading{
+            padding-left: 0;
+    }
+
+    .icontxtdiv{
+        flex-direction: column;
+            padding-bottom: 20px;
+    }
+
+    .card-benefits {
+        padding: 0;
+        border-left: none;
+        margin-left: 0;
+    }
+
+    .detailcontainer span{
+        margin-bottom: 5px;
+    }
+
+    .benefiticontxtcontainer{
+        flex-direction: column;
+    }
+
+    .benefitsection .dettxt {
+        width: 100%;
+    }
+
+    .card-benefits {
+        height: 470px;
+        width: 100%;
+    }
+
+    .benefitsection .icontxtdiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .diningicon {
+        width: 29px;
+        margin-right: 10px;
+    }
+
+    .card-benefits .mCSB_scrollTools{
+        width: 4px;
+    }
+
+    .card-benefits .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, 
+    .card-benefits .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail{
+        width: 3px;
+    }
+
+    .airporticon {
+        width: 32px;
+        margin-right: 8px;
+    }
+
+    .golficon {
+        width: 30px;
+        margin-right: 8px;
+    }
+
+    .fuelicon {
+        width: 28px;
+        margin-right: 10px;
+    }
+
+    .vouchericon {
+        width: 32px;
+        margin-right: 8px;
+    }
+
+    .pointsicon {
+        width: 24px;
+        margin-right: 13px;
+    }
+
+    .rewardsicon {
+        width: 30px;
+        margin-right: 8px;
+    }
+
+    .popuphrfirst {
+        width: 100%;
+    }
+
+    .selectbtnmobile{
+         display: block;
+    }
+
 }
 
 /*===========End of the media max-width:767px=============*/
@@ -853,6 +1262,14 @@
     .onecard-container{
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    .cicle-burg{
+            top: 5px;
+    }
+
+    .onecard-container {
+        padding-top: 70px;
     }
 
 }

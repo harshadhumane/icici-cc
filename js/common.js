@@ -159,6 +159,23 @@ $(function () {
                 $(".creditcard").removeClass("checkedheight");
             }
         });
+
+        $("#chkdifferancemob1, #chkdifferancemob2, #chkdifferancemob3").click(function () {
+            if ($(this).is(":checked")) {
+                $(this).parents(".creditcard").find(".checked-differance").show();
+                $(this).parents(".creditcard").find(".unchecked-differance").hide();
+                $(this).parents(".creditcard").find(".feesection").hide();
+                $(this).parents(".creditcard").find(".creditcard").addClass("checkedheight");
+
+            } else {
+                $(this).parents(".creditcard").find(".checked-differance").hide();
+                $(this).parents(".creditcard").find(".unchecked-differance").show();
+                $(this).parents(".creditcard").find(".feesection").show();
+                $(this).parents(".creditcard").find(".creditcard").removeClass("checkedheight");
+            }
+        });
+
+        
 });
 
 
@@ -214,7 +231,27 @@ $('.mobcreditslider').on('beforeChange', function(event, slick, currentSlide, ne
     }
 });
 
-
-
 /*mobile-credit card slider finished*/
 
+/*popup index page script start*/
+
+  $('.viewdetailslink').click(function() {
+      $(this).parents('body').find('.popUpOpenBoard').fadeIn();
+      $(this).parents('body').find('.bg-overlay').fadeIn();
+  });
+
+  $('.crossPop').click(function() {
+      $(this).parents('body').find('.popUpOpenBoard').fadeOut();
+      $(this).parents('body').find('.bg-overlay').fadeOut();
+  });
+
+/*popup index page script ends*/
+
+
+
+    $(".card-benefits").mCustomScrollbar({
+      axis: "y",
+      theme: "dark-3",
+      scrollInertia: 500,
+      mouseWheelPixels: 50
+    });
