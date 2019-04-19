@@ -43,7 +43,6 @@ $('.offers-cards').slick({
   ]
 });
 
-
 /*offer-card-slick js end*/
 
 /*offer-card-arrow js start*/
@@ -92,13 +91,23 @@ $('.steps-start').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
       }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 350,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
   ]
 });
-
-if (window.matchMedia("(max-width: 767px)").matches) {
-  $('.steps-start').slick("unslick");
-}
 
 /*steps-slick ends*/
 
@@ -379,8 +388,6 @@ $('.floatingbutton').click(function () {
   });
 
 
-
-
   /*enabled input jquerey ends*/
 
   $("#btnfile").click(function(e) {
@@ -420,18 +427,3 @@ $(".custom-radio-li input").click(function() {
     $(".pregressupload").hide();
     $(".upload-section").show();
  })
-
-
-
-if (window.matchMedia("(max-width: 767px)").matches) {
-  $(".updatescroll").click(function(){
-    $('html, body').animate({
-        scrollTop: $("#residential").offset().top
-    }, 1000);
-  })
-}
-
-
-
-
-

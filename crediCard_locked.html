@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>ICICI-CC Credit Card congratulation locked
+  </title>
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+
+<body>
+
+  <!-- cc landing container starts here -->
+   <div class="container landing-container congratswrapper">
+      <div class="congratheader">
+        <h3>Congratulations Jamir!</h3>
+        <p>Here is your Sapphiro ICICI Bank Credit Card</p>
+        <h4>Card Limit  ₹300,000 </h4>
+      </div><!-- congratheader -->
+
+      <div class="creditcardcvv">
+        <div class="creditCard-image">
+           <!-- <img src="images/Saphiro_Credit3.png" alt="credit-card" class="front-img"> -->
+            <div class="suphhirocard credicardcustom">
+              <img src="images/saphhiroCredit.png" class="creditcardimg" alt="sapphirocard">
+
+              <div class="markup-box">
+                  <h3><span>XXXX</span> <span>XXXX</span> <span>XXXX</span> <span>XXXX</span></h3>
+                  <h4><span class="from">valid from <i>00/00</i></span>  <span class="thru">valid thru <i>00/00</i></span></h4>
+
+                  <h6>ABCD XYZ</h6>
+               </div><!-- cardmarkup -->
+            </div>
+           <img src="images/show-cvv-img.png" alt="credit-card-back" class="back-img">
+
+           <div class="lockedimg">
+             <img src="images/locked.png" alt="lockimage">
+           </div>
+        </div>
+        <div class="show-hide-cvv">
+           <h3 class="show-cvv">Show CVV Number</h3>
+           <h3 class="hide-cvv">
+              <span>
+                 <!-- CVV Number -->
+              </span>
+              Hide CVV
+           </h3>
+        </div>
+
+        <div class="gererationtime">
+          <p class="smalltxttime">Your card was <br />generated in</p>
+          <div class="clockiocn"> <p>00.12</p></div>
+
+        </div><!-- gererationtime -->
+
+      </div><!-- creditcardcvv -->
+
+
+      <div class="carddtailspanel schedulesection">
+        <div class="panelleftsec">
+          <p>To activate your card, book an appointment and complete your KYC verification.</p>
+          <h5>Our executive will visit you at your doorstep on your communication address</h5>
+        </div>
+        <div class="panelrightsec">
+          <button type="submit" class="generatebtn schedulebtn" >Schedule Appoinment</button>
+        </div>
+      </div>
+
+      <!-- <h5 class="physitxt">Your physical Credit Card will be dispatched to your communication address within next 7 days</h5> -->
+
+      <div class="special-offer-section">
+        <h1 class="offrttxt">Verify your KYC to unlock the card and avail the below offers</h1>
+        <div class="offrimgs">
+          <a href="javascript:void(0)"><img src="images/offerscard1.png" alt="offer1"></a>
+          <a href="javascript:void(0)"><img src="images/offerscard2.png" alt="offer1"></a>
+        </div>
+      </div>
+
+   </div>
+  <!-- cc landing container ends here -->
+
+
+   
+  <script type="text/javascript" src="js/jquery.min-2.1.3.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+
+  <script>
+    $(document).ready(function(){
+       /*hide show cvv section*/
+
+           $(".show-cvv").click(function(){
+              $(".hide-cvv").show();
+                $(".show-cvv").hide();
+                $(".back-img").animate({
+                         left: "95px"
+                 });
+                 //alert(1);
+           });
+           
+         $(".hide-cvv").click(function(){
+              $(".hide-cvv").hide();
+              $(".show-cvv").show();
+              $(".back-img").animate({
+                       left: "0px"
+               });
+          });
+    })
+  </script>
+
+</body>
+
+</html>

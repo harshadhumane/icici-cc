@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>ICICI-CC Credit Card form
+  </title>
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+
+<body>
+
+  <!-- cc landing container starts here -->
+   <div class="container landing-container congratswrapper">
+      <div class="congratheader">
+        <h3>Congratulations Jamir!</h3>
+        <p>Here is your Sapphiro ICICI Bank Credit Card</p>
+        <h4>Card Limit  ₹300,000 </h4>
+      </div><!-- congratheader -->
+
+      <p class="timegeneration">Your card was generated in 00:12 sec</p>
+
+      <div class="creditcardcvv">
+        <div class="creditCard-image">
+            <div class="suphhirocard credicardcustom">
+              <img src="images/saphhiroCredit.png" class="creditcardimg" alt="sapphirocard">
+
+              <div class="markup-box">
+                  <h3><span>XXXX</span> <span>XXXX</span> <span>XXXX</span> <span>XXXX</span></h3>
+                  <h4><span class="from">valid from <i>00/00</i></span>  <span class="thru">valid thru <i>00/00</i></span></h4>
+
+                  <h6>ABCD XYZ</h6>
+               </div><!-- cardmarkup -->
+
+            </div>
+          <!--  <img src="images/Saphiro_Credit3.png" alt="credit-card" class="front-img"> -->
+           <img src="images/show-cvv-img.png" alt="credit-card-back" class="back-img">
+        </div>
+        <div class="show-hide-cvv">
+           <h3 class="show-cvv">Show CVV Number</h3>
+           <h3 class="hide-cvv">
+              <span>
+                 <!-- CVV Number -->
+              </span>
+              Hide CVV
+           </h3>
+        </div>
+
+        <div class="gererationtime">
+          <p class="smalltxttime">Your card was <br />generated in</p>
+          <div class="clockiocn"> <p>00.12</p></div>
+
+        </div><!-- gererationtime -->
+
+      </div><!-- creditcardcvv -->
+
+
+      <div class="carddtailspanel">
+        <p class="detailtxt">You can view the details pertaining to your Credit Card under the Card section of Net Banking & iMobile app <a href="javascript:void" class="linktxt">Show Card Details</a></p>
+      </div>
+
+      <h5 class="physitxt">Your physical Credit Card will be dispatched to your communication address within next 7 days</h5>
+
+      <div class="special-offer-section">
+        <h1 class="offrttxt">Transact right away to avail the special offers</h1>
+        <div class="offrimgs">
+          <a href="javascript:void(0)"><img src="images/offerscard1.png" alt="offer1"></a>
+          <a href="javascript:void(0)"><img src="images/offerscard2.png" alt="offer1"></a>
+        </div>
+      </div>
+
+   </div>
+  <!-- cc landing container ends here -->
+
+
+   
+  <script type="text/javascript" src="js/jquery.min-2.1.3.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+
+  <script>
+    $(document).ready(function(){
+       /*hide show cvv section*/
+
+           $(".show-cvv").click(function(){
+              $(".hide-cvv").show();
+                $(".show-cvv").hide();
+                $(".back-img").animate({
+                         left: "95px"
+                 });
+                 //alert(1);
+           });
+           
+         $(".hide-cvv").click(function(){
+              $(".hide-cvv").hide();
+              $(".show-cvv").show();
+              $(".back-img").animate({
+                       left: "0px"
+               });
+          });
+    })
+  </script>
+
+</body>
+
+</html>

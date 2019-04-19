@@ -986,15 +986,7 @@
     }
   });
 
-  $(".dropdown-effect select").on('change', function() {
-    if ($(this).val() != "") {
-      $(this).addClass("has-content");
-      //$(this).addClass("has-content");
-    } else {
-      $(this).removeClass("has-content");
-      //$(this).removeClass("has-content");
-    }
-  });
+
   $('.datepicker').datepicker().on('changeDate', function(ev) {
     $(".reg-date-div").show();
     if ($(this).val() != "") {
@@ -1735,6 +1727,7 @@
     $(".effect-animate").focusout(function() {
       $(this).closest(".smallinput-box").removeClass("active");
     });
+
     $(".drp-element").click(function() {
       //$(this).closest('.common-inputbox').find('.identity-error').hide();
 

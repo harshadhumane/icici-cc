@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>ICICI-CC Credit Card form
+  </title>
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+
+<body>
+
+  <!-- cc landing container starts here -->
+   <div class="container landing-container congratswrapper">
+
+      <div class="creditcardcvv">
+        <div class="creditCard-image">
+           <!-- <img src="images/Saphiro_Credit3.png" alt="credit-card" class="front-img"> -->
+            <div class="suphhirocard credicardcustom">
+              <img src="images/saphhiroCredit.png" class="creditcardimg" alt="sapphirocard">
+
+              <div class="markup-box">
+                  <h3><span>XXXX</span> <span>XXXX</span> <span>XXXX</span> <span>XXXX</span></h3>
+                  <h4><span class="from">valid from <i>00/00</i></span>  <span class="thru">valid thru <i>00/00</i></span></h4>
+
+                  <h6>ABCD XYZ</h6>
+               </div><!-- cardmarkup -->
+
+            </div>
+        </div>
+      </div><!-- creditcardcvv -->
+
+      <div class="congratheader">
+        <h3>Congratulations Jamir!</h3>
+        <p class="nextsteptxt">Your application for Pre-Qualified Credit Card has been successfully submitted</p>
+        <h5 class="appno">Application Number : SP1234656</h5>
+        <h5 class="appno">Please save this number for further reference</h5>
+      </div><!-- congratheader -->
+
+
+      <div class="nextstepbox">
+        <span class="climbicon"></span>
+        <h1 class="headingnextstep">Next Step</h1>
+
+        <ul class="nextlist">
+          <li>Credit Assessment </li>
+          <li>Decision Communication</li>
+          <li>Your physical Credit Card will be dispatched to your communication
+              address within next 7 days</li>
+        </ul>
+          
+        <h3 class="footernext">Your Sapphiro Credit Card wil be reaching you soon</h3>
+      </div><!-- nextstepbox -->
+
+      <div class="nextfooterbtn">
+        <button type="submit" class="generatebtn" >Ok, Got It!</button>
+      </div><!-- nextfooterbtn -->
+
+   </div>
+  <!-- cc landing container ends here -->
+
+
+   
+  <script type="text/javascript" src="js/jquery.min-2.1.3.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+
+  <script>
+    $(document).ready(function(){
+       /*hide show cvv section*/
+
+           $(".show-cvv").click(function(){
+              $(".hide-cvv").show();
+                $(".show-cvv").hide();
+                $(".back-img").animate({
+                         left: "95px"
+                 });
+                 //alert(1);
+           });
+           
+         $(".hide-cvv").click(function(){
+              $(".hide-cvv").hide();
+              $(".show-cvv").show();
+              $(".back-img").animate({
+                       left: "0px"
+               });
+          });
+    })
+  </script>
+
+</body>
+
+</html>
